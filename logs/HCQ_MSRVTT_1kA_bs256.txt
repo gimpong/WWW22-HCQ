@@ -1,0 +1,1853 @@
+Experiment directory: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256
+Preparing the dataloaders ...
+Loading dataset MSRVTT_jsfusion_trainval in ram ...
+Finish loading dataset MSRVTT_jsfusion_trainval in ram, taking 875.6317975521088 s.
+Loading dataset MSRVTT_jsfusion_test in ram ...
+Finish loading dataset MSRVTT_jsfusion_test in ram, taking 51.9874062538147 s.
+Loading dataset MSRVTT_jsfusion_test in ram ...
+Finish loading dataset MSRVTT_jsfusion_test in ram, taking 36.77188491821289 s.
+Training ...
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch0.pth ...
+Done in 1.427s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch0.pth ...
+Done in 2.851s
+ epoch          : 0
+ loss           : 0
+ learning_rate  : 5e-05
+ n_samples      : 0
+ n_steps        : 0
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 0.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 0.5
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 0.9
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 4.7
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 487.5
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 496.3
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 0.0
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 0.2
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 0.7
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 1.0
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 6.3
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 509.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 503.544
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 0.5192494101851104
+ mnt_best       : 0.0
+ not_improved_count: 0
+Train Epoch: 1 [1/125 256/32000 (1%)] Loss: 11.20562 (QuantReg: 22.45103) QuantErr: 22.45103 batch_time=29.33468 
+Train Epoch: 1 [17/125 4352/32000 (14%)] Loss: 8.83442 (QuantReg: 22.51726) QuantErr: 22.51726 batch_time=0.75327 
+Train Epoch: 1 [33/125 8448/32000 (26%)] Loss: 7.75064 (QuantReg: 22.53108) QuantErr: 22.53108 batch_time=0.75988 
+Train Epoch: 1 [49/125 12544/32000 (39%)] Loss: 7.02025 (QuantReg: 22.61122) QuantErr: 22.61122 batch_time=0.75752 
+Train Epoch: 1 [65/125 16640/32000 (52%)] Loss: 6.57318 (QuantReg: 22.62815) QuantErr: 22.62815 batch_time=2.18642 
+Train Epoch: 1 [81/125 20736/32000 (65%)] Loss: 6.39769 (QuantReg: 22.63561) QuantErr: 22.63561 batch_time=0.76663 
+Train Epoch: 1 [97/125 24832/32000 (78%)] Loss: 5.97622 (QuantReg: 22.63977) QuantErr: 22.63977 batch_time=0.97769 
+Train Epoch: 1 [113/125 28928/32000 (90%)] Loss: 5.64494 (QuantReg: 22.67752) QuantErr: 22.67752 batch_time=0.76635 
+Train Epoch: 1 codebook_update_time=1.82869
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch1.pth ...
+Done in 3.764s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch1.pth ...
+Done in 7.834s
+ epoch          : 1
+ loss           : 7.175728771209717
+ quant_reg      : 22.602456665039064
+ quant_err      : 22.602456665039064
+ learning_rate  : 5e-05
+ n_samples      : 32000
+ n_steps        : 125
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 9.1
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 28.3
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 42.7
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 76.8
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 14.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 46.626
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 22.237462785061304
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 10.6
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 30.5
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 43.0
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 77.8
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 14.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 44.985
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 24.044996603532354
+ mnt_best       : 22.237462785061304
+ not_improved_count: 0
+Train Epoch: 2 [1/125 256/32000 (1%)] Loss: 5.41043 (QuantReg: 11.52134) QuantErr: 11.52134 batch_time=31.02310 
+Train Epoch: 2 [17/125 4352/32000 (14%)] Loss: 5.40632 (QuantReg: 12.54937) QuantErr: 12.54937 batch_time=0.74226 
+Train Epoch: 2 [33/125 8448/32000 (26%)] Loss: 5.08989 (QuantReg: 13.12999) QuantErr: 13.12999 batch_time=0.91506 
+Train Epoch: 2 [49/125 12544/32000 (39%)] Loss: 5.16910 (QuantReg: 13.43021) QuantErr: 13.43021 batch_time=0.82254 
+Train Epoch: 2 [65/125 16640/32000 (52%)] Loss: 4.96524 (QuantReg: 13.87801) QuantErr: 13.87801 batch_time=2.52009 
+Train Epoch: 2 [81/125 20736/32000 (65%)] Loss: 5.17255 (QuantReg: 14.18652) QuantErr: 14.18652 batch_time=0.74301 
+Train Epoch: 2 [97/125 24832/32000 (78%)] Loss: 4.64596 (QuantReg: 14.94132) QuantErr: 14.94132 batch_time=0.85420 
+Train Epoch: 2 [113/125 28928/32000 (90%)] Loss: 4.74921 (QuantReg: 15.10593) QuantErr: 15.10593 batch_time=0.75038 
+Train Epoch: 2 codebook_update_time=1.79041
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch2.pth ...
+Done in 3.898s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch2.pth ...
+Done in 14.725s
+removing stale ckpt [epoch 1] [took 0.05s]
+removing stale ckpt [epoch 0] [took 0.05s]
+ epoch          : 2
+ loss           : 5.08022294998169
+ quant_reg      : 13.701634033203124
+ quant_err      : 13.701634033203124
+ learning_rate  : 4.75e-05
+ n_samples      : 64000
+ n_steps        : 250
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 14.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 36.8
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 51.7
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 82.5
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 10.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 37.059
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 29.864514973956958
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 14.2
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 38.4
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 53.2
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 82.0
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 9.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 34.832
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 30.726309467921734
+ mnt_best       : 29.864514973956958
+ not_improved_count: 0
+Train Epoch: 3 [1/125 256/32000 (1%)] Loss: 4.84651 (QuantReg: 11.96606) QuantErr: 11.96606 batch_time=32.29279 
+Train Epoch: 3 [17/125 4352/32000 (14%)] Loss: 4.60899 (QuantReg: 12.24570) QuantErr: 12.24570 batch_time=0.84052 
+Train Epoch: 3 [33/125 8448/32000 (26%)] Loss: 4.52964 (QuantReg: 12.41722) QuantErr: 12.41722 batch_time=0.86767 
+Train Epoch: 3 [49/125 12544/32000 (39%)] Loss: 4.42103 (QuantReg: 12.68839) QuantErr: 12.68839 batch_time=0.73920 
+Train Epoch: 3 [65/125 16640/32000 (52%)] Loss: 4.37677 (QuantReg: 12.46487) QuantErr: 12.46487 batch_time=1.52183 
+Train Epoch: 3 [81/125 20736/32000 (65%)] Loss: 4.17679 (QuantReg: 12.98517) QuantErr: 12.98517 batch_time=0.75323 
+Train Epoch: 3 [97/125 24832/32000 (78%)] Loss: 4.53278 (QuantReg: 13.06301) QuantErr: 13.06301 batch_time=0.74714 
+Train Epoch: 3 [113/125 28928/32000 (90%)] Loss: 3.73376 (QuantReg: 13.23227) QuantErr: 13.23227 batch_time=0.75004 
+Train Epoch: 3 codebook_update_time=1.66529
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch3.pth ...
+Done in 3.707s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch3.pth ...
+Done in 7.483s
+removing stale ckpt [epoch 2] [took 0.00s]
+ epoch          : 3
+ loss           : 4.435342176437378
+ quant_reg      : 12.735211463928223
+ quant_err      : 12.735211463928223
+ learning_rate  : 4.5125e-05
+ n_samples      : 96000
+ n_steps        : 375
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 15.3
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 40.8
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 55.4
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 85.6
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 8.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 33.831
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 32.58020301790745
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 15.9
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 40.8
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 55.7
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 85.6
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 8.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 31.558
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 33.06009984565856
+ mnt_best       : 32.58020301790745
+ not_improved_count: 0
+Train Epoch: 4 [1/125 256/32000 (1%)] Loss: 4.42509 (QuantReg: 12.06829) QuantErr: 12.06829 batch_time=33.54816 
+Train Epoch: 4 [17/125 4352/32000 (14%)] Loss: 3.84837 (QuantReg: 12.32931) QuantErr: 12.32931 batch_time=0.83057 
+Train Epoch: 4 [33/125 8448/32000 (26%)] Loss: 3.80875 (QuantReg: 12.46936) QuantErr: 12.46936 batch_time=0.75147 
+Train Epoch: 4 [49/125 12544/32000 (39%)] Loss: 3.68467 (QuantReg: 12.66700) QuantErr: 12.66700 batch_time=0.76335 
+Train Epoch: 4 [65/125 16640/32000 (52%)] Loss: 3.97227 (QuantReg: 12.96105) QuantErr: 12.96105 batch_time=0.96973 
+Train Epoch: 4 [81/125 20736/32000 (65%)] Loss: 3.92663 (QuantReg: 12.76507) QuantErr: 12.76507 batch_time=0.76663 
+Train Epoch: 4 [97/125 24832/32000 (78%)] Loss: 3.90290 (QuantReg: 13.09428) QuantErr: 13.09428 batch_time=0.76190 
+Train Epoch: 4 [113/125 28928/32000 (90%)] Loss: 3.84752 (QuantReg: 13.06852) QuantErr: 13.06852 batch_time=0.77221 
+Train Epoch: 4 codebook_update_time=1.83282
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch4.pth ...
+Done in 3.780s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch4.pth ...
+Done in 7.589s
+removing stale ckpt [epoch 3] [took 0.00s]
+ epoch          : 4
+ loss           : 3.975587907791138
+ quant_reg      : 12.673847160339356
+ quant_err      : 12.673847160339356
+ learning_rate  : 4.2868749999999995e-05
+ n_samples      : 128000
+ n_steps        : 500
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 18.3
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 42.0
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 56.8
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 86.9
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 7.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 31.456
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 35.21136857306636
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 16.3
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 45.2
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 59.2
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 87.3
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 7.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 29.036
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 35.200533738463356
+ mnt_best       : 35.21136857306636
+ not_improved_count: 0
+Train Epoch: 5 [1/125 256/32000 (1%)] Loss: 4.12166 (QuantReg: 12.28304) QuantErr: 12.28304 batch_time=33.58626 
+Train Epoch: 5 [17/125 4352/32000 (14%)] Loss: 4.16667 (QuantReg: 12.30247) QuantErr: 12.30247 batch_time=0.76364 
+Train Epoch: 5 [33/125 8448/32000 (26%)] Loss: 3.56564 (QuantReg: 12.59444) QuantErr: 12.59444 batch_time=0.77047 
+Train Epoch: 5 [49/125 12544/32000 (39%)] Loss: 3.85775 (QuantReg: 12.78645) QuantErr: 12.78645 batch_time=0.75204 
+Train Epoch: 5 [65/125 16640/32000 (52%)] Loss: 3.89427 (QuantReg: 12.54776) QuantErr: 12.54776 batch_time=0.96986 
+Train Epoch: 5 [81/125 20736/32000 (65%)] Loss: 3.82668 (QuantReg: 12.96520) QuantErr: 12.96520 batch_time=0.76132 
+Train Epoch: 5 [97/125 24832/32000 (78%)] Loss: 3.78395 (QuantReg: 12.69822) QuantErr: 12.69822 batch_time=0.77221 
+Train Epoch: 5 [113/125 28928/32000 (90%)] Loss: 3.54601 (QuantReg: 12.98527) QuantErr: 12.98527 batch_time=0.76464 
+Train Epoch: 5 codebook_update_time=1.65418
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch5.pth ...
+Done in 3.938s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch5.pth ...
+Done in 7.982s
+removing stale ckpt [epoch 4] [took 0.01s]
+ epoch          : 5
+ loss           : 3.70991526222229
+ quant_reg      : 12.763653953552247
+ quant_err      : 12.763653953552247
+ learning_rate  : 4.072531249999999e-05
+ n_samples      : 160000
+ n_steps        : 625
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 18.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 44.8
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 58.6
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 86.5
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 7.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 31.109
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 36.15341932613529
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 19.0
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 46.2
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 60.5
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 86.8
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 6.25
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 28.712
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 37.588095106887614
+ mnt_best       : 36.15341932613529
+ not_improved_count: 0
+Train Epoch: 6 [1/125 256/32000 (1%)] Loss: 3.70805 (QuantReg: 12.80660) QuantErr: 12.80660 batch_time=39.11480 
+Train Epoch: 6 [17/125 4352/32000 (14%)] Loss: 3.39814 (QuantReg: 12.65313) QuantErr: 12.65313 batch_time=0.75000 
+Train Epoch: 6 [33/125 8448/32000 (26%)] Loss: 3.49766 (QuantReg: 13.04769) QuantErr: 13.04769 batch_time=0.76002 
+Train Epoch: 6 [49/125 12544/32000 (39%)] Loss: 3.15641 (QuantReg: 12.72586) QuantErr: 12.72586 batch_time=0.75350 
+Train Epoch: 6 [65/125 16640/32000 (52%)] Loss: 3.28426 (QuantReg: 13.00606) QuantErr: 13.00606 batch_time=2.13722 
+Train Epoch: 6 [81/125 20736/32000 (65%)] Loss: 3.70489 (QuantReg: 12.85954) QuantErr: 12.85954 batch_time=0.76682 
+Train Epoch: 6 [97/125 24832/32000 (78%)] Loss: 3.54616 (QuantReg: 13.21817) QuantErr: 13.21817 batch_time=0.75232 
+Train Epoch: 6 [113/125 28928/32000 (90%)] Loss: 3.11286 (QuantReg: 12.95079) QuantErr: 12.95079 batch_time=0.74996 
+Train Epoch: 6 codebook_update_time=1.66775
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch6.pth ...
+Done in 3.855s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch6.pth ...
+Done in 7.688s
+removing stale ckpt [epoch 5] [took 0.00s]
+ epoch          : 6
+ loss           : 3.480328285217285
+ quant_reg      : 12.877009132385254
+ quant_err      : 12.877009132385254
+ learning_rate  : 3.868904687499999e-05
+ n_samples      : 192000
+ n_steps        : 750
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 17.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 45.7
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 61.4
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 87.3
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 6.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 28.824
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 36.26696090958165
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 19.0
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 46.5
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 62.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 88.3
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 6.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 27.1245
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 38.100174288440186
+ mnt_best       : 36.26696090958165
+ not_improved_count: 0
+Train Epoch: 7 [1/125 256/32000 (1%)] Loss: 3.19805 (QuantReg: 12.52387) QuantErr: 12.52387 batch_time=42.75564 
+Train Epoch: 7 [17/125 4352/32000 (14%)] Loss: 3.15768 (QuantReg: 12.61928) QuantErr: 12.61928 batch_time=3.70152 
+Train Epoch: 7 [33/125 8448/32000 (26%)] Loss: 3.59821 (QuantReg: 12.73985) QuantErr: 12.73985 batch_time=0.74571 
+Train Epoch: 7 [49/125 12544/32000 (39%)] Loss: 3.01964 (QuantReg: 12.97170) QuantErr: 12.97170 batch_time=0.74825 
+Train Epoch: 7 [65/125 16640/32000 (52%)] Loss: 3.05860 (QuantReg: 12.95887) QuantErr: 12.95887 batch_time=9.61617 
+Train Epoch: 7 [81/125 20736/32000 (65%)] Loss: 3.37847 (QuantReg: 12.89236) QuantErr: 12.89236 batch_time=3.95856 
+Train Epoch: 7 [97/125 24832/32000 (78%)] Loss: 3.13971 (QuantReg: 12.96136) QuantErr: 12.96136 batch_time=0.85947 
+Train Epoch: 7 [113/125 28928/32000 (90%)] Loss: 3.35174 (QuantReg: 13.30768) QuantErr: 13.30768 batch_time=0.84625 
+Train Epoch: 7 codebook_update_time=1.67845
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch7.pth ...
+Done in 3.894s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch7.pth ...
+Done in 7.909s
+removing stale ckpt [epoch 6] [took 0.00s]
+ epoch          : 7
+ loss           : 3.253774677276611
+ quant_reg      : 12.934579750061035
+ quant_err      : 12.934579750061035
+ learning_rate  : 3.675459453124999e-05
+ n_samples      : 224000
+ n_steps        : 875
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 19.3
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 47.2
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 60.2
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.7
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 6.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 28.959
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 37.992563641799855
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 20.2
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 46.9
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 62.0
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 88.3
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 6.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 27.034
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 38.872156441892635
+ mnt_best       : 37.992563641799855
+ not_improved_count: 0
+Train Epoch: 8 [1/125 256/32000 (1%)] Loss: 3.22660 (QuantReg: 12.38415) QuantErr: 12.38415 batch_time=46.26583 
+Train Epoch: 8 [17/125 4352/32000 (14%)] Loss: 3.21903 (QuantReg: 12.90864) QuantErr: 12.90864 batch_time=0.76886 
+Train Epoch: 8 [33/125 8448/32000 (26%)] Loss: 3.15067 (QuantReg: 13.04508) QuantErr: 13.04508 batch_time=0.74818 
+Train Epoch: 8 [49/125 12544/32000 (39%)] Loss: 3.27221 (QuantReg: 12.74018) QuantErr: 12.74018 batch_time=0.92096 
+Train Epoch: 8 [65/125 16640/32000 (52%)] Loss: 3.20338 (QuantReg: 13.15736) QuantErr: 13.15736 batch_time=7.28924 
+Train Epoch: 8 [81/125 20736/32000 (65%)] Loss: 3.46892 (QuantReg: 12.93280) QuantErr: 12.93280 batch_time=0.75319 
+Train Epoch: 8 [97/125 24832/32000 (78%)] Loss: 2.90897 (QuantReg: 13.39285) QuantErr: 13.39285 batch_time=0.75731 
+Train Epoch: 8 [113/125 28928/32000 (90%)] Loss: 3.21843 (QuantReg: 13.35448) QuantErr: 13.35448 batch_time=0.82315 
+Train Epoch: 8 codebook_update_time=1.62879
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch8.pth ...
+Done in 3.999s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch8.pth ...
+Done in 8.071s
+removing stale ckpt [epoch 7] [took 0.01s]
+ epoch          : 8
+ loss           : 3.1121463985443114
+ quant_reg      : 13.024272911071778
+ quant_err      : 13.024272911071778
+ learning_rate  : 3.4916864804687486e-05
+ n_samples      : 256000
+ n_steps        : 1000
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 20.6
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 49.1
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 62.2
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.0
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 6.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 28.462
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 39.77220772953492
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 20.8
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 49.3
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 63.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 88.9
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 6.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 25.8845
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 40.25215378827555
+ mnt_best       : 39.77220772953492
+ not_improved_count: 0
+Train Epoch: 9 [1/125 256/32000 (1%)] Loss: 2.73673 (QuantReg: 12.95376) QuantErr: 12.95376 batch_time=53.88581 
+Train Epoch: 9 [17/125 4352/32000 (14%)] Loss: 2.87602 (QuantReg: 13.20700) QuantErr: 13.20700 batch_time=0.75220 
+Train Epoch: 9 [33/125 8448/32000 (26%)] Loss: 2.86590 (QuantReg: 13.17877) QuantErr: 13.17877 batch_time=0.74632 
+Train Epoch: 9 [49/125 12544/32000 (39%)] Loss: 2.88650 (QuantReg: 13.07270) QuantErr: 13.07270 batch_time=0.83478 
+Train Epoch: 9 [65/125 16640/32000 (52%)] Loss: 3.09551 (QuantReg: 13.22497) QuantErr: 13.22497 batch_time=17.58522 
+Train Epoch: 9 [81/125 20736/32000 (65%)] Loss: 3.14179 (QuantReg: 13.20084) QuantErr: 13.20084 batch_time=0.75881 
+Train Epoch: 9 [97/125 24832/32000 (78%)] Loss: 2.62844 (QuantReg: 13.44975) QuantErr: 13.44975 batch_time=0.74570 
+Train Epoch: 9 [113/125 28928/32000 (90%)] Loss: 2.91841 (QuantReg: 13.34747) QuantErr: 13.34747 batch_time=0.76224 
+Train Epoch: 9 codebook_update_time=1.67060
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch9.pth ...
+Done in 3.749s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch9.pth ...
+Done in 7.475s
+removing stale ckpt [epoch 8] [took 0.00s]
+ epoch          : 9
+ loss           : 2.9516396293640135
+ quant_reg      : 13.166921783447266
+ quant_err      : 13.166921783447266
+ learning_rate  : 3.317102156445311e-05
+ n_samples      : 288000
+ n_steps        : 1125
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 20.9
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 49.6
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 64.0
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.8
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 6.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.09
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 40.48268527755685
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 20.9
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 48.9
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 64.4
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 88.0
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 6.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 25.596
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 40.37510556640888
+ mnt_best       : 40.48268527755685
+ not_improved_count: 0
+Train Epoch: 10 [1/125 256/32000 (1%)] Loss: 2.66154 (QuantReg: 13.06406) QuantErr: 13.06406 batch_time=37.76255 
+Train Epoch: 10 [17/125 4352/32000 (14%)] Loss: 2.76634 (QuantReg: 13.09614) QuantErr: 13.09614 batch_time=0.78052 
+Train Epoch: 10 [33/125 8448/32000 (26%)] Loss: 3.20587 (QuantReg: 13.09699) QuantErr: 13.09699 batch_time=1.10674 
+Train Epoch: 10 [49/125 12544/32000 (39%)] Loss: 2.92529 (QuantReg: 13.21399) QuantErr: 13.21399 batch_time=0.75742 
+Train Epoch: 10 [65/125 16640/32000 (52%)] Loss: 2.84602 (QuantReg: 13.10221) QuantErr: 13.10221 batch_time=1.99954 
+Train Epoch: 10 [81/125 20736/32000 (65%)] Loss: 2.68987 (QuantReg: 13.13257) QuantErr: 13.13257 batch_time=0.75247 
+Train Epoch: 10 [97/125 24832/32000 (78%)] Loss: 2.87606 (QuantReg: 13.49540) QuantErr: 13.49540 batch_time=0.88060 
+Train Epoch: 10 [113/125 28928/32000 (90%)] Loss: 2.39163 (QuantReg: 13.30684) QuantErr: 13.30684 batch_time=0.79195 
+Train Epoch: 10 codebook_update_time=1.66138
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch10.pth ...
+Done in 4.947s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch10.pth ...
+Done in 9.993s
+removing stale ckpt [epoch 9] [took 0.02s]
+ epoch          : 10
+ loss           : 2.849422588348389
+ quant_reg      : 13.194122932434082
+ quant_err      : 13.194122932434082
+ learning_rate  : 3.151247048623045e-05
+ n_samples      : 320000
+ n_steps        : 1250
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 20.6
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 50.3
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 65.2
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.4
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.766
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 40.728110943681045
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 21.9
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 50.1
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 65.1
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.0
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.7555
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 41.491035756750776
+ mnt_best       : 40.728110943681045
+ not_improved_count: 0
+Train Epoch: 11 [1/125 256/32000 (1%)] Loss: 2.80282 (QuantReg: 12.86389) QuantErr: 12.86389 batch_time=46.64568 
+Train Epoch: 11 [17/125 4352/32000 (14%)] Loss: 2.92496 (QuantReg: 13.01901) QuantErr: 13.01901 batch_time=0.75006 
+Train Epoch: 11 [33/125 8448/32000 (26%)] Loss: 2.52689 (QuantReg: 13.18165) QuantErr: 13.18165 batch_time=0.83231 
+Train Epoch: 11 [49/125 12544/32000 (39%)] Loss: 2.82682 (QuantReg: 13.08979) QuantErr: 13.08979 batch_time=0.76585 
+Train Epoch: 11 [65/125 16640/32000 (52%)] Loss: 2.89093 (QuantReg: 13.38518) QuantErr: 13.38518 batch_time=6.55782 
+Train Epoch: 11 [81/125 20736/32000 (65%)] Loss: 2.63750 (QuantReg: 13.14111) QuantErr: 13.14111 batch_time=0.75138 
+Train Epoch: 11 [97/125 24832/32000 (78%)] Loss: 2.91965 (QuantReg: 13.09919) QuantErr: 13.09919 batch_time=0.84189 
+Train Epoch: 11 [113/125 28928/32000 (90%)] Loss: 2.56792 (QuantReg: 13.31429) QuantErr: 13.31429 batch_time=0.82096 
+Train Epoch: 11 codebook_update_time=1.77519
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch11.pth ...
+Done in 5.175s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch11.pth ...
+Done in 11.009s
+removing stale ckpt [epoch 10] [took 0.03s]
+ epoch          : 11
+ loss           : 2.7412811489105224
+ quant_reg      : 13.224890098571777
+ quant_err      : 13.224890098571777
+ learning_rate  : 2.993684696191893e-05
+ n_samples      : 352000
+ n_steps        : 1375
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 21.3
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 50.7
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 64.2
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.6
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.491
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 41.0809864635199
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 22.1
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 50.1
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 66.5
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.1
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.648
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 41.91317380333002
+ mnt_best       : 41.0809864635199
+ not_improved_count: 0
+Train Epoch: 12 [1/125 256/32000 (1%)] Loss: 2.55493 (QuantReg: 13.23746) QuantErr: 13.23746 batch_time=48.81538 
+Train Epoch: 12 [17/125 4352/32000 (14%)] Loss: 2.68960 (QuantReg: 13.39561) QuantErr: 13.39561 batch_time=1.51875 
+Train Epoch: 12 [33/125 8448/32000 (26%)] Loss: 2.58000 (QuantReg: 13.42396) QuantErr: 13.42396 batch_time=1.28728 
+Train Epoch: 12 [49/125 12544/32000 (39%)] Loss: 2.86778 (QuantReg: 13.14293) QuantErr: 13.14293 batch_time=0.75683 
+Train Epoch: 12 [65/125 16640/32000 (52%)] Loss: 2.66997 (QuantReg: 13.19487) QuantErr: 13.19487 batch_time=10.22465 
+Train Epoch: 12 [81/125 20736/32000 (65%)] Loss: 2.74792 (QuantReg: 13.11519) QuantErr: 13.11519 batch_time=0.78312 
+Train Epoch: 12 [97/125 24832/32000 (78%)] Loss: 2.46802 (QuantReg: 13.19385) QuantErr: 13.19385 batch_time=1.24494 
+Train Epoch: 12 [113/125 28928/32000 (90%)] Loss: 2.71051 (QuantReg: 13.31606) QuantErr: 13.31606 batch_time=0.88271 
+Train Epoch: 12 codebook_update_time=1.85466
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch12.pth ...
+Done in 5.360s
+removing stale ckpt [epoch 11] [took 0.13s]
+ epoch          : 12
+ loss           : 2.6172759857177734
+ quant_reg      : 13.284943115234375
+ quant_err      : 13.284943115234375
+ learning_rate  : 2.844000461382298e-05
+ n_samples      : 384000
+ n_steps        : 1500
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 19.9
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 49.6
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 65.0
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.4
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 6.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 25.893
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 40.03280641944853
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 20.8
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 50.6
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 65.4
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.1
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.6535
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 40.982382278052874
+ mnt_best       : 41.0809864635199
+ not_improved_count: 1
+Train Epoch: 13 [1/125 256/32000 (1%)] Loss: 2.74042 (QuantReg: 13.19495) QuantErr: 13.19495 batch_time=55.66265 
+Train Epoch: 13 [17/125 4352/32000 (14%)] Loss: 2.43176 (QuantReg: 13.15541) QuantErr: 13.15541 batch_time=0.75423 
+Train Epoch: 13 [33/125 8448/32000 (26%)] Loss: 2.44356 (QuantReg: 13.13887) QuantErr: 13.13887 batch_time=1.01809 
+Train Epoch: 13 [49/125 12544/32000 (39%)] Loss: 2.60980 (QuantReg: 13.17964) QuantErr: 13.17964 batch_time=0.77481 
+Train Epoch: 13 [65/125 16640/32000 (52%)] Loss: 2.19902 (QuantReg: 13.52716) QuantErr: 13.52716 batch_time=16.29750 
+Train Epoch: 13 [81/125 20736/32000 (65%)] Loss: 2.30786 (QuantReg: 13.36950) QuantErr: 13.36950 batch_time=0.77766 
+Train Epoch: 13 [97/125 24832/32000 (78%)] Loss: 2.28373 (QuantReg: 13.20085) QuantErr: 13.20085 batch_time=1.02691 
+Train Epoch: 13 [113/125 28928/32000 (90%)] Loss: 2.67598 (QuantReg: 13.45185) QuantErr: 13.45185 batch_time=0.94074 
+Train Epoch: 13 codebook_update_time=1.70998
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch13.pth ...
+Done in 5.275s
+removing stale ckpt [epoch 12] [took 0.01s]
+ epoch          : 13
+ loss           : 2.5465402507781985
+ quant_reg      : 13.354731651306153
+ quant_err      : 13.354731651306153
+ learning_rate  : 2.7018004383131832e-05
+ n_samples      : 416000
+ n_steps        : 1625
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 20.2
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 51.0
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 63.9
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.9
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.505
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 40.3776278774056
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 22.0
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 50.9
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 65.0
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.8
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.561
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 41.752703997361365
+ mnt_best       : 41.0809864635199
+ not_improved_count: 2
+Train Epoch: 14 [1/125 256/32000 (1%)] Loss: 2.27782 (QuantReg: 13.58788) QuantErr: 13.58788 batch_time=45.92857 
+Train Epoch: 14 [17/125 4352/32000 (14%)] Loss: 2.47978 (QuantReg: 13.09658) QuantErr: 13.09658 batch_time=0.78354 
+Train Epoch: 14 [33/125 8448/32000 (26%)] Loss: 2.61238 (QuantReg: 13.50651) QuantErr: 13.50651 batch_time=2.11738 
+Train Epoch: 14 [49/125 12544/32000 (39%)] Loss: 2.53085 (QuantReg: 13.19083) QuantErr: 13.19083 batch_time=0.75566 
+Train Epoch: 14 [65/125 16640/32000 (52%)] Loss: 2.37278 (QuantReg: 13.54847) QuantErr: 13.54847 batch_time=5.22456 
+Train Epoch: 14 [81/125 20736/32000 (65%)] Loss: 2.14955 (QuantReg: 13.39153) QuantErr: 13.39153 batch_time=0.76668 
+Train Epoch: 14 [97/125 24832/32000 (78%)] Loss: 2.35139 (QuantReg: 13.42149) QuantErr: 13.42149 batch_time=2.21766 
+Train Epoch: 14 [113/125 28928/32000 (90%)] Loss: 2.52338 (QuantReg: 13.54542) QuantErr: 13.54542 batch_time=1.00241 
+Train Epoch: 14 codebook_update_time=1.86001
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch14.pth ...
+Done in 5.329s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch14.pth ...
+Done in 10.263s
+removing stale ckpt [epoch 13] [took 0.16s]
+ epoch          : 14
+ loss           : 2.4709984607696533
+ quant_reg      : 13.389761093139649
+ quant_err      : 13.389761093139649
+ learning_rate  : 2.566710416397524e-05
+ n_samples      : 448000
+ n_steps        : 1750
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 21.7
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 51.4
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 65.1
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.3
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.253
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 41.71906954067978
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 21.0
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 51.5
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 66.4
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.5
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.8875
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 41.56535885888369
+ mnt_best       : 41.71906954067978
+ not_improved_count: 0
+Train Epoch: 15 [1/125 256/32000 (1%)] Loss: 2.30085 (QuantReg: 13.33228) QuantErr: 13.33228 batch_time=65.85663 
+Train Epoch: 15 [17/125 4352/32000 (14%)] Loss: 2.55275 (QuantReg: 13.19432) QuantErr: 13.19432 batch_time=0.74663 
+Train Epoch: 15 [33/125 8448/32000 (26%)] Loss: 2.04793 (QuantReg: 13.43840) QuantErr: 13.43840 batch_time=0.76169 
+Train Epoch: 15 [49/125 12544/32000 (39%)] Loss: 2.35929 (QuantReg: 13.58166) QuantErr: 13.58166 batch_time=0.74338 
+Train Epoch: 15 [65/125 16640/32000 (52%)] Loss: 2.53458 (QuantReg: 13.62448) QuantErr: 13.62448 batch_time=18.34048 
+Train Epoch: 15 [81/125 20736/32000 (65%)] Loss: 2.51677 (QuantReg: 13.37210) QuantErr: 13.37210 batch_time=0.78194 
+Train Epoch: 15 [97/125 24832/32000 (78%)] Loss: 2.46177 (QuantReg: 13.60930) QuantErr: 13.60930 batch_time=0.79236 
+Train Epoch: 15 [113/125 28928/32000 (90%)] Loss: 2.06730 (QuantReg: 13.79082) QuantErr: 13.79082 batch_time=0.75006 
+Train Epoch: 15 codebook_update_time=1.77127
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch15.pth ...
+Done in 4.362s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch15.pth ...
+Done in 8.902s
+removing stale ckpt [epoch 14] [took 0.01s]
+ epoch          : 15
+ loss           : 2.4321523580551148
+ quant_reg      : 13.445170486450195
+ quant_err      : 13.445170486450195
+ learning_rate  : 2.4383748955776477e-05
+ n_samples      : 480000
+ n_steps        : 1875
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.7
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 51.5
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 64.3
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.5
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.146
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 42.203456325399195
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 22.9
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 53.2
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 66.9
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.4
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.132
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 43.35685221653413
+ mnt_best       : 42.203456325399195
+ not_improved_count: 0
+Train Epoch: 16 [1/125 256/32000 (1%)] Loss: 2.64770 (QuantReg: 13.36431) QuantErr: 13.36431 batch_time=54.01168 
+Train Epoch: 16 [17/125 4352/32000 (14%)] Loss: 2.58541 (QuantReg: 13.01781) QuantErr: 13.01781 batch_time=0.88948 
+Train Epoch: 16 [33/125 8448/32000 (26%)] Loss: 2.25600 (QuantReg: 13.57706) QuantErr: 13.57706 batch_time=0.77231 
+Train Epoch: 16 [49/125 12544/32000 (39%)] Loss: 2.55840 (QuantReg: 13.56935) QuantErr: 13.56935 batch_time=0.76040 
+Train Epoch: 16 [65/125 16640/32000 (52%)] Loss: 2.32697 (QuantReg: 13.54307) QuantErr: 13.54307 batch_time=8.73092 
+Train Epoch: 16 [81/125 20736/32000 (65%)] Loss: 2.25019 (QuantReg: 13.72236) QuantErr: 13.72236 batch_time=0.75744 
+Train Epoch: 16 [97/125 24832/32000 (78%)] Loss: 2.50120 (QuantReg: 13.55775) QuantErr: 13.55775 batch_time=0.73432 
+Train Epoch: 16 [113/125 28928/32000 (90%)] Loss: 2.50146 (QuantReg: 13.59549) QuantErr: 13.59549 batch_time=0.74200 
+Train Epoch: 16 codebook_update_time=1.67280
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch16.pth ...
+Done in 5.030s
+removing stale ckpt [epoch 15] [took 0.02s]
+ epoch          : 16
+ loss           : 2.3919539937973022
+ quant_reg      : 13.497487312316894
+ quant_err      : 13.497487312316894
+ learning_rate  : 2.3164561507987653e-05
+ n_samples      : 512000
+ n_steps        : 2000
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 21.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.0
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 65.6
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.8
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.451
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 42.057065287574105
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 22.8
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 52.8
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.1
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.3
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.671
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 43.44154812711669
+ mnt_best       : 42.203456325399195
+ not_improved_count: 1
+Train Epoch: 17 [1/125 256/32000 (1%)] Loss: 2.28034 (QuantReg: 13.53736) QuantErr: 13.53736 batch_time=36.94950 
+Train Epoch: 17 [17/125 4352/32000 (14%)] Loss: 2.28003 (QuantReg: 13.71474) QuantErr: 13.71474 batch_time=0.74891 
+Train Epoch: 17 [33/125 8448/32000 (26%)] Loss: 2.28011 (QuantReg: 13.50168) QuantErr: 13.50168 batch_time=0.76445 
+Train Epoch: 17 [49/125 12544/32000 (39%)] Loss: 2.17158 (QuantReg: 13.53873) QuantErr: 13.53873 batch_time=0.86051 
+Train Epoch: 17 [65/125 16640/32000 (52%)] Loss: 2.24796 (QuantReg: 13.87566) QuantErr: 13.87566 batch_time=0.74761 
+Train Epoch: 17 [81/125 20736/32000 (65%)] Loss: 2.42896 (QuantReg: 13.55810) QuantErr: 13.55810 batch_time=0.80704 
+Train Epoch: 17 [97/125 24832/32000 (78%)] Loss: 2.36684 (QuantReg: 13.74431) QuantErr: 13.74431 batch_time=0.91539 
+Train Epoch: 17 [113/125 28928/32000 (90%)] Loss: 2.45648 (QuantReg: 13.31039) QuantErr: 13.31039 batch_time=0.85620 
+Train Epoch: 17 codebook_update_time=2.38039
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch17.pth ...
+Done in 5.852s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch17.pth ...
+Done in 12.353s
+removing stale ckpt [epoch 16] [took 0.01s]
+ epoch          : 17
+ loss           : 2.325145471572876
+ quant_reg      : 13.532592468261718
+ quant_err      : 13.532592468261718
+ learning_rate  : 2.2006333432588268e-05
+ n_samples      : 544000
+ n_steps        : 2125
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.1
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 52.2
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 65.4
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.8
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.334
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 42.25520130169544
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 22.1
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 53.9
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 66.3
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.9
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.889
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 42.90404002356713
+ mnt_best       : 42.25520130169544
+ not_improved_count: 0
+Train Epoch: 18 [1/125 256/32000 (1%)] Loss: 2.39643 (QuantReg: 13.16110) QuantErr: 13.16110 batch_time=47.82382 
+Train Epoch: 18 [17/125 4352/32000 (14%)] Loss: 2.51984 (QuantReg: 13.51346) QuantErr: 13.51346 batch_time=0.75654 
+Train Epoch: 18 [33/125 8448/32000 (26%)] Loss: 2.05286 (QuantReg: 13.41271) QuantErr: 13.41271 batch_time=0.75505 
+Train Epoch: 18 [49/125 12544/32000 (39%)] Loss: 2.23348 (QuantReg: 13.47570) QuantErr: 13.47570 batch_time=0.91650 
+Train Epoch: 18 [65/125 16640/32000 (52%)] Loss: 2.38817 (QuantReg: 13.49854) QuantErr: 13.49854 batch_time=6.00702 
+Train Epoch: 18 [81/125 20736/32000 (65%)] Loss: 2.15119 (QuantReg: 13.68169) QuantErr: 13.68169 batch_time=0.84022 
+Train Epoch: 18 [97/125 24832/32000 (78%)] Loss: 2.27120 (QuantReg: 13.48450) QuantErr: 13.48450 batch_time=0.93627 
+Train Epoch: 18 [113/125 28928/32000 (90%)] Loss: 2.18489 (QuantReg: 13.57592) QuantErr: 13.57592 batch_time=0.85324 
+Train Epoch: 18 codebook_update_time=1.63640
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch18.pth ...
+Done in 5.099s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch18.pth ...
+Done in 10.014s
+removing stale ckpt [epoch 17] [took 0.23s]
+ epoch          : 18
+ loss           : 2.26050780582428
+ quant_reg      : 13.540499671936034
+ quant_err      : 13.540499671936034
+ learning_rate  : 2.0906016760958855e-05
+ n_samples      : 576000
+ n_steps        : 2250
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.7
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 52.8
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.4
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.2
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.281
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 43.01394608034441
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 21.5
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.0
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 67.7
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.3
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.1045
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 43.09861089437567
+ mnt_best       : 43.01394608034441
+ not_improved_count: 0
+Train Epoch: 19 [1/125 256/32000 (1%)] Loss: 2.23387 (QuantReg: 13.69227) QuantErr: 13.69227 batch_time=51.53053 
+Train Epoch: 19 [17/125 4352/32000 (14%)] Loss: 2.26368 (QuantReg: 13.68560) QuantErr: 13.68560 batch_time=3.81061 
+Train Epoch: 19 [33/125 8448/32000 (26%)] Loss: 1.96937 (QuantReg: 13.80547) QuantErr: 13.80547 batch_time=1.01737 
+Train Epoch: 19 [49/125 12544/32000 (39%)] Loss: 2.15830 (QuantReg: 13.60329) QuantErr: 13.60329 batch_time=0.75684 
+Train Epoch: 19 [65/125 16640/32000 (52%)] Loss: 2.47212 (QuantReg: 13.36186) QuantErr: 13.36186 batch_time=6.68474 
+Train Epoch: 19 [81/125 20736/32000 (65%)] Loss: 2.28046 (QuantReg: 13.60723) QuantErr: 13.60723 batch_time=3.34255 
+Train Epoch: 19 [97/125 24832/32000 (78%)] Loss: 2.14118 (QuantReg: 13.76014) QuantErr: 13.76014 batch_time=0.94952 
+Train Epoch: 19 [113/125 28928/32000 (90%)] Loss: 2.17931 (QuantReg: 13.59145) QuantErr: 13.59145 batch_time=0.87809 
+Train Epoch: 19 codebook_update_time=1.66252
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch19.pth ...
+Done in 4.381s
+removing stale ckpt [epoch 18] [took 0.01s]
+ epoch          : 19
+ loss           : 2.235119789123535
+ quant_reg      : 13.602435302734374
+ quant_err      : 13.602435302734374
+ learning_rate  : 1.986071592291091e-05
+ n_samples      : 608000
+ n_steps        : 2375
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 23.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 51.9
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 65.8
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 90.2
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.033
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 42.82595232155793
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 22.8
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.3
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 67.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.9
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.6695
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 44.00839784611977
+ mnt_best       : 43.01394608034441
+ not_improved_count: 1
+Train Epoch: 20 [1/125 256/32000 (1%)] Loss: 2.05597 (QuantReg: 13.86726) QuantErr: 13.86726 batch_time=51.88018 
+Train Epoch: 20 [17/125 4352/32000 (14%)] Loss: 2.36028 (QuantReg: 13.47959) QuantErr: 13.47959 batch_time=0.76106 
+Train Epoch: 20 [33/125 8448/32000 (26%)] Loss: 2.43594 (QuantReg: 13.64219) QuantErr: 13.64219 batch_time=0.75707 
+Train Epoch: 20 [49/125 12544/32000 (39%)] Loss: 2.16760 (QuantReg: 13.71751) QuantErr: 13.71751 batch_time=0.75839 
+Train Epoch: 20 [65/125 16640/32000 (52%)] Loss: 2.27383 (QuantReg: 13.68169) QuantErr: 13.68169 batch_time=9.14413 
+Train Epoch: 20 [81/125 20736/32000 (65%)] Loss: 2.44434 (QuantReg: 13.54818) QuantErr: 13.54818 batch_time=0.89289 
+Train Epoch: 20 [97/125 24832/32000 (78%)] Loss: 1.84926 (QuantReg: 13.43291) QuantErr: 13.43291 batch_time=0.89206 
+Train Epoch: 20 [113/125 28928/32000 (90%)] Loss: 2.27553 (QuantReg: 13.73527) QuantErr: 13.73527 batch_time=0.75308 
+Train Epoch: 20 codebook_update_time=1.67893
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch20.pth ...
+Done in 5.002s
+removing stale ckpt [epoch 19] [took 0.01s]
+ epoch          : 20
+ loss           : 2.2057833862304688
+ quant_reg      : 13.616562995910645
+ quant_err      : 13.616562995910645
+ learning_rate  : 1.8867680126765363e-05
+ n_samples      : 640000
+ n_steps        : 2500
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.4
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 53.2
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.1
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.1
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.996
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 42.866731433390775
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 24.9
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 54.8
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.8
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.9
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.7155
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.448837714337735
+ mnt_best       : 43.01394608034441
+ not_improved_count: 2
+Train Epoch: 21 [1/125 256/32000 (1%)] Loss: 2.27857 (QuantReg: 13.69720) QuantErr: 13.69720 batch_time=41.56980 
+Train Epoch: 21 [17/125 4352/32000 (14%)] Loss: 1.91918 (QuantReg: 13.41325) QuantErr: 13.41325 batch_time=7.52535 
+Train Epoch: 21 [33/125 8448/32000 (26%)] Loss: 1.97792 (QuantReg: 13.30781) QuantErr: 13.30781 batch_time=0.95541 
+Train Epoch: 21 [49/125 12544/32000 (39%)] Loss: 2.29834 (QuantReg: 13.40190) QuantErr: 13.40190 batch_time=0.92751 
+Train Epoch: 21 [65/125 16640/32000 (52%)] Loss: 2.01503 (QuantReg: 13.74132) QuantErr: 13.74132 batch_time=1.27645 
+Train Epoch: 21 [81/125 20736/32000 (65%)] Loss: 2.19823 (QuantReg: 13.74048) QuantErr: 13.74048 batch_time=5.52607 
+Train Epoch: 21 [97/125 24832/32000 (78%)] Loss: 2.07479 (QuantReg: 13.78504) QuantErr: 13.78504 batch_time=0.75899 
+Train Epoch: 21 [113/125 28928/32000 (90%)] Loss: 2.27287 (QuantReg: 13.73755) QuantErr: 13.73755 batch_time=0.74377 
+Train Epoch: 21 codebook_update_time=1.72130
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch21.pth ...
+Done in 6.998s
+removing stale ckpt [epoch 20] [took 0.01s]
+ epoch          : 21
+ loss           : 2.1600681066513063
+ quant_reg      : 13.638440368652343
+ quant_err      : 13.638440368652343
+ learning_rate  : 1.7924296120427095e-05
+ n_samples      : 672000
+ n_steps        : 2625
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.8
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 52.8
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.0
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.4
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.396
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 42.990342161271734
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 23.7
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 53.1
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.0
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.9
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 22.973
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 44.067382980806556
+ mnt_best       : 43.01394608034441
+ not_improved_count: 3
+Train Epoch: 22 [1/125 256/32000 (1%)] Loss: 2.40051 (QuantReg: 13.60661) QuantErr: 13.60661 batch_time=52.92273 
+Train Epoch: 22 [17/125 4352/32000 (14%)] Loss: 2.16685 (QuantReg: 13.56999) QuantErr: 13.56999 batch_time=0.93857 
+Train Epoch: 22 [33/125 8448/32000 (26%)] Loss: 2.08345 (QuantReg: 13.63505) QuantErr: 13.63505 batch_time=0.97438 
+Train Epoch: 22 [49/125 12544/32000 (39%)] Loss: 2.25411 (QuantReg: 13.63555) QuantErr: 13.63555 batch_time=0.97065 
+Train Epoch: 22 [65/125 16640/32000 (52%)] Loss: 2.02546 (QuantReg: 13.71772) QuantErr: 13.71772 batch_time=9.33312 
+Train Epoch: 22 [81/125 20736/32000 (65%)] Loss: 1.90465 (QuantReg: 13.83156) QuantErr: 13.83156 batch_time=0.76796 
+Train Epoch: 22 [97/125 24832/32000 (78%)] Loss: 2.32626 (QuantReg: 13.68186) QuantErr: 13.68186 batch_time=0.75297 
+Train Epoch: 22 [113/125 28928/32000 (90%)] Loss: 1.80371 (QuantReg: 13.89478) QuantErr: 13.89478 batch_time=0.74063 
+Train Epoch: 22 codebook_update_time=1.85167
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch22.pth ...
+Done in 4.466s
+removing stale ckpt [epoch 21] [took 0.01s]
+ epoch          : 22
+ loss           : 2.130122130393982
+ quant_reg      : 13.644888298034669
+ quant_err      : 13.644888298034669
+ learning_rate  : 1.702808131440574e-05
+ n_samples      : 704000
+ n_steps        : 2750
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 51.9
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 65.8
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.7
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.788
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 42.19606740679588
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 22.8
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 54.9
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 67.9
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.1
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.2085
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 43.96688072440102
+ mnt_best       : 43.01394608034441
+ not_improved_count: 4
+Train Epoch: 23 [1/125 256/32000 (1%)] Loss: 1.98128 (QuantReg: 13.72740) QuantErr: 13.72740 batch_time=48.59527 
+Train Epoch: 23 [17/125 4352/32000 (14%)] Loss: 1.88667 (QuantReg: 13.72806) QuantErr: 13.72806 batch_time=0.73947 
+Train Epoch: 23 [33/125 8448/32000 (26%)] Loss: 2.27047 (QuantReg: 13.83532) QuantErr: 13.83532 batch_time=0.74698 
+Train Epoch: 23 [49/125 12544/32000 (39%)] Loss: 2.29494 (QuantReg: 13.76962) QuantErr: 13.76962 batch_time=0.77444 
+Train Epoch: 23 [65/125 16640/32000 (52%)] Loss: 2.16455 (QuantReg: 13.99452) QuantErr: 13.99452 batch_time=3.96163 
+Train Epoch: 23 [81/125 20736/32000 (65%)] Loss: 2.28354 (QuantReg: 13.66294) QuantErr: 13.66294 batch_time=1.43473 
+Train Epoch: 23 [97/125 24832/32000 (78%)] Loss: 2.31905 (QuantReg: 13.64249) QuantErr: 13.64249 batch_time=0.86634 
+Train Epoch: 23 [113/125 28928/32000 (90%)] Loss: 2.22036 (QuantReg: 13.62432) QuantErr: 13.62432 batch_time=0.74102 
+Train Epoch: 23 codebook_update_time=1.66718
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch23.pth ...
+Done in 6.497s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch23.pth ...
+Done in 11.573s
+removing stale ckpt [epoch 22] [took 0.01s]
+ epoch          : 23
+ loss           : 2.116029992103577
+ quant_reg      : 13.705629737854004
+ quant_err      : 13.705629737854004
+ learning_rate  : 1.6176677248685452e-05
+ n_samples      : 736000
+ n_steps        : 2875
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 23.5
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 53.4
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.0
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.1
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.426
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 43.58974732972494
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 24.2
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 54.7
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.2
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.3
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.888
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 44.86031880864897
+ mnt_best       : 43.58974732972494
+ not_improved_count: 0
+Train Epoch: 24 [1/125 256/32000 (1%)] Loss: 2.03641 (QuantReg: 13.75127) QuantErr: 13.75127 batch_time=47.65060 
+Train Epoch: 24 [17/125 4352/32000 (14%)] Loss: 1.85670 (QuantReg: 13.70551) QuantErr: 13.70551 batch_time=0.76218 
+Train Epoch: 24 [33/125 8448/32000 (26%)] Loss: 2.24002 (QuantReg: 13.66437) QuantErr: 13.66437 batch_time=0.75268 
+Train Epoch: 24 [49/125 12544/32000 (39%)] Loss: 1.97995 (QuantReg: 13.80650) QuantErr: 13.80650 batch_time=0.87137 
+Train Epoch: 24 [65/125 16640/32000 (52%)] Loss: 2.02192 (QuantReg: 13.80353) QuantErr: 13.80353 batch_time=9.40578 
+Train Epoch: 24 [81/125 20736/32000 (65%)] Loss: 1.99078 (QuantReg: 13.71151) QuantErr: 13.71151 batch_time=0.92933 
+Train Epoch: 24 [97/125 24832/32000 (78%)] Loss: 2.15788 (QuantReg: 13.52409) QuantErr: 13.52409 batch_time=0.77475 
+Train Epoch: 24 [113/125 28928/32000 (90%)] Loss: 2.07992 (QuantReg: 13.78923) QuantErr: 13.78923 batch_time=0.72912 
+Train Epoch: 24 codebook_update_time=1.74064
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch24.pth ...
+Done in 5.659s
+removing stale ckpt [epoch 23] [took 0.01s]
+ epoch          : 24
+ loss           : 2.0664731254577635
+ quant_reg      : 13.728834701538085
+ quant_err      : 13.728834701538085
+ learning_rate  : 1.5367843386251178e-05
+ n_samples      : 768000
+ n_steps        : 3000
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.2
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 52.9
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.4
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.8
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.944
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 42.93612510190617
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 24.9
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.1
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.3
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.3
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.657
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.421054909525225
+ mnt_best       : 43.58974732972494
+ not_improved_count: 1
+Train Epoch: 25 [1/125 256/32000 (1%)] Loss: 2.11828 (QuantReg: 13.44857) QuantErr: 13.44857 batch_time=42.31836 
+Train Epoch: 25 [17/125 4352/32000 (14%)] Loss: 2.14122 (QuantReg: 13.58167) QuantErr: 13.58167 batch_time=0.77997 
+Train Epoch: 25 [33/125 8448/32000 (26%)] Loss: 1.89318 (QuantReg: 13.83132) QuantErr: 13.83132 batch_time=0.90484 
+Train Epoch: 25 [49/125 12544/32000 (39%)] Loss: 1.86512 (QuantReg: 13.67218) QuantErr: 13.67218 batch_time=0.75089 
+Train Epoch: 25 [65/125 16640/32000 (52%)] Loss: 1.94617 (QuantReg: 13.81431) QuantErr: 13.81431 batch_time=3.49714 
+Train Epoch: 25 [81/125 20736/32000 (65%)] Loss: 2.03460 (QuantReg: 13.88055) QuantErr: 13.88055 batch_time=0.74344 
+Train Epoch: 25 [97/125 24832/32000 (78%)] Loss: 1.99960 (QuantReg: 13.64193) QuantErr: 13.64193 batch_time=0.77424 
+Train Epoch: 25 [113/125 28928/32000 (90%)] Loss: 1.94388 (QuantReg: 13.87327) QuantErr: 13.87327 batch_time=0.74706 
+Train Epoch: 25 codebook_update_time=1.76402
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch25.pth ...
+Done in 4.107s
+removing stale ckpt [epoch 24] [took 0.01s]
+ epoch          : 25
+ loss           : 2.026697339057922
+ quant_reg      : 13.728133735656739
+ quant_err      : 13.728133735656739
+ learning_rate  : 1.4599451216938618e-05
+ n_samples      : 800000
+ n_steps        : 3125
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.8
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 53.2
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.0
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.6
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.349
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 43.31521030454747
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.0
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.1
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.3
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.2
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.255
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.48177831727137
+ mnt_best       : 43.58974732972494
+ not_improved_count: 2
+Train Epoch: 26 [1/125 256/32000 (1%)] Loss: 2.12863 (QuantReg: 13.68475) QuantErr: 13.68475 batch_time=34.34451 
+Train Epoch: 26 [17/125 4352/32000 (14%)] Loss: 2.16089 (QuantReg: 13.73365) QuantErr: 13.73365 batch_time=0.74461 
+Train Epoch: 26 [33/125 8448/32000 (26%)] Loss: 2.34294 (QuantReg: 13.58987) QuantErr: 13.58987 batch_time=1.01248 
+Train Epoch: 26 [49/125 12544/32000 (39%)] Loss: 1.91326 (QuantReg: 13.83023) QuantErr: 13.83023 batch_time=0.75108 
+Train Epoch: 26 [65/125 16640/32000 (52%)] Loss: 2.17730 (QuantReg: 13.79836) QuantErr: 13.79836 batch_time=1.43690 
+Train Epoch: 26 [81/125 20736/32000 (65%)] Loss: 1.92469 (QuantReg: 13.65987) QuantErr: 13.65987 batch_time=0.76525 
+Train Epoch: 26 [97/125 24832/32000 (78%)] Loss: 2.15192 (QuantReg: 13.79074) QuantErr: 13.79074 batch_time=0.78889 
+Train Epoch: 26 [113/125 28928/32000 (90%)] Loss: 1.94903 (QuantReg: 13.75730) QuantErr: 13.75730 batch_time=0.74488 
+Train Epoch: 26 codebook_update_time=1.71413
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch26.pth ...
+Done in 25.053s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch26.pth ...
+Done in 30.489s
+removing stale ckpt [epoch 25] [took 0.03s]
+ epoch          : 26
+ loss           : 2.0662539710998535
+ quant_reg      : 13.732690795898437
+ quant_err      : 13.732690795898437
+ learning_rate  : 1.3869478656091687e-05
+ n_samples      : 832000
+ n_steps        : 3250
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 23.9
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 52.1
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.7
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.4
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.44
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 43.63019486963897
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 24.7
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.9
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 67.1
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.4
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.601
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.24915017278041
+ mnt_best       : 43.63019486963897
+ not_improved_count: 0
+Train Epoch: 27 [1/125 256/32000 (1%)] Loss: 2.00068 (QuantReg: 13.69935) QuantErr: 13.69935 batch_time=42.26766 
+Train Epoch: 27 [17/125 4352/32000 (14%)] Loss: 2.04031 (QuantReg: 13.86800) QuantErr: 13.86800 batch_time=0.79041 
+Train Epoch: 27 [33/125 8448/32000 (26%)] Loss: 1.85370 (QuantReg: 14.00690) QuantErr: 14.00690 batch_time=0.74007 
+Train Epoch: 27 [49/125 12544/32000 (39%)] Loss: 1.87281 (QuantReg: 13.99162) QuantErr: 13.99162 batch_time=0.80312 
+Train Epoch: 27 [65/125 16640/32000 (52%)] Loss: 2.08946 (QuantReg: 13.78791) QuantErr: 13.78791 batch_time=6.17820 
+Train Epoch: 27 [81/125 20736/32000 (65%)] Loss: 1.74572 (QuantReg: 13.99887) QuantErr: 13.99887 batch_time=0.90571 
+Train Epoch: 27 [97/125 24832/32000 (78%)] Loss: 2.02532 (QuantReg: 13.64239) QuantErr: 13.64239 batch_time=0.73298 
+Train Epoch: 27 [113/125 28928/32000 (90%)] Loss: 2.18367 (QuantReg: 13.65386) QuantErr: 13.65386 batch_time=0.75822 
+Train Epoch: 27 codebook_update_time=1.72213
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch27.pth ...
+Done in 4.874s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch27.pth ...
+Done in 10.298s
+removing stale ckpt [epoch 26] [took 0.01s]
+ epoch          : 27
+ loss           : 2.018105319023132
+ quant_reg      : 13.784707397460938
+ quant_err      : 13.784707397460938
+ learning_rate  : 1.3176004723287102e-05
+ n_samples      : 864000
+ n_steps        : 3375
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 23.5
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.0
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.5
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.8
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.468
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 43.86260516263658
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.3
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 56.7
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 69.1
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.7
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.608
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.28005600291236
+ mnt_best       : 43.86260516263658
+ not_improved_count: 0
+Train Epoch: 28 [1/125 256/32000 (1%)] Loss: 2.00746 (QuantReg: 13.68309) QuantErr: 13.68309 batch_time=43.53747 
+Train Epoch: 28 [17/125 4352/32000 (14%)] Loss: 1.91592 (QuantReg: 13.77784) QuantErr: 13.77784 batch_time=0.88785 
+Train Epoch: 28 [33/125 8448/32000 (26%)] Loss: 1.78713 (QuantReg: 13.88670) QuantErr: 13.88670 batch_time=0.77229 
+Train Epoch: 28 [49/125 12544/32000 (39%)] Loss: 2.09139 (QuantReg: 13.79547) QuantErr: 13.79547 batch_time=0.82137 
+Train Epoch: 28 [65/125 16640/32000 (52%)] Loss: 1.90262 (QuantReg: 13.74068) QuantErr: 13.74068 batch_time=4.20477 
+Train Epoch: 28 [81/125 20736/32000 (65%)] Loss: 1.80293 (QuantReg: 13.96688) QuantErr: 13.96688 batch_time=0.77242 
+Train Epoch: 28 [97/125 24832/32000 (78%)] Loss: 1.87016 (QuantReg: 13.68173) QuantErr: 13.68173 batch_time=0.75711 
+Train Epoch: 28 [113/125 28928/32000 (90%)] Loss: 1.95450 (QuantReg: 13.98661) QuantErr: 13.98661 batch_time=0.76603 
+Train Epoch: 28 codebook_update_time=1.71656
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch28.pth ...
+Done in 4.755s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch28.pth ...
+Done in 9.334s
+removing stale ckpt [epoch 27] [took 0.08s]
+ epoch          : 28
+ loss           : 1.9857736024856567
+ quant_reg      : 13.799372283935547
+ quant_err      : 13.799372283935547
+ learning_rate  : 1.2517204487122746e-05
+ n_samples      : 896000
+ n_steps        : 3500
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 23.6
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 53.4
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.6
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.4
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.428
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 44.00141593239584
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.1
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.8
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.0
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.1
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 22.8745
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.66732897850119
+ mnt_best       : 44.00141593239584
+ not_improved_count: 0
+Train Epoch: 29 [1/125 256/32000 (1%)] Loss: 2.30993 (QuantReg: 13.69544) QuantErr: 13.69544 batch_time=43.76917 
+Train Epoch: 29 [17/125 4352/32000 (14%)] Loss: 2.13317 (QuantReg: 13.74561) QuantErr: 13.74561 batch_time=0.80438 
+Train Epoch: 29 [33/125 8448/32000 (26%)] Loss: 1.77138 (QuantReg: 13.89378) QuantErr: 13.89378 batch_time=0.79259 
+Train Epoch: 29 [49/125 12544/32000 (39%)] Loss: 2.04887 (QuantReg: 13.75250) QuantErr: 13.75250 batch_time=0.73005 
+Train Epoch: 29 [65/125 16640/32000 (52%)] Loss: 2.00046 (QuantReg: 13.67078) QuantErr: 13.67078 batch_time=5.72102 
+Train Epoch: 29 [81/125 20736/32000 (65%)] Loss: 1.69796 (QuantReg: 13.89182) QuantErr: 13.89182 batch_time=1.87945 
+Train Epoch: 29 [97/125 24832/32000 (78%)] Loss: 2.16881 (QuantReg: 13.75883) QuantErr: 13.75883 batch_time=0.91359 
+Train Epoch: 29 [113/125 28928/32000 (90%)] Loss: 1.87380 (QuantReg: 13.75994) QuantErr: 13.75994 batch_time=0.85574 
+Train Epoch: 29 codebook_update_time=1.66726
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch29.pth ...
+Done in 4.778s
+removing stale ckpt [epoch 28] [took 0.01s]
+ epoch          : 29
+ loss           : 2.003684739112854
+ quant_reg      : 13.80460464477539
+ quant_err      : 13.80460464477539
+ learning_rate  : 1.1891344262766608e-05
+ n_samples      : 928000
+ n_steps        : 3625
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 23.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 53.9
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.6
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.7
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.193
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 43.544196064482485
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 24.0
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 56.2
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 69.0
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.2
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.046
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.317458878617614
+ mnt_best       : 44.00141593239584
+ not_improved_count: 1
+Train Epoch: 30 [1/125 256/32000 (1%)] Loss: 2.01494 (QuantReg: 13.90453) QuantErr: 13.90453 batch_time=40.16080 
+Train Epoch: 30 [17/125 4352/32000 (14%)] Loss: 1.97756 (QuantReg: 13.71186) QuantErr: 13.71186 batch_time=0.90253 
+Train Epoch: 30 [33/125 8448/32000 (26%)] Loss: 1.96777 (QuantReg: 13.86457) QuantErr: 13.86457 batch_time=0.75180 
+Train Epoch: 30 [49/125 12544/32000 (39%)] Loss: 2.01204 (QuantReg: 13.69008) QuantErr: 13.69008 batch_time=0.84571 
+Train Epoch: 30 [65/125 16640/32000 (52%)] Loss: 2.12726 (QuantReg: 13.80187) QuantErr: 13.80187 batch_time=1.27463 
+Train Epoch: 30 [81/125 20736/32000 (65%)] Loss: 1.77505 (QuantReg: 13.91241) QuantErr: 13.91241 batch_time=0.87632 
+Train Epoch: 30 [97/125 24832/32000 (78%)] Loss: 1.88252 (QuantReg: 13.88301) QuantErr: 13.88301 batch_time=0.90511 
+Train Epoch: 30 [113/125 28928/32000 (90%)] Loss: 1.86079 (QuantReg: 13.83384) QuantErr: 13.83384 batch_time=0.78978 
+Train Epoch: 30 codebook_update_time=1.70714
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch30.pth ...
+Done in 5.586s
+removing stale ckpt [epoch 29] [took 0.24s]
+ epoch          : 30
+ loss           : 1.966011824607849
+ quant_reg      : 13.817674758911133
+ quant_err      : 13.817674758911133
+ learning_rate  : 1.1296777049628277e-05
+ n_samples      : 960000
+ n_steps        : 3750
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.8
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.8
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.2
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.8
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.963
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 43.78865034006795
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 24.8
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.4
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 69.0
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.5
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.541
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.597060444549996
+ mnt_best       : 44.00141593239584
+ not_improved_count: 2
+Train Epoch: 31 [1/125 256/32000 (1%)] Loss: 2.20046 (QuantReg: 13.72903) QuantErr: 13.72903 batch_time=49.43552 
+Train Epoch: 31 [17/125 4352/32000 (14%)] Loss: 1.97645 (QuantReg: 13.81206) QuantErr: 13.81206 batch_time=0.92237 
+Train Epoch: 31 [33/125 8448/32000 (26%)] Loss: 1.97688 (QuantReg: 13.84217) QuantErr: 13.84217 batch_time=0.75571 
+Train Epoch: 31 [49/125 12544/32000 (39%)] Loss: 1.99252 (QuantReg: 13.74850) QuantErr: 13.74850 batch_time=0.93081 
+Train Epoch: 31 [65/125 16640/32000 (52%)] Loss: 2.31658 (QuantReg: 13.98484) QuantErr: 13.98484 batch_time=8.09300 
+Train Epoch: 31 [81/125 20736/32000 (65%)] Loss: 2.00617 (QuantReg: 13.67702) QuantErr: 13.67702 batch_time=0.75038 
+Train Epoch: 31 [97/125 24832/32000 (78%)] Loss: 1.87990 (QuantReg: 13.76936) QuantErr: 13.76936 batch_time=1.01475 
+Train Epoch: 31 [113/125 28928/32000 (90%)] Loss: 2.02453 (QuantReg: 13.88949) QuantErr: 13.88949 batch_time=0.85714 
+Train Epoch: 31 codebook_update_time=1.66847
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch31.pth ...
+Done in 4.379s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch31.pth ...
+Done in 9.148s
+removing stale ckpt [epoch 30] [took 0.02s]
+ epoch          : 31
+ loss           : 1.9638449125289916
+ quant_reg      : 13.835696029663087
+ quant_err      : 13.835696029663087
+ learning_rate  : 1.0731938197146863e-05
+ n_samples      : 992000
+ n_steps        : 3875
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 23.7
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 55.0
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.7
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.1
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.137
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 44.52116991296657
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.8
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.1
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.2
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.581
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.02902830668909
+ mnt_best       : 44.52116991296657
+ not_improved_count: 0
+Train Epoch: 32 [1/125 256/32000 (1%)] Loss: 2.14309 (QuantReg: 13.61313) QuantErr: 13.61313 batch_time=52.92408 
+Train Epoch: 32 [17/125 4352/32000 (14%)] Loss: 1.95135 (QuantReg: 13.74487) QuantErr: 13.74487 batch_time=0.89534 
+Train Epoch: 32 [33/125 8448/32000 (26%)] Loss: 2.09601 (QuantReg: 14.08961) QuantErr: 14.08961 batch_time=0.77620 
+Train Epoch: 32 [49/125 12544/32000 (39%)] Loss: 1.71852 (QuantReg: 13.89103) QuantErr: 13.89103 batch_time=0.74462 
+Train Epoch: 32 [65/125 16640/32000 (52%)] Loss: 1.94590 (QuantReg: 13.75014) QuantErr: 13.75014 batch_time=9.71139 
+Train Epoch: 32 [81/125 20736/32000 (65%)] Loss: 1.90934 (QuantReg: 13.98493) QuantErr: 13.98493 batch_time=1.00248 
+Train Epoch: 32 [97/125 24832/32000 (78%)] Loss: 1.93972 (QuantReg: 14.10101) QuantErr: 14.10101 batch_time=0.86089 
+Train Epoch: 32 [113/125 28928/32000 (90%)] Loss: 2.13869 (QuantReg: 13.83090) QuantErr: 13.83090 batch_time=0.89440 
+Train Epoch: 32 codebook_update_time=1.86297
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch32.pth ...
+Done in 13.274s
+removing stale ckpt [epoch 31] [took 0.06s]
+ epoch          : 32
+ loss           : 1.9705364818573
+ quant_reg      : 13.87262565612793
+ quant_err      : 13.87262565612793
+ learning_rate  : 1.019534128728952e-05
+ n_samples      : 1024000
+ n_steps        : 4000
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.7
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.5
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.5
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.3
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.827
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 43.709453590669824
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.6
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.6
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.8
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.8
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.179
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.09293875343261
+ mnt_best       : 44.52116991296657
+ not_improved_count: 1
+Train Epoch: 33 [1/125 256/32000 (1%)] Loss: 2.01670 (QuantReg: 13.74121) QuantErr: 13.74121 batch_time=40.92527 
+Train Epoch: 33 [17/125 4352/32000 (14%)] Loss: 1.74601 (QuantReg: 13.99619) QuantErr: 13.99619 batch_time=1.64551 
+Train Epoch: 33 [33/125 8448/32000 (26%)] Loss: 1.81125 (QuantReg: 13.97774) QuantErr: 13.97774 batch_time=0.89951 
+Train Epoch: 33 [49/125 12544/32000 (39%)] Loss: 1.93731 (QuantReg: 14.04846) QuantErr: 14.04846 batch_time=0.83815 
+Train Epoch: 33 [65/125 16640/32000 (52%)] Loss: 1.89160 (QuantReg: 14.01113) QuantErr: 14.01113 batch_time=1.83464 
+Train Epoch: 33 [81/125 20736/32000 (65%)] Loss: 2.02488 (QuantReg: 13.79225) QuantErr: 13.79225 batch_time=2.76616 
+Train Epoch: 33 [97/125 24832/32000 (78%)] Loss: 2.05184 (QuantReg: 13.99681) QuantErr: 13.99681 batch_time=0.91513 
+Train Epoch: 33 [113/125 28928/32000 (90%)] Loss: 2.15421 (QuantReg: 13.67941) QuantErr: 13.67941 batch_time=0.76464 
+Train Epoch: 33 codebook_update_time=1.76488
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch33.pth ...
+Done in 4.245s
+removing stale ckpt [epoch 32] [took 0.06s]
+ epoch          : 33
+ loss           : 1.9654778118133545
+ quant_reg      : 13.876484390258788
+ quant_err      : 13.876484390258788
+ learning_rate  : 9.685574222925043e-06
+ n_samples      : 1056000
+ n_steps        : 4125
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 24.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.4
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.5
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.0
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.559
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 44.28030418029582
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.2
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 54.6
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.0
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.3
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.506
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.39771896914832
+ mnt_best       : 44.52116991296657
+ not_improved_count: 2
+Train Epoch: 34 [1/125 256/32000 (1%)] Loss: 1.93276 (QuantReg: 13.69383) QuantErr: 13.69383 batch_time=51.67184 
+Train Epoch: 34 [17/125 4352/32000 (14%)] Loss: 1.95096 (QuantReg: 13.91096) QuantErr: 13.91096 batch_time=0.72916 
+Train Epoch: 34 [33/125 8448/32000 (26%)] Loss: 2.19442 (QuantReg: 13.91002) QuantErr: 13.91002 batch_time=0.76386 
+Train Epoch: 34 [49/125 12544/32000 (39%)] Loss: 1.92260 (QuantReg: 13.89220) QuantErr: 13.89220 batch_time=0.76573 
+Train Epoch: 34 [65/125 16640/32000 (52%)] Loss: 2.14954 (QuantReg: 13.99714) QuantErr: 13.99714 batch_time=7.46956 
+Train Epoch: 34 [81/125 20736/32000 (65%)] Loss: 2.08559 (QuantReg: 13.82435) QuantErr: 13.82435 batch_time=0.76778 
+Train Epoch: 34 [97/125 24832/32000 (78%)] Loss: 2.06574 (QuantReg: 13.88246) QuantErr: 13.88246 batch_time=0.86929 
+Train Epoch: 34 [113/125 28928/32000 (90%)] Loss: 2.14737 (QuantReg: 13.69831) QuantErr: 13.69831 batch_time=0.97704 
+Train Epoch: 34 codebook_update_time=1.84281
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch34.pth ...
+Done in 4.244s
+removing stale ckpt [epoch 33] [took 0.09s]
+ epoch          : 34
+ loss           : 1.9342688245773316
+ quant_reg      : 13.880085021972656
+ quant_err      : 13.880085021972656
+ learning_rate  : 9.20129551177879e-06
+ n_samples      : 1088000
+ n_steps        : 4250
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.8
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.6
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.1
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.1
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.5
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.234
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 43.49536534054707
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 26.5
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.2
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 70.3
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.5
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.796
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.85041320380755
+ mnt_best       : 44.52116991296657
+ not_improved_count: 3
+Train Epoch: 35 [1/125 256/32000 (1%)] Loss: 1.94890 (QuantReg: 13.78543) QuantErr: 13.78543 batch_time=50.77591 
+Train Epoch: 35 [17/125 4352/32000 (14%)] Loss: 1.91358 (QuantReg: 13.94157) QuantErr: 13.94157 batch_time=1.25411 
+Train Epoch: 35 [33/125 8448/32000 (26%)] Loss: 1.89746 (QuantReg: 13.76761) QuantErr: 13.76761 batch_time=0.74461 
+Train Epoch: 35 [49/125 12544/32000 (39%)] Loss: 2.01907 (QuantReg: 13.90281) QuantErr: 13.90281 batch_time=0.89557 
+Train Epoch: 35 [65/125 16640/32000 (52%)] Loss: 1.89809 (QuantReg: 14.08640) QuantErr: 14.08640 batch_time=11.62508 
+Train Epoch: 35 [81/125 20736/32000 (65%)] Loss: 1.93503 (QuantReg: 13.99327) QuantErr: 13.99327 batch_time=0.93365 
+Train Epoch: 35 [97/125 24832/32000 (78%)] Loss: 1.93344 (QuantReg: 13.80985) QuantErr: 13.80985 batch_time=0.92275 
+Train Epoch: 35 [113/125 28928/32000 (90%)] Loss: 1.96912 (QuantReg: 13.92263) QuantErr: 13.92263 batch_time=0.85603 
+Train Epoch: 35 codebook_update_time=1.70346
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch35.pth ...
+Done in 4.066s
+removing stale ckpt [epoch 34] [took 0.01s]
+ epoch          : 35
+ loss           : 1.922550582885742
+ quant_reg      : 13.908568000793457
+ quant_err      : 13.908568000793457
+ learning_rate  : 8.74123073618985e-06
+ n_samples      : 1120000
+ n_steps        : 4375
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 22.6
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 53.9
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.5
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.3
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.512
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 43.26861061026953
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.3
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 54.9
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.8
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.9
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.769
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.71868895830216
+ mnt_best       : 44.52116991296657
+ not_improved_count: 4
+Train Epoch: 36 [1/125 256/32000 (1%)] Loss: 1.88923 (QuantReg: 13.89449) QuantErr: 13.89449 batch_time=40.37917 
+Train Epoch: 36 [17/125 4352/32000 (14%)] Loss: 1.92998 (QuantReg: 13.75177) QuantErr: 13.75177 batch_time=0.77149 
+Train Epoch: 36 [33/125 8448/32000 (26%)] Loss: 1.93529 (QuantReg: 14.01051) QuantErr: 14.01051 batch_time=0.74922 
+Train Epoch: 36 [49/125 12544/32000 (39%)] Loss: 2.21925 (QuantReg: 13.81777) QuantErr: 13.81777 batch_time=1.49770 
+Train Epoch: 36 [65/125 16640/32000 (52%)] Loss: 1.83533 (QuantReg: 13.92415) QuantErr: 13.92415 batch_time=1.82313 
+Train Epoch: 36 [81/125 20736/32000 (65%)] Loss: 1.84802 (QuantReg: 13.84508) QuantErr: 13.84508 batch_time=0.79317 
+Train Epoch: 36 [97/125 24832/32000 (78%)] Loss: 1.79348 (QuantReg: 13.99267) QuantErr: 13.99267 batch_time=0.75063 
+Train Epoch: 36 [113/125 28928/32000 (90%)] Loss: 1.52224 (QuantReg: 14.05086) QuantErr: 14.05086 batch_time=1.52090 
+Train Epoch: 36 codebook_update_time=1.64073
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch36.pth ...
+Done in 4.347s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch36.pth ...
+Done in 8.649s
+removing stale ckpt [epoch 35] [took 0.01s]
+ epoch          : 36
+ loss           : 1.912303017616272
+ quant_reg      : 13.943979629516601
+ quant_err      : 13.943979629516601
+ learning_rate  : 8.304169199380357e-06
+ n_samples      : 1152000
+ n_steps        : 4500
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 24.4
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.8
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.3
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.5
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.673
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 44.812084856298306
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 26.1
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 54.9
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.1
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.048
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.15077401474447
+ mnt_best       : 44.812084856298306
+ not_improved_count: 0
+Train Epoch: 37 [1/125 256/32000 (1%)] Loss: 1.95448 (QuantReg: 13.84393) QuantErr: 13.84393 batch_time=34.55639 
+Train Epoch: 37 [17/125 4352/32000 (14%)] Loss: 1.88049 (QuantReg: 13.97794) QuantErr: 13.97794 batch_time=0.75201 
+Train Epoch: 37 [33/125 8448/32000 (26%)] Loss: 2.24362 (QuantReg: 13.78358) QuantErr: 13.78358 batch_time=0.82418 
+Train Epoch: 37 [49/125 12544/32000 (39%)] Loss: 1.98577 (QuantReg: 13.97586) QuantErr: 13.97586 batch_time=0.78151 
+Train Epoch: 37 [65/125 16640/32000 (52%)] Loss: 2.01162 (QuantReg: 13.87714) QuantErr: 13.87714 batch_time=0.98141 
+Train Epoch: 37 [81/125 20736/32000 (65%)] Loss: 1.89032 (QuantReg: 13.90598) QuantErr: 13.90598 batch_time=0.75937 
+Train Epoch: 37 [97/125 24832/32000 (78%)] Loss: 2.08666 (QuantReg: 14.05341) QuantErr: 14.05341 batch_time=0.75359 
+Train Epoch: 37 [113/125 28928/32000 (90%)] Loss: 1.79964 (QuantReg: 13.83781) QuantErr: 13.83781 batch_time=0.74263 
+Train Epoch: 37 codebook_update_time=1.74689
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch37.pth ...
+Done in 4.188s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch37.pth ...
+Done in 9.279s
+removing stale ckpt [epoch 36] [took 0.00s]
+ epoch          : 37
+ loss           : 1.9329596309661865
+ quant_reg      : 13.955811828613282
+ quant_err      : 13.955811828613282
+ learning_rate  : 7.888960739411339e-06
+ n_samples      : 1184000
+ n_steps        : 4625
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 25.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.7
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.4
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.7
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.332
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 45.171281388913336
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.7
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 56.3
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 69.2
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.0
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.71
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.435401416623186
+ mnt_best       : 45.171281388913336
+ not_improved_count: 0
+Train Epoch: 38 [1/125 256/32000 (1%)] Loss: 1.72553 (QuantReg: 14.20725) QuantErr: 14.20725 batch_time=47.73943 
+Train Epoch: 38 [17/125 4352/32000 (14%)] Loss: 1.99448 (QuantReg: 13.83191) QuantErr: 13.83191 batch_time=0.75886 
+Train Epoch: 38 [33/125 8448/32000 (26%)] Loss: 1.78765 (QuantReg: 13.91742) QuantErr: 13.91742 batch_time=1.76305 
+Train Epoch: 38 [49/125 12544/32000 (39%)] Loss: 1.75639 (QuantReg: 13.84081) QuantErr: 13.84081 batch_time=0.75518 
+Train Epoch: 38 [65/125 16640/32000 (52%)] Loss: 1.98394 (QuantReg: 13.94582) QuantErr: 13.94582 batch_time=10.14225 
+Train Epoch: 38 [81/125 20736/32000 (65%)] Loss: 1.89776 (QuantReg: 13.94596) QuantErr: 13.94596 batch_time=0.87701 
+Train Epoch: 38 [97/125 24832/32000 (78%)] Loss: 2.02551 (QuantReg: 13.97657) QuantErr: 13.97657 batch_time=0.83578 
+Train Epoch: 38 [113/125 28928/32000 (90%)] Loss: 1.96567 (QuantReg: 14.00750) QuantErr: 14.00750 batch_time=0.73982 
+Train Epoch: 38 codebook_update_time=1.64997
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch38.pth ...
+Done in 10.517s
+removing stale ckpt [epoch 37] [took 0.02s]
+ epoch          : 38
+ loss           : 1.8845316553115845
+ quant_reg      : 13.96088681793213
+ quant_err      : 13.96088681793213
+ learning_rate  : 7.494512702440772e-06
+ n_samples      : 1216000
+ n_steps        : 4750
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 23.9
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 53.8
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.9
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.6
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.127
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 44.14370336530317
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.5
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.5
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 69.3
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.7
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.12
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.116407282946234
+ mnt_best       : 45.171281388913336
+ not_improved_count: 1
+Train Epoch: 39 [1/125 256/32000 (1%)] Loss: 1.68141 (QuantReg: 13.93489) QuantErr: 13.93489 batch_time=46.70799 
+Train Epoch: 39 [17/125 4352/32000 (14%)] Loss: 2.13463 (QuantReg: 14.02378) QuantErr: 14.02378 batch_time=0.89810 
+Train Epoch: 39 [33/125 8448/32000 (26%)] Loss: 1.76176 (QuantReg: 14.00502) QuantErr: 14.00502 batch_time=0.75311 
+Train Epoch: 39 [49/125 12544/32000 (39%)] Loss: 1.98376 (QuantReg: 14.08751) QuantErr: 14.08751 batch_time=0.76096 
+Train Epoch: 39 [65/125 16640/32000 (52%)] Loss: 2.02955 (QuantReg: 13.80508) QuantErr: 13.80508 batch_time=5.75560 
+Train Epoch: 39 [81/125 20736/32000 (65%)] Loss: 1.84383 (QuantReg: 13.90761) QuantErr: 13.90761 batch_time=0.79076 
+Train Epoch: 39 [97/125 24832/32000 (78%)] Loss: 1.93860 (QuantReg: 14.10499) QuantErr: 14.10499 batch_time=0.78510 
+Train Epoch: 39 [113/125 28928/32000 (90%)] Loss: 2.05280 (QuantReg: 13.95488) QuantErr: 13.95488 batch_time=0.76011 
+Train Epoch: 39 codebook_update_time=1.81864
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch39.pth ...
+Done in 3.834s
+removing stale ckpt [epoch 38] [took 0.70s]
+ epoch          : 39
+ loss           : 1.9227213850021363
+ quant_reg      : 13.968493392944335
+ quant_err      : 13.968493392944335
+ learning_rate  : 7.119787067318733e-06
+ n_samples      : 1248000
+ n_steps        : 4875
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 24.4
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 55.4
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.3
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.5
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.268
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 44.97503932605653
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.8
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 57.0
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 69.3
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.6
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.5425
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.70993526646088
+ mnt_best       : 45.171281388913336
+ not_improved_count: 2
+Train Epoch: 40 [1/125 256/32000 (1%)] Loss: 2.15683 (QuantReg: 14.01933) QuantErr: 14.01933 batch_time=35.67461 
+Train Epoch: 40 [17/125 4352/32000 (14%)] Loss: 1.73394 (QuantReg: 13.98046) QuantErr: 13.98046 batch_time=0.77917 
+Train Epoch: 40 [33/125 8448/32000 (26%)] Loss: 1.80467 (QuantReg: 13.96257) QuantErr: 13.96257 batch_time=0.76646 
+Train Epoch: 40 [49/125 12544/32000 (39%)] Loss: 1.89496 (QuantReg: 14.05570) QuantErr: 14.05570 batch_time=0.74963 
+Train Epoch: 40 [65/125 16640/32000 (52%)] Loss: 2.03084 (QuantReg: 14.02793) QuantErr: 14.02793 batch_time=1.87927 
+Train Epoch: 40 [81/125 20736/32000 (65%)] Loss: 2.01503 (QuantReg: 13.86339) QuantErr: 13.86339 batch_time=0.76206 
+Train Epoch: 40 [97/125 24832/32000 (78%)] Loss: 1.73721 (QuantReg: 13.96698) QuantErr: 13.96698 batch_time=0.76732 
+Train Epoch: 40 [113/125 28928/32000 (90%)] Loss: 1.90210 (QuantReg: 13.86974) QuantErr: 13.86974 batch_time=0.75814 
+Train Epoch: 40 codebook_update_time=1.73701
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch40.pth ...
+Done in 3.721s
+removing stale ckpt [epoch 39] [took 0.01s]
+ epoch          : 40
+ loss           : 1.921390290260315
+ quant_reg      : 13.975012565612793
+ quant_err      : 13.975012565612793
+ learning_rate  : 6.763797713952796e-06
+ n_samples      : 1280000
+ n_steps        : 5000
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 24.2
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.9
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.4
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.5
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.995
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 44.5162524483844
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 24.2
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.4
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.9
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.3
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.2825
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.20447719766747
+ mnt_best       : 45.171281388913336
+ not_improved_count: 3
+Train Epoch: 41 [1/125 256/32000 (1%)] Loss: 2.22890 (QuantReg: 13.95396) QuantErr: 13.95396 batch_time=45.26962 
+Train Epoch: 41 [17/125 4352/32000 (14%)] Loss: 1.90893 (QuantReg: 13.91051) QuantErr: 13.91051 batch_time=0.94125 
+Train Epoch: 41 [33/125 8448/32000 (26%)] Loss: 1.93316 (QuantReg: 14.04984) QuantErr: 14.04984 batch_time=0.77251 
+Train Epoch: 41 [49/125 12544/32000 (39%)] Loss: 1.75599 (QuantReg: 13.91125) QuantErr: 13.91125 batch_time=0.84186 
+Train Epoch: 41 [65/125 16640/32000 (52%)] Loss: 1.73268 (QuantReg: 14.01211) QuantErr: 14.01211 batch_time=5.20736 
+Train Epoch: 41 [81/125 20736/32000 (65%)] Loss: 1.80935 (QuantReg: 14.20949) QuantErr: 14.20949 batch_time=0.76277 
+Train Epoch: 41 [97/125 24832/32000 (78%)] Loss: 2.01484 (QuantReg: 14.00828) QuantErr: 14.00828 batch_time=0.79908 
+Train Epoch: 41 [113/125 28928/32000 (90%)] Loss: 2.20454 (QuantReg: 14.00912) QuantErr: 14.00912 batch_time=0.76321 
+Train Epoch: 41 codebook_update_time=1.68450
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch41.pth ...
+Done in 4.094s
+removing stale ckpt [epoch 40] [took 0.00s]
+ epoch          : 41
+ loss           : 1.9140913572311402
+ quant_reg      : 14.02081950378418
+ quant_err      : 14.02081950378418
+ learning_rate  : 6.425607828255156e-06
+ n_samples      : 1312000
+ n_steps        : 5125
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 24.6
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.7
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.5
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.5
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.347
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 44.72819365558845
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.2
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 56.3
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.5
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.2705
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.99857210438512
+ mnt_best       : 45.171281388913336
+ not_improved_count: 4
+Train Epoch: 42 [1/125 256/32000 (1%)] Loss: 2.00706 (QuantReg: 14.02713) QuantErr: 14.02713 batch_time=40.66753 
+Train Epoch: 42 [17/125 4352/32000 (14%)] Loss: 2.00587 (QuantReg: 14.00749) QuantErr: 14.00749 batch_time=0.90420 
+Train Epoch: 42 [33/125 8448/32000 (26%)] Loss: 1.76851 (QuantReg: 14.16513) QuantErr: 14.16513 batch_time=0.92672 
+Train Epoch: 42 [49/125 12544/32000 (39%)] Loss: 1.85463 (QuantReg: 13.83795) QuantErr: 13.83795 batch_time=0.77166 
+Train Epoch: 42 [65/125 16640/32000 (52%)] Loss: 2.15944 (QuantReg: 13.88377) QuantErr: 13.88377 batch_time=4.38636 
+Train Epoch: 42 [81/125 20736/32000 (65%)] Loss: 1.75504 (QuantReg: 14.01262) QuantErr: 14.01262 batch_time=0.77516 
+Train Epoch: 42 [97/125 24832/32000 (78%)] Loss: 1.91933 (QuantReg: 13.86600) QuantErr: 13.86600 batch_time=0.95605 
+Train Epoch: 42 [113/125 28928/32000 (90%)] Loss: 1.90830 (QuantReg: 14.05451) QuantErr: 14.05451 batch_time=0.75883 
+Train Epoch: 42 codebook_update_time=1.74696
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch42.pth ...
+Done in 4.723s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch42.pth ...
+Done in 8.852s
+removing stale ckpt [epoch 41] [took 0.29s]
+ epoch          : 42
+ loss           : 1.9175253086090087
+ quant_reg      : 14.018906379699708
+ quant_err      : 14.018906379699708
+ learning_rate  : 6.104327436842398e-06
+ n_samples      : 1344000
+ n_steps        : 5250
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 25.5
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 55.3
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.5
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 89.2
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 26.8
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 45.658645976828474
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 26.0
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.8
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.7
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.5
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.467
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.36476839010137
+ mnt_best       : 45.658645976828474
+ not_improved_count: 0
+Train Epoch: 43 [1/125 256/32000 (1%)] Loss: 1.94650 (QuantReg: 14.10576) QuantErr: 14.10576 batch_time=47.06500 
+Train Epoch: 43 [17/125 4352/32000 (14%)] Loss: 2.13323 (QuantReg: 13.91938) QuantErr: 13.91938 batch_time=1.89613 
+Train Epoch: 43 [33/125 8448/32000 (26%)] Loss: 1.78071 (QuantReg: 14.35622) QuantErr: 14.35622 batch_time=0.76804 
+Train Epoch: 43 [49/125 12544/32000 (39%)] Loss: 1.93443 (QuantReg: 14.03735) QuantErr: 14.03735 batch_time=0.89804 
+Train Epoch: 43 [65/125 16640/32000 (52%)] Loss: 1.96730 (QuantReg: 13.84858) QuantErr: 13.84858 batch_time=4.64099 
+Train Epoch: 43 [81/125 20736/32000 (65%)] Loss: 1.86301 (QuantReg: 14.14023) QuantErr: 14.14023 batch_time=2.32301 
+Train Epoch: 43 [97/125 24832/32000 (78%)] Loss: 2.04510 (QuantReg: 14.03034) QuantErr: 14.03034 batch_time=0.77927 
+Train Epoch: 43 [113/125 28928/32000 (90%)] Loss: 1.84495 (QuantReg: 13.95944) QuantErr: 13.95944 batch_time=0.78235 
+Train Epoch: 43 codebook_update_time=1.72591
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch43.pth ...
+Done in 4.310s
+removing stale ckpt [epoch 42] [took 0.01s]
+ epoch          : 43
+ loss           : 1.8843223934173583
+ quant_reg      : 14.050584350585938
+ quant_err      : 14.050584350585938
+ learning_rate  : 5.799111065000278e-06
+ n_samples      : 1376000
+ n_steps        : 5375
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 25.2
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 55.2
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.8
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.1
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.322
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 45.518691672227874
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 26.1
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.9
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 69.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.6
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.605
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.65381736940189
+ mnt_best       : 45.658645976828474
+ not_improved_count: 1
+Train Epoch: 44 [1/125 256/32000 (1%)] Loss: 1.93064 (QuantReg: 13.98965) QuantErr: 13.98965 batch_time=44.63543 
+Train Epoch: 44 [17/125 4352/32000 (14%)] Loss: 2.09888 (QuantReg: 13.98319) QuantErr: 13.98319 batch_time=10.23753 
+Train Epoch: 44 [33/125 8448/32000 (26%)] Loss: 2.12824 (QuantReg: 13.97527) QuantErr: 13.97527 batch_time=0.92672 
+Train Epoch: 44 [49/125 12544/32000 (39%)] Loss: 2.15072 (QuantReg: 13.98574) QuantErr: 13.98574 batch_time=0.75291 
+Train Epoch: 44 [65/125 16640/32000 (52%)] Loss: 1.80727 (QuantReg: 14.06155) QuantErr: 14.06155 batch_time=4.38672 
+Train Epoch: 44 [81/125 20736/32000 (65%)] Loss: 1.95098 (QuantReg: 13.96514) QuantErr: 13.96514 batch_time=8.50040 
+Train Epoch: 44 [97/125 24832/32000 (78%)] Loss: 1.87545 (QuantReg: 14.02023) QuantErr: 14.02023 batch_time=0.75963 
+Train Epoch: 44 [113/125 28928/32000 (90%)] Loss: 1.77686 (QuantReg: 14.08398) QuantErr: 14.08398 batch_time=0.96540 
+Train Epoch: 44 codebook_update_time=1.91141
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch44.pth ...
+Done in 5.747s
+removing stale ckpt [epoch 43] [took 0.05s]
+ epoch          : 44
+ loss           : 1.9066850051879882
+ quant_reg      : 14.044102607727051
+ quant_err      : 14.044102607727051
+ learning_rate  : 5.5091555117502635e-06
+ n_samples      : 1408000
+ n_steps        : 5500
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 24.6
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 56.1
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.4
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.6
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.172
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 45.30915418117533
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.6
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.5
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.5
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.4745
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.02060828331168
+ mnt_best       : 45.658645976828474
+ not_improved_count: 2
+Train Epoch: 45 [1/125 256/32000 (1%)] Loss: 2.21635 (QuantReg: 14.06290) QuantErr: 14.06290 batch_time=37.36236 
+Train Epoch: 45 [17/125 4352/32000 (14%)] Loss: 1.75471 (QuantReg: 13.85950) QuantErr: 13.85950 batch_time=0.98826 
+Train Epoch: 45 [33/125 8448/32000 (26%)] Loss: 2.08950 (QuantReg: 14.08281) QuantErr: 14.08281 batch_time=0.88391 
+Train Epoch: 45 [49/125 12544/32000 (39%)] Loss: 1.79316 (QuantReg: 14.12215) QuantErr: 14.12215 batch_time=0.74964 
+Train Epoch: 45 [65/125 16640/32000 (52%)] Loss: 2.10701 (QuantReg: 13.89852) QuantErr: 13.89852 batch_time=1.01890 
+Train Epoch: 45 [81/125 20736/32000 (65%)] Loss: 2.16879 (QuantReg: 14.08898) QuantErr: 14.08898 batch_time=0.76751 
+Train Epoch: 45 [97/125 24832/32000 (78%)] Loss: 2.21814 (QuantReg: 14.08324) QuantErr: 14.08324 batch_time=0.75604 
+Train Epoch: 45 [113/125 28928/32000 (90%)] Loss: 1.77580 (QuantReg: 14.06668) QuantErr: 14.06668 batch_time=0.75557 
+Train Epoch: 45 codebook_update_time=1.73268
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch45.pth ...
+Done in 5.509s
+removing stale ckpt [epoch 44] [took 0.01s]
+ epoch          : 45
+ loss           : 1.9115606927871704
+ quant_reg      : 14.04923625946045
+ quant_err      : 14.04923625946045
+ learning_rate  : 5.23369773616275e-06
+ n_samples      : 1440000
+ n_steps        : 5625
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 25.0
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 55.2
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.2
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.3
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.477
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 45.263637617907676
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.0
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.0
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.8
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.4
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 23.775
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 45.5648955225471
+ mnt_best       : 45.658645976828474
+ not_improved_count: 3
+Train Epoch: 46 [1/125 256/32000 (1%)] Loss: 2.13384 (QuantReg: 13.92248) QuantErr: 13.92248 batch_time=40.26026 
+Train Epoch: 46 [17/125 4352/32000 (14%)] Loss: 1.91497 (QuantReg: 13.94580) QuantErr: 13.94580 batch_time=0.76365 
+Train Epoch: 46 [33/125 8448/32000 (26%)] Loss: 1.57649 (QuantReg: 14.02478) QuantErr: 14.02478 batch_time=0.77550 
+Train Epoch: 46 [49/125 12544/32000 (39%)] Loss: 1.86415 (QuantReg: 14.20651) QuantErr: 14.20651 batch_time=0.84970 
+Train Epoch: 46 [65/125 16640/32000 (52%)] Loss: 1.89727 (QuantReg: 14.23784) QuantErr: 14.23784 batch_time=2.69106 
+Train Epoch: 46 [81/125 20736/32000 (65%)] Loss: 1.85046 (QuantReg: 14.07391) QuantErr: 14.07391 batch_time=0.78478 
+Train Epoch: 46 [97/125 24832/32000 (78%)] Loss: 1.97979 (QuantReg: 14.11190) QuantErr: 14.11190 batch_time=0.88215 
+Train Epoch: 46 [113/125 28928/32000 (90%)] Loss: 1.75812 (QuantReg: 14.12142) QuantErr: 14.12142 batch_time=0.77516 
+Train Epoch: 46 codebook_update_time=1.63780
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch46.pth ...
+Done in 4.836s
+removing stale ckpt [epoch 45] [took 0.02s]
+ epoch          : 46
+ loss           : 1.894130217552185
+ quant_reg      : 14.057470886230469
+ quant_err      : 14.057470886230469
+ learning_rate  : 4.972012849354612e-06
+ n_samples      : 1472000
+ n_steps        : 5750
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 25.1
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.9
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.2
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.3
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 27.718
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 45.24165111578311
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 26.1
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 56.5
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 69.3
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.1
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.101
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.75277534116129
+ mnt_best       : 45.658645976828474
+ not_improved_count: 4
+Train Epoch: 47 [1/125 256/32000 (1%)] Loss: 2.00828 (QuantReg: 13.93551) QuantErr: 13.93551 batch_time=44.98565 
+Train Epoch: 47 [17/125 4352/32000 (14%)] Loss: 2.08079 (QuantReg: 14.07862) QuantErr: 14.07862 batch_time=0.75856 
+Train Epoch: 47 [33/125 8448/32000 (26%)] Loss: 2.07085 (QuantReg: 14.15726) QuantErr: 14.15726 batch_time=0.86944 
+Train Epoch: 47 [49/125 12544/32000 (39%)] Loss: 2.09597 (QuantReg: 13.95490) QuantErr: 13.95490 batch_time=0.75232 
+Train Epoch: 47 [65/125 16640/32000 (52%)] Loss: 1.84245 (QuantReg: 14.05285) QuantErr: 14.05285 batch_time=4.13722 
+Train Epoch: 47 [81/125 20736/32000 (65%)] Loss: 2.04264 (QuantReg: 14.07737) QuantErr: 14.07737 batch_time=1.00722 
+Train Epoch: 47 [97/125 24832/32000 (78%)] Loss: 2.02984 (QuantReg: 13.94349) QuantErr: 13.94349 batch_time=0.74718 
+Train Epoch: 47 [113/125 28928/32000 (90%)] Loss: 1.90440 (QuantReg: 14.07030) QuantErr: 14.07030 batch_time=0.87218 
+Train Epoch: 47 codebook_update_time=1.68477
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch47.pth ...
+Done in 5.513s
+removing stale ckpt [epoch 46] [took 0.01s]
+ epoch          : 47
+ loss           : 1.8967503910064698
+ quant_reg      : 14.077518173217774
+ quant_err      : 14.077518173217774
+ learning_rate  : 4.723412206886882e-06
+ n_samples      : 1504000
+ n_steps        : 5875
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 24.7
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.7
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 67.2
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.2
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 28.06
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 44.9453242121498
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 26.7
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 54.8
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.7
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.179
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.47349258101365
+ mnt_best       : 45.658645976828474
+ not_improved_count: 5
+Train Epoch: 48 [1/125 256/32000 (1%)] Loss: 1.94135 (QuantReg: 13.97334) QuantErr: 13.97334 batch_time=54.71341 
+Train Epoch: 48 [17/125 4352/32000 (14%)] Loss: 1.75903 (QuantReg: 14.03549) QuantErr: 14.03549 batch_time=0.78466 
+Train Epoch: 48 [33/125 8448/32000 (26%)] Loss: 1.94838 (QuantReg: 14.03750) QuantErr: 14.03750 batch_time=0.80034 
+Train Epoch: 48 [49/125 12544/32000 (39%)] Loss: 1.94839 (QuantReg: 14.01977) QuantErr: 14.01977 batch_time=0.76581 
+Train Epoch: 48 [65/125 16640/32000 (52%)] Loss: 1.93494 (QuantReg: 14.14532) QuantErr: 14.14532 batch_time=9.00413 
+Train Epoch: 48 [81/125 20736/32000 (65%)] Loss: 1.65406 (QuantReg: 14.13509) QuantErr: 14.13509 batch_time=0.80950 
+Train Epoch: 48 [97/125 24832/32000 (78%)] Loss: 1.76972 (QuantReg: 14.19566) QuantErr: 14.19566 batch_time=0.78023 
+Train Epoch: 48 [113/125 28928/32000 (90%)] Loss: 1.90070 (QuantReg: 14.02697) QuantErr: 14.02697 batch_time=0.75811 
+Train Epoch: 48 codebook_update_time=1.64697
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch48.pth ...
+Done in 18.675s
+removing stale ckpt [epoch 47] [took 0.01s]
+ epoch          : 48
+ loss           : 1.9030204000473023
+ quant_reg      : 14.102314010620118
+ quant_err      : 14.102314010620118
+ learning_rate  : 4.487241596542537e-06
+ n_samples      : 1536000
+ n_steps        : 6000
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 24.7
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 55.1
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.5
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.5
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 28.448
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 44.897628193356006
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 27.5
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.7
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 69.0
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.8
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.1365
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 47.280166061985284
+ mnt_best       : 45.658645976828474
+ not_improved_count: 6
+Train Epoch: 49 [1/125 256/32000 (1%)] Loss: 1.96449 (QuantReg: 14.05656) QuantErr: 14.05656 batch_time=38.00582 
+Train Epoch: 49 [17/125 4352/32000 (14%)] Loss: 2.00897 (QuantReg: 14.07382) QuantErr: 14.07382 batch_time=0.75586 
+Train Epoch: 49 [33/125 8448/32000 (26%)] Loss: 1.91546 (QuantReg: 13.95676) QuantErr: 13.95676 batch_time=1.88088 
+Train Epoch: 49 [49/125 12544/32000 (39%)] Loss: 1.95179 (QuantReg: 13.84099) QuantErr: 13.84099 batch_time=0.76562 
+Train Epoch: 49 [65/125 16640/32000 (52%)] Loss: 1.81675 (QuantReg: 14.20828) QuantErr: 14.20828 batch_time=2.63746 
+Train Epoch: 49 [81/125 20736/32000 (65%)] Loss: 1.79203 (QuantReg: 14.12866) QuantErr: 14.12866 batch_time=0.77030 
+Train Epoch: 49 [97/125 24832/32000 (78%)] Loss: 2.16698 (QuantReg: 14.09318) QuantErr: 14.09318 batch_time=1.74780 
+Train Epoch: 49 [113/125 28928/32000 (90%)] Loss: 1.93269 (QuantReg: 14.03957) QuantErr: 14.03957 batch_time=0.73937 
+Train Epoch: 49 codebook_update_time=1.67545
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch49.pth ...
+Done in 5.347s
+removing stale ckpt [epoch 48] [took 0.03s]
+ epoch          : 49
+ loss           : 1.9121174268722534
+ quant_reg      : 14.106590606689453
+ quant_err      : 14.106590606689453
+ learning_rate  : 4.26287951671541e-06
+ n_samples      : 1568000
+ n_steps        : 6125
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 25.4
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.6
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.9
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.4
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 28.228
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 45.27072944992678
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 25.8
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 56.0
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 68.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 89.8
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.545
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.27828783238942
+ mnt_best       : 45.658645976828474
+ not_improved_count: 7
+Train Epoch: 50 [1/125 256/32000 (1%)] Loss: 2.04469 (QuantReg: 14.14463) QuantErr: 14.14463 batch_time=50.66730 
+Train Epoch: 50 [17/125 4352/32000 (14%)] Loss: 1.87718 (QuantReg: 14.18500) QuantErr: 14.18500 batch_time=0.78623 
+Train Epoch: 50 [33/125 8448/32000 (26%)] Loss: 1.82794 (QuantReg: 14.23486) QuantErr: 14.23486 batch_time=0.74974 
+Train Epoch: 50 [49/125 12544/32000 (39%)] Loss: 2.09735 (QuantReg: 13.96552) QuantErr: 13.96552 batch_time=0.79023 
+Train Epoch: 50 [65/125 16640/32000 (52%)] Loss: 1.75389 (QuantReg: 14.18391) QuantErr: 14.18391 batch_time=8.06440 
+Train Epoch: 50 [81/125 20736/32000 (65%)] Loss: 1.93370 (QuantReg: 14.23443) QuantErr: 14.23443 batch_time=0.78305 
+Train Epoch: 50 [97/125 24832/32000 (78%)] Loss: 1.85107 (QuantReg: 14.16568) QuantErr: 14.16568 batch_time=0.78857 
+Train Epoch: 50 [113/125 28928/32000 (90%)] Loss: 1.97501 (QuantReg: 14.23490) QuantErr: 14.23490 batch_time=0.75452 
+Train Epoch: 50 codebook_update_time=1.85325
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/checkpoint-epoch50.pth ...
+Done in 5.007s
+removing stale ckpt [epoch 49] [took 0.01s]
+ epoch          : 50
+ loss           : 1.875803876876831
+ quant_reg      : 14.15265325164795
+ quant_err      : 14.15265325164795
+ learning_rate  : 4.04973554087964e-06
+ n_samples      : 1600000
+ n_steps        : 6250
+ MSRVTT_jsfusion_test/t2v_metrics/R1: 25.5
+ MSRVTT_jsfusion_test/t2v_metrics/R5: 54.0
+ MSRVTT_jsfusion_test/t2v_metrics/R10: 66.4
+ MSRVTT_jsfusion_test/t2v_metrics/R50: 88.5
+ MSRVTT_jsfusion_test/t2v_metrics/MedR: 5.0
+ MSRVTT_jsfusion_test/t2v_metrics/MeanR: 28.405
+ MSRVTT_jsfusion_test/t2v_metrics/geometric_mean_R1-R5-R10: 45.050609726563614
+ MSRVTT_jsfusion_test/v2t_metrics/R1: 26.4
+ MSRVTT_jsfusion_test/v2t_metrics/R5: 55.5
+ MSRVTT_jsfusion_test/v2t_metrics/R10: 69.6
+ MSRVTT_jsfusion_test/v2t_metrics/R50: 90.2
+ MSRVTT_jsfusion_test/v2t_metrics/MedR: 4.0
+ MSRVTT_jsfusion_test/v2t_metrics/MeanR: 24.608
+ MSRVTT_jsfusion_test/v2t_metrics/geometric_mean_R1-R5-R10: 46.71991563442576
+ mnt_best       : 45.658645976828474
+ not_improved_count: 8
+Final evaluation ...
+Loading checkpoint from: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/trained_model.pth ...
+Ckpt loaded at epoch 42.
+Saved similarity matrix (quantize videos) to /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/MSRVTT-test-qv-sims.npy
+Saved v2t similarity matrix (quantize texts) to /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/MSRVTT-test-qt-sims.npy
+MSRVTT_jsfusion_test:
+ t2v_metrics/R1/final_eval: 25.5
+ t2v_metrics/R5/final_eval: 55.3
+ t2v_metrics/R10/final_eval: 67.5
+ t2v_metrics/R50/final_eval: 89.2
+ t2v_metrics/MedR/final_eval: 4.0
+ t2v_metrics/MeanR/final_eval: 26.8
+ t2v_metrics/geometric_mean_R1-R5-R10/final_eval: 45.658645976828474
+ v2t_metrics/R1/final_eval: 26.0
+ v2t_metrics/R5/final_eval: 55.8
+ v2t_metrics/R10/final_eval: 68.7
+ v2t_metrics/R50/final_eval: 90.5
+ v2t_metrics/MedR/final_eval: 4.0
+ v2t_metrics/MeanR/final_eval: 23.467
+ v2t_metrics/geometric_mean_R1-R5-R10/final_eval: 46.36476839010137
+Best epoch for the monitored metric: 42
+Script took 03h28m18s
+The best performing ckpt can be found at /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_MSRVTT_1kA_bs256/trained_model.pth

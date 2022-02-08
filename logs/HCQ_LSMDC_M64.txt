@@ -1,0 +1,2593 @@
+Experiment directory: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64
+Preparing the dataloaders ...
+Loading dataset LSMDC_full_trainval in ram ...
+Finish loading dataset LSMDC_full_trainval in ram, taking 4548.069836139679 s.
+Loading dataset LSMDC_full_test in ram ...
+Finish loading dataset LSMDC_full_test in ram, taking 135.86350059509277 s.
+Loading dataset LSMDC_full_test in ram ...
+Finish loading dataset LSMDC_full_test in ram, taking 75.9279682636261 s.
+Training ...
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch0.pth ...
+Done in 1.817s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch0.pth ...
+Done in 3.860s
+ epoch          : 0
+ loss           : 0
+ learning_rate  : 5e-05
+ n_samples      : 0
+ n_steps        : 0
+ LSMDC_full_test/t2v_metrics/R1: 0.1
+ LSMDC_full_test/t2v_metrics/R5: 0.5
+ LSMDC_full_test/t2v_metrics/R10: 1.1
+ LSMDC_full_test/t2v_metrics/R50: 5.5
+ LSMDC_full_test/t2v_metrics/MedR: 508.0
+ LSMDC_full_test/t2v_metrics/MeanR: 502.666
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 0.3802952460761392
+ LSMDC_full_test/v2t_metrics/R1: 0.1
+ LSMDC_full_test/v2t_metrics/R5: 0.7
+ LSMDC_full_test/v2t_metrics/R10: 1.2
+ LSMDC_full_test/v2t_metrics/R50: 4.8
+ LSMDC_full_test/v2t_metrics/MedR: 501.5
+ LSMDC_full_test/v2t_metrics/MeanR: 508.386
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 0.43795191398878897
+ mnt_best       : 0.3802952460761392
+ not_improved_count: 0
+Train Epoch: 1 [1/250 128/32000 (0%)] Loss: 9.80939 (QuantReg: 21.50723) QuantErr: 21.50723 batch_time=20.15861 
+Train Epoch: 1 [12/250 1536/32000 (5%)] Loss: 9.20145 (QuantReg: 21.69483) QuantErr: 21.69483 batch_time=5.46332 
+Train Epoch: 1 [23/250 2944/32000 (9%)] Loss: 8.82916 (QuantReg: 21.83902) QuantErr: 21.83902 batch_time=0.59084 
+Train Epoch: 1 [34/250 4352/32000 (14%)] Loss: 8.21573 (QuantReg: 21.84912) QuantErr: 21.84912 batch_time=0.60848 
+Train Epoch: 1 [45/250 5760/32000 (18%)] Loss: 7.92854 (QuantReg: 21.93963) QuantErr: 21.93963 batch_time=0.59204 
+Train Epoch: 1 [56/250 7168/32000 (22%)] Loss: 7.50950 (QuantReg: 21.93055) QuantErr: 21.93055 batch_time=0.59270 
+Train Epoch: 1 [67/250 8576/32000 (27%)] Loss: 7.38017 (QuantReg: 21.98545) QuantErr: 21.98545 batch_time=0.77448 
+Train Epoch: 1 [78/250 9984/32000 (31%)] Loss: 6.95477 (QuantReg: 21.93647) QuantErr: 21.93647 batch_time=2.76200 
+Train Epoch: 1 [89/250 11392/32000 (36%)] Loss: 7.04871 (QuantReg: 21.82113) QuantErr: 21.82113 batch_time=0.62297 
+Train Epoch: 1 [100/250 12800/32000 (40%)] Loss: 6.70030 (QuantReg: 21.86810) QuantErr: 21.86810 batch_time=0.84531 
+Train Epoch: 1 [111/250 14208/32000 (44%)] Loss: 7.23722 (QuantReg: 21.95240) QuantErr: 21.95240 batch_time=0.69280 
+Train Epoch: 1 [122/250 15616/32000 (49%)] Loss: 6.24324 (QuantReg: 22.00134) QuantErr: 22.00134 batch_time=0.61327 
+Train Epoch: 1 [133/250 17024/32000 (53%)] Loss: 6.73920 (QuantReg: 21.91153) QuantErr: 21.91153 batch_time=0.65933 
+Train Epoch: 1 [144/250 18432/32000 (58%)] Loss: 7.05545 (QuantReg: 21.83927) QuantErr: 21.83927 batch_time=0.58629 
+Train Epoch: 1 [155/250 19840/32000 (62%)] Loss: 6.58518 (QuantReg: 21.83915) QuantErr: 21.83915 batch_time=0.59608 
+Train Epoch: 1 [166/250 21248/32000 (66%)] Loss: 6.26323 (QuantReg: 21.90239) QuantErr: 21.90239 batch_time=0.62580 
+Train Epoch: 1 [177/250 22656/32000 (71%)] Loss: 7.09488 (QuantReg: 21.89107) QuantErr: 21.89107 batch_time=1.00919 
+Train Epoch: 1 [188/250 24064/32000 (75%)] Loss: 6.35629 (QuantReg: 21.88629) QuantErr: 21.88629 batch_time=0.64094 
+Train Epoch: 1 [199/250 25472/32000 (80%)] Loss: 6.26053 (QuantReg: 21.93238) QuantErr: 21.93238 batch_time=0.62148 
+Train Epoch: 1 [210/250 26880/32000 (84%)] Loss: 6.49566 (QuantReg: 21.89164) QuantErr: 21.89164 batch_time=0.62853 
+Train Epoch: 1 [221/250 28288/32000 (88%)] Loss: 5.94127 (QuantReg: 21.94093) QuantErr: 21.94093 batch_time=0.59746 
+Train Epoch: 1 [232/250 29696/32000 (93%)] Loss: 5.81843 (QuantReg: 21.90058) QuantErr: 21.90058 batch_time=0.66135 
+Train Epoch: 1 [243/250 31104/32000 (97%)] Loss: 7.08685 (QuantReg: 21.95964) QuantErr: 21.95964 batch_time=0.62655 
+Train Epoch: 1 codebook_update_time=3.89198
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch1.pth ...
+Done in 5.561s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch1.pth ...
+Done in 10.506s
+ epoch          : 1
+ loss           : 7.094370021820068
+ quant_reg      : 21.88987370300293
+ quant_err      : 21.88987370300293
+ learning_rate  : 5e-05
+ n_samples      : 32000
+ n_steps        : 250
+ LSMDC_full_test/t2v_metrics/R1: 8.8
+ LSMDC_full_test/t2v_metrics/R5: 22.5
+ LSMDC_full_test/t2v_metrics/R10: 29.8
+ LSMDC_full_test/t2v_metrics/R50: 56.3
+ LSMDC_full_test/t2v_metrics/MedR: 36.0
+ LSMDC_full_test/t2v_metrics/MeanR: 95.564
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 18.070097038530623
+ LSMDC_full_test/v2t_metrics/R1: 7.3
+ LSMDC_full_test/v2t_metrics/R5: 20.2
+ LSMDC_full_test/v2t_metrics/R10: 28.5
+ LSMDC_full_test/v2t_metrics/R50: 56.8
+ LSMDC_full_test/v2t_metrics/MedR: 36.0
+ LSMDC_full_test/v2t_metrics/MeanR: 99.547
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 16.137627870387092
+ mnt_best       : 18.070097038530623
+ not_improved_count: 0
+Train Epoch: 2 [1/250 128/32000 (0%)] Loss: 6.03587 (QuantReg: 12.58870) QuantErr: 12.58870 batch_time=21.76808 
+Train Epoch: 2 [12/250 1536/32000 (5%)] Loss: 6.10371 (QuantReg: 13.07342) QuantErr: 13.07342 batch_time=0.63422 
+Train Epoch: 2 [23/250 2944/32000 (9%)] Loss: 6.18367 (QuantReg: 13.38605) QuantErr: 13.38605 batch_time=0.59443 
+Train Epoch: 2 [34/250 4352/32000 (14%)] Loss: 6.01106 (QuantReg: 13.25600) QuantErr: 13.25600 batch_time=0.63164 
+Train Epoch: 2 [45/250 5760/32000 (18%)] Loss: 6.26266 (QuantReg: 12.95713) QuantErr: 12.95713 batch_time=0.63217 
+Train Epoch: 2 [56/250 7168/32000 (22%)] Loss: 6.56908 (QuantReg: 13.67463) QuantErr: 13.67463 batch_time=0.65718 
+Train Epoch: 2 [67/250 8576/32000 (27%)] Loss: 6.33003 (QuantReg: 13.77703) QuantErr: 13.77703 batch_time=2.66602 
+Train Epoch: 2 [78/250 9984/32000 (31%)] Loss: 5.43749 (QuantReg: 13.92616) QuantErr: 13.92616 batch_time=0.60067 
+Train Epoch: 2 [89/250 11392/32000 (36%)] Loss: 5.95681 (QuantReg: 14.17224) QuantErr: 14.17224 batch_time=0.62712 
+Train Epoch: 2 [100/250 12800/32000 (40%)] Loss: 4.95065 (QuantReg: 14.89775) QuantErr: 14.89775 batch_time=0.60095 
+Train Epoch: 2 [111/250 14208/32000 (44%)] Loss: 5.61747 (QuantReg: 13.81159) QuantErr: 13.81159 batch_time=0.67851 
+Train Epoch: 2 [122/250 15616/32000 (49%)] Loss: 5.72746 (QuantReg: 14.28803) QuantErr: 14.28803 batch_time=0.61226 
+Train Epoch: 2 [133/250 17024/32000 (53%)] Loss: 5.93488 (QuantReg: 14.49473) QuantErr: 14.49473 batch_time=5.08825 
+Train Epoch: 2 [144/250 18432/32000 (58%)] Loss: 5.84254 (QuantReg: 14.89079) QuantErr: 14.89079 batch_time=0.63635 
+Train Epoch: 2 [155/250 19840/32000 (62%)] Loss: 5.91558 (QuantReg: 15.03591) QuantErr: 15.03591 batch_time=0.62239 
+Train Epoch: 2 [166/250 21248/32000 (66%)] Loss: 5.42349 (QuantReg: 15.33983) QuantErr: 15.33983 batch_time=0.65051 
+Train Epoch: 2 [177/250 22656/32000 (71%)] Loss: 5.37181 (QuantReg: 14.96856) QuantErr: 14.96856 batch_time=0.64751 
+Train Epoch: 2 [188/250 24064/32000 (75%)] Loss: 6.26267 (QuantReg: 15.68559) QuantErr: 15.68559 batch_time=0.60170 
+Train Epoch: 2 [199/250 25472/32000 (80%)] Loss: 6.15957 (QuantReg: 15.52229) QuantErr: 15.52229 batch_time=0.60076 
+Train Epoch: 2 [210/250 26880/32000 (84%)] Loss: 5.56102 (QuantReg: 15.69506) QuantErr: 15.69506 batch_time=1.20990 
+Train Epoch: 2 [221/250 28288/32000 (88%)] Loss: 5.38072 (QuantReg: 15.08682) QuantErr: 15.08682 batch_time=1.07175 
+Train Epoch: 2 [232/250 29696/32000 (93%)] Loss: 5.84900 (QuantReg: 15.91316) QuantErr: 15.91316 batch_time=0.61503 
+Train Epoch: 2 [243/250 31104/32000 (97%)] Loss: 5.75692 (QuantReg: 15.71219) QuantErr: 15.71219 batch_time=0.59166 
+Train Epoch: 2 codebook_update_time=3.63576
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch2.pth ...
+Done in 5.198s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch2.pth ...
+Done in 10.338s
+removing stale ckpt [epoch 1] [took 0.03s]
+removing stale ckpt [epoch 0] [took 0.04s]
+ epoch          : 2
+ loss           : 5.797973737716675
+ quant_reg      : 14.555635604858399
+ quant_err      : 14.555635604858399
+ learning_rate  : 4.75e-05
+ n_samples      : 64000
+ n_steps        : 500
+ LSMDC_full_test/t2v_metrics/R1: 8.6
+ LSMDC_full_test/t2v_metrics/R5: 23.7
+ LSMDC_full_test/t2v_metrics/R10: 33.1
+ LSMDC_full_test/t2v_metrics/R50: 62.5
+ LSMDC_full_test/t2v_metrics/MedR: 29.0
+ LSMDC_full_test/t2v_metrics/MeanR: 82.915
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 18.895494572889277
+ LSMDC_full_test/v2t_metrics/R1: 8.7
+ LSMDC_full_test/v2t_metrics/R5: 23.8
+ LSMDC_full_test/v2t_metrics/R10: 33.4
+ LSMDC_full_test/v2t_metrics/R50: 62.5
+ LSMDC_full_test/v2t_metrics/MedR: 27.0
+ LSMDC_full_test/v2t_metrics/MeanR: 81.575
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 19.05230646979192
+ mnt_best       : 18.895494572889277
+ not_improved_count: 0
+Train Epoch: 3 [1/250 128/32000 (0%)] Loss: 5.75762 (QuantReg: 13.56362) QuantErr: 13.56362 batch_time=22.93302 
+Train Epoch: 3 [12/250 1536/32000 (5%)] Loss: 5.17754 (QuantReg: 13.57047) QuantErr: 13.57047 batch_time=0.65909 
+Train Epoch: 3 [23/250 2944/32000 (9%)] Loss: 5.66675 (QuantReg: 13.49056) QuantErr: 13.49056 batch_time=0.64018 
+Train Epoch: 3 [34/250 4352/32000 (14%)] Loss: 5.32214 (QuantReg: 13.84505) QuantErr: 13.84505 batch_time=0.61202 
+Train Epoch: 3 [45/250 5760/32000 (18%)] Loss: 5.09510 (QuantReg: 14.14375) QuantErr: 14.14375 batch_time=0.58662 
+Train Epoch: 3 [56/250 7168/32000 (22%)] Loss: 5.26778 (QuantReg: 14.10199) QuantErr: 14.10199 batch_time=0.64499 
+Train Epoch: 3 [67/250 8576/32000 (27%)] Loss: 5.17747 (QuantReg: 14.33012) QuantErr: 14.33012 batch_time=0.59563 
+Train Epoch: 3 [78/250 9984/32000 (31%)] Loss: 5.79423 (QuantReg: 13.72953) QuantErr: 13.72953 batch_time=0.68252 
+Train Epoch: 3 [89/250 11392/32000 (36%)] Loss: 5.27020 (QuantReg: 14.08873) QuantErr: 14.08873 batch_time=0.62157 
+Train Epoch: 3 [100/250 12800/32000 (40%)] Loss: 5.03006 (QuantReg: 14.59556) QuantErr: 14.59556 batch_time=0.59480 
+Train Epoch: 3 [111/250 14208/32000 (44%)] Loss: 5.15775 (QuantReg: 13.95027) QuantErr: 13.95027 batch_time=0.60080 
+Train Epoch: 3 [122/250 15616/32000 (49%)] Loss: 5.15056 (QuantReg: 14.57181) QuantErr: 14.57181 batch_time=0.66321 
+Train Epoch: 3 [133/250 17024/32000 (53%)] Loss: 5.18947 (QuantReg: 14.06903) QuantErr: 14.06903 batch_time=0.65930 
+Train Epoch: 3 [144/250 18432/32000 (58%)] Loss: 5.41306 (QuantReg: 14.62565) QuantErr: 14.62565 batch_time=2.74612 
+Train Epoch: 3 [155/250 19840/32000 (62%)] Loss: 4.86474 (QuantReg: 14.55362) QuantErr: 14.55362 batch_time=0.62060 
+Train Epoch: 3 [166/250 21248/32000 (66%)] Loss: 5.30767 (QuantReg: 14.40300) QuantErr: 14.40300 batch_time=0.71544 
+Train Epoch: 3 [177/250 22656/32000 (71%)] Loss: 4.95999 (QuantReg: 15.19110) QuantErr: 15.19110 batch_time=0.60308 
+Train Epoch: 3 [188/250 24064/32000 (75%)] Loss: 5.37529 (QuantReg: 14.38105) QuantErr: 14.38105 batch_time=0.64262 
+Train Epoch: 3 [199/250 25472/32000 (80%)] Loss: 4.88398 (QuantReg: 15.31916) QuantErr: 15.31916 batch_time=0.61090 
+Train Epoch: 3 [210/250 26880/32000 (84%)] Loss: 5.43234 (QuantReg: 15.07749) QuantErr: 15.07749 batch_time=0.59698 
+Train Epoch: 3 [221/250 28288/32000 (88%)] Loss: 5.00561 (QuantReg: 14.69384) QuantErr: 14.69384 batch_time=0.61744 
+Train Epoch: 3 [232/250 29696/32000 (93%)] Loss: 5.05726 (QuantReg: 15.33752) QuantErr: 15.33752 batch_time=0.60896 
+Train Epoch: 3 [243/250 31104/32000 (97%)] Loss: 5.04025 (QuantReg: 14.97869) QuantErr: 14.97869 batch_time=0.60358 
+Train Epoch: 3 codebook_update_time=4.81293
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch3.pth ...
+Done in 6.730s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch3.pth ...
+Done in 11.749s
+removing stale ckpt [epoch 2] [took 0.01s]
+ epoch          : 3
+ loss           : 5.284278848648071
+ quant_reg      : 14.330292221069335
+ quant_err      : 14.330292221069335
+ learning_rate  : 4.5125e-05
+ n_samples      : 96000
+ n_steps        : 750
+ LSMDC_full_test/t2v_metrics/R1: 9.4
+ LSMDC_full_test/t2v_metrics/R5: 25.9
+ LSMDC_full_test/t2v_metrics/R10: 35.3
+ LSMDC_full_test/t2v_metrics/R50: 62.7
+ LSMDC_full_test/t2v_metrics/MedR: 26.0
+ LSMDC_full_test/t2v_metrics/MeanR: 79.597
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 20.483340023798075
+ LSMDC_full_test/v2t_metrics/R1: 9.8
+ LSMDC_full_test/v2t_metrics/R5: 25.8
+ LSMDC_full_test/v2t_metrics/R10: 35.6
+ LSMDC_full_test/v2t_metrics/R50: 62.2
+ LSMDC_full_test/v2t_metrics/MedR: 28.0
+ LSMDC_full_test/v2t_metrics/MeanR: 81.354
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 20.801688718907673
+ mnt_best       : 20.483340023798075
+ not_improved_count: 0
+Train Epoch: 4 [1/250 128/32000 (0%)] Loss: 5.25020 (QuantReg: 13.65676) QuantErr: 13.65676 batch_time=21.66419 
+Train Epoch: 4 [12/250 1536/32000 (5%)] Loss: 5.02504 (QuantReg: 13.96922) QuantErr: 13.96922 batch_time=0.64610 
+Train Epoch: 4 [23/250 2944/32000 (9%)] Loss: 5.36449 (QuantReg: 13.93103) QuantErr: 13.93103 batch_time=0.64831 
+Train Epoch: 4 [34/250 4352/32000 (14%)] Loss: 5.00527 (QuantReg: 14.35615) QuantErr: 14.35615 batch_time=0.61181 
+Train Epoch: 4 [45/250 5760/32000 (18%)] Loss: 4.46455 (QuantReg: 14.59855) QuantErr: 14.59855 batch_time=0.62097 
+Train Epoch: 4 [56/250 7168/32000 (22%)] Loss: 4.45674 (QuantReg: 14.48962) QuantErr: 14.48962 batch_time=0.66315 
+Train Epoch: 4 [67/250 8576/32000 (27%)] Loss: 4.99637 (QuantReg: 14.44765) QuantErr: 14.44765 batch_time=1.24161 
+Train Epoch: 4 [78/250 9984/32000 (31%)] Loss: 5.35893 (QuantReg: 14.33401) QuantErr: 14.33401 batch_time=1.54538 
+Train Epoch: 4 [89/250 11392/32000 (36%)] Loss: 4.36580 (QuantReg: 14.20604) QuantErr: 14.20604 batch_time=0.62011 
+Train Epoch: 4 [100/250 12800/32000 (40%)] Loss: 4.96075 (QuantReg: 14.03092) QuantErr: 14.03092 batch_time=0.61012 
+Train Epoch: 4 [111/250 14208/32000 (44%)] Loss: 5.59432 (QuantReg: 14.01943) QuantErr: 14.01943 batch_time=0.65051 
+Train Epoch: 4 [122/250 15616/32000 (49%)] Loss: 4.32961 (QuantReg: 14.51213) QuantErr: 14.51213 batch_time=0.73505 
+Train Epoch: 4 [133/250 17024/32000 (53%)] Loss: 5.06750 (QuantReg: 14.35395) QuantErr: 14.35395 batch_time=0.59781 
+Train Epoch: 4 [144/250 18432/32000 (58%)] Loss: 5.08703 (QuantReg: 14.20726) QuantErr: 14.20726 batch_time=0.63761 
+Train Epoch: 4 [155/250 19840/32000 (62%)] Loss: 5.15025 (QuantReg: 14.21748) QuantErr: 14.21748 batch_time=0.59899 
+Train Epoch: 4 [166/250 21248/32000 (66%)] Loss: 5.44574 (QuantReg: 14.37131) QuantErr: 14.37131 batch_time=0.67961 
+Train Epoch: 4 [177/250 22656/32000 (71%)] Loss: 4.65531 (QuantReg: 14.56476) QuantErr: 14.56476 batch_time=0.66586 
+Train Epoch: 4 [188/250 24064/32000 (75%)] Loss: 5.39964 (QuantReg: 14.50447) QuantErr: 14.50447 batch_time=0.60611 
+Train Epoch: 4 [199/250 25472/32000 (80%)] Loss: 4.47914 (QuantReg: 15.12387) QuantErr: 15.12387 batch_time=0.65372 
+Train Epoch: 4 [210/250 26880/32000 (84%)] Loss: 4.60303 (QuantReg: 14.84901) QuantErr: 14.84901 batch_time=0.65184 
+Train Epoch: 4 [221/250 28288/32000 (88%)] Loss: 3.79207 (QuantReg: 15.31919) QuantErr: 15.31919 batch_time=1.09837 
+Train Epoch: 4 [232/250 29696/32000 (93%)] Loss: 4.58791 (QuantReg: 15.39709) QuantErr: 15.39709 batch_time=0.62357 
+Train Epoch: 4 [243/250 31104/32000 (97%)] Loss: 4.80676 (QuantReg: 15.06718) QuantErr: 15.06718 batch_time=0.69180 
+Train Epoch: 4 codebook_update_time=3.37056
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch4.pth ...
+Done in 23.466s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch4.pth ...
+Done in 28.475s
+removing stale ckpt [epoch 3] [took 0.02s]
+ epoch          : 4
+ loss           : 4.919483083724976
+ quant_reg      : 14.461428375244141
+ quant_err      : 14.461428375244141
+ learning_rate  : 4.2868749999999995e-05
+ n_samples      : 128000
+ n_steps        : 1000
+ LSMDC_full_test/t2v_metrics/R1: 11.0
+ LSMDC_full_test/t2v_metrics/R5: 26.8
+ LSMDC_full_test/t2v_metrics/R10: 36.4
+ LSMDC_full_test/t2v_metrics/R50: 64.9
+ LSMDC_full_test/t2v_metrics/MedR: 23.5
+ LSMDC_full_test/t2v_metrics/MeanR: 75.319
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 22.056822805556127
+ LSMDC_full_test/v2t_metrics/R1: 11.0
+ LSMDC_full_test/v2t_metrics/R5: 27.7
+ LSMDC_full_test/v2t_metrics/R10: 37.3
+ LSMDC_full_test/v2t_metrics/R50: 63.7
+ LSMDC_full_test/v2t_metrics/MedR: 26.0
+ LSMDC_full_test/v2t_metrics/MeanR: 74.926
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 22.48331932385629
+ mnt_best       : 22.056822805556127
+ not_improved_count: 0
+Train Epoch: 5 [1/250 128/32000 (0%)] Loss: 5.63942 (QuantReg: 13.84764) QuantErr: 13.84764 batch_time=21.21771 
+Train Epoch: 5 [12/250 1536/32000 (5%)] Loss: 4.45577 (QuantReg: 14.37562) QuantErr: 14.37562 batch_time=0.60702 
+Train Epoch: 5 [23/250 2944/32000 (9%)] Loss: 4.81076 (QuantReg: 14.71744) QuantErr: 14.71744 batch_time=0.59861 
+Train Epoch: 5 [34/250 4352/32000 (14%)] Loss: 5.11417 (QuantReg: 14.62190) QuantErr: 14.62190 batch_time=0.61744 
+Train Epoch: 5 [45/250 5760/32000 (18%)] Loss: 4.82773 (QuantReg: 14.79443) QuantErr: 14.79443 batch_time=0.61932 
+Train Epoch: 5 [56/250 7168/32000 (22%)] Loss: 4.22583 (QuantReg: 14.83019) QuantErr: 14.83019 batch_time=0.72585 
+Train Epoch: 5 [67/250 8576/32000 (27%)] Loss: 4.53211 (QuantReg: 14.61391) QuantErr: 14.61391 batch_time=0.62413 
+Train Epoch: 5 [78/250 9984/32000 (31%)] Loss: 4.96427 (QuantReg: 14.74033) QuantErr: 14.74033 batch_time=0.60845 
+Train Epoch: 5 [89/250 11392/32000 (36%)] Loss: 5.27833 (QuantReg: 14.71523) QuantErr: 14.71523 batch_time=1.38887 
+Train Epoch: 5 [100/250 12800/32000 (40%)] Loss: 4.98063 (QuantReg: 14.67339) QuantErr: 14.67339 batch_time=0.61248 
+Train Epoch: 5 [111/250 14208/32000 (44%)] Loss: 4.83694 (QuantReg: 14.85113) QuantErr: 14.85113 batch_time=0.62972 
+Train Epoch: 5 [122/250 15616/32000 (49%)] Loss: 4.56018 (QuantReg: 14.93082) QuantErr: 14.93082 batch_time=0.58533 
+Train Epoch: 5 [133/250 17024/32000 (53%)] Loss: 4.22045 (QuantReg: 15.10076) QuantErr: 15.10076 batch_time=0.64715 
+Train Epoch: 5 [144/250 18432/32000 (58%)] Loss: 4.55519 (QuantReg: 15.18007) QuantErr: 15.18007 batch_time=0.65000 
+Train Epoch: 5 [155/250 19840/32000 (62%)] Loss: 4.98604 (QuantReg: 15.24814) QuantErr: 15.24814 batch_time=1.27440 
+Train Epoch: 5 [166/250 21248/32000 (66%)] Loss: 4.84545 (QuantReg: 14.94019) QuantErr: 14.94019 batch_time=0.62890 
+Train Epoch: 5 [177/250 22656/32000 (71%)] Loss: 4.22298 (QuantReg: 15.35087) QuantErr: 15.35087 batch_time=0.64104 
+Train Epoch: 5 [188/250 24064/32000 (75%)] Loss: 4.35507 (QuantReg: 15.04648) QuantErr: 15.04648 batch_time=0.76592 
+Train Epoch: 5 [199/250 25472/32000 (80%)] Loss: 4.41076 (QuantReg: 15.21437) QuantErr: 15.21437 batch_time=0.63094 
+Train Epoch: 5 [210/250 26880/32000 (84%)] Loss: 4.54899 (QuantReg: 15.17618) QuantErr: 15.17618 batch_time=1.34943 
+Train Epoch: 5 [221/250 28288/32000 (88%)] Loss: 4.23538 (QuantReg: 15.31025) QuantErr: 15.31025 batch_time=0.62106 
+Train Epoch: 5 [232/250 29696/32000 (93%)] Loss: 4.40693 (QuantReg: 15.76517) QuantErr: 15.76517 batch_time=0.59716 
+Train Epoch: 5 [243/250 31104/32000 (97%)] Loss: 3.92403 (QuantReg: 15.41035) QuantErr: 15.41035 batch_time=0.65735 
+Train Epoch: 5 codebook_update_time=3.45709
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch5.pth ...
+Done in 5.215s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch5.pth ...
+Done in 9.943s
+removing stale ckpt [epoch 4] [took 0.01s]
+ epoch          : 5
+ loss           : 4.595277821540832
+ quant_reg      : 14.956194988250733
+ quant_err      : 14.956194988250733
+ learning_rate  : 4.072531249999999e-05
+ n_samples      : 160000
+ n_steps        : 1250
+ LSMDC_full_test/t2v_metrics/R1: 12.2
+ LSMDC_full_test/t2v_metrics/R5: 28.8
+ LSMDC_full_test/t2v_metrics/R10: 36.8
+ LSMDC_full_test/t2v_metrics/R50: 64.6
+ LSMDC_full_test/t2v_metrics/MedR: 24.0
+ LSMDC_full_test/t2v_metrics/MeanR: 74.157
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 23.471096500728102
+ LSMDC_full_test/v2t_metrics/R1: 12.5
+ LSMDC_full_test/v2t_metrics/R5: 27.6
+ LSMDC_full_test/v2t_metrics/R10: 37.5
+ LSMDC_full_test/v2t_metrics/R50: 65.3
+ LSMDC_full_test/v2t_metrics/MedR: 24.5
+ LSMDC_full_test/v2t_metrics/MeanR: 73.162
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 23.475604682508873
+ mnt_best       : 23.471096500728102
+ not_improved_count: 0
+Train Epoch: 6 [1/250 128/32000 (0%)] Loss: 5.03653 (QuantReg: 14.62634) QuantErr: 14.62634 batch_time=20.75604 
+Train Epoch: 6 [12/250 1536/32000 (5%)] Loss: 4.49822 (QuantReg: 14.62168) QuantErr: 14.62168 batch_time=0.65637 
+Train Epoch: 6 [23/250 2944/32000 (9%)] Loss: 4.76789 (QuantReg: 14.74530) QuantErr: 14.74530 batch_time=2.00350 
+Train Epoch: 6 [34/250 4352/32000 (14%)] Loss: 4.20257 (QuantReg: 15.06062) QuantErr: 15.06062 batch_time=0.60724 
+Train Epoch: 6 [45/250 5760/32000 (18%)] Loss: 4.27723 (QuantReg: 14.93658) QuantErr: 14.93658 batch_time=0.61461 
+Train Epoch: 6 [56/250 7168/32000 (22%)] Loss: 4.61805 (QuantReg: 14.67464) QuantErr: 14.67464 batch_time=0.65881 
+Train Epoch: 6 [67/250 8576/32000 (27%)] Loss: 4.24508 (QuantReg: 14.83317) QuantErr: 14.83317 batch_time=0.81996 
+Train Epoch: 6 [78/250 9984/32000 (31%)] Loss: 4.35081 (QuantReg: 15.16662) QuantErr: 15.16662 batch_time=0.66755 
+Train Epoch: 6 [89/250 11392/32000 (36%)] Loss: 4.95208 (QuantReg: 14.60468) QuantErr: 14.60468 batch_time=0.72913 
+Train Epoch: 6 [100/250 12800/32000 (40%)] Loss: 4.74091 (QuantReg: 15.05026) QuantErr: 15.05026 batch_time=0.61351 
+Train Epoch: 6 [111/250 14208/32000 (44%)] Loss: 3.93909 (QuantReg: 15.17683) QuantErr: 15.17683 batch_time=0.62560 
+Train Epoch: 6 [122/250 15616/32000 (49%)] Loss: 4.31076 (QuantReg: 14.95657) QuantErr: 14.95657 batch_time=0.72224 
+Train Epoch: 6 [133/250 17024/32000 (53%)] Loss: 4.25432 (QuantReg: 15.24453) QuantErr: 15.24453 batch_time=0.61967 
+Train Epoch: 6 [144/250 18432/32000 (58%)] Loss: 5.07961 (QuantReg: 15.05023) QuantErr: 15.05023 batch_time=0.78309 
+Train Epoch: 6 [155/250 19840/32000 (62%)] Loss: 4.03257 (QuantReg: 15.46739) QuantErr: 15.46739 batch_time=0.60711 
+Train Epoch: 6 [166/250 21248/32000 (66%)] Loss: 3.70312 (QuantReg: 15.11369) QuantErr: 15.11369 batch_time=0.67353 
+Train Epoch: 6 [177/250 22656/32000 (71%)] Loss: 4.10128 (QuantReg: 15.58476) QuantErr: 15.58476 batch_time=0.64445 
+Train Epoch: 6 [188/250 24064/32000 (75%)] Loss: 4.32364 (QuantReg: 15.30817) QuantErr: 15.30817 batch_time=0.72761 
+Train Epoch: 6 [199/250 25472/32000 (80%)] Loss: 4.78047 (QuantReg: 15.27106) QuantErr: 15.27106 batch_time=0.65385 
+Train Epoch: 6 [210/250 26880/32000 (84%)] Loss: 4.24618 (QuantReg: 15.51452) QuantErr: 15.51452 batch_time=0.64079 
+Train Epoch: 6 [221/250 28288/32000 (88%)] Loss: 4.06327 (QuantReg: 15.56700) QuantErr: 15.56700 batch_time=0.60139 
+Train Epoch: 6 [232/250 29696/32000 (93%)] Loss: 4.87015 (QuantReg: 14.88259) QuantErr: 14.88259 batch_time=2.14023 
+Train Epoch: 6 [243/250 31104/32000 (97%)] Loss: 4.59205 (QuantReg: 15.04645) QuantErr: 15.04645 batch_time=0.61854 
+Train Epoch: 6 codebook_update_time=3.39500
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch6.pth ...
+Done in 5.364s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch6.pth ...
+Done in 10.496s
+removing stale ckpt [epoch 5] [took 0.02s]
+ epoch          : 6
+ loss           : 4.396556546211243
+ quant_reg      : 15.114287963867188
+ quant_err      : 15.114287963867188
+ learning_rate  : 3.868904687499999e-05
+ n_samples      : 192000
+ n_steps        : 1500
+ LSMDC_full_test/t2v_metrics/R1: 11.9
+ LSMDC_full_test/t2v_metrics/R5: 30.6
+ LSMDC_full_test/t2v_metrics/R10: 38.5
+ LSMDC_full_test/t2v_metrics/R50: 65.9
+ LSMDC_full_test/t2v_metrics/MedR: 22.0
+ LSMDC_full_test/t2v_metrics/MeanR: 71.468
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 24.11254433227066
+ LSMDC_full_test/v2t_metrics/R1: 11.2
+ LSMDC_full_test/v2t_metrics/R5: 28.7
+ LSMDC_full_test/v2t_metrics/R10: 38.0
+ LSMDC_full_test/v2t_metrics/R50: 65.0
+ LSMDC_full_test/v2t_metrics/MedR: 20.5
+ LSMDC_full_test/v2t_metrics/MeanR: 73.764
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 23.030030087142684
+ mnt_best       : 24.11254433227066
+ not_improved_count: 0
+Train Epoch: 7 [1/250 128/32000 (0%)] Loss: 4.35151 (QuantReg: 15.12430) QuantErr: 15.12430 batch_time=17.79428 
+Train Epoch: 7 [12/250 1536/32000 (5%)] Loss: 4.05599 (QuantReg: 15.29338) QuantErr: 15.29338 batch_time=0.62048 
+Train Epoch: 7 [23/250 2944/32000 (9%)] Loss: 4.06852 (QuantReg: 15.03606) QuantErr: 15.03606 batch_time=0.86814 
+Train Epoch: 7 [34/250 4352/32000 (14%)] Loss: 3.99352 (QuantReg: 15.25795) QuantErr: 15.25795 batch_time=0.61511 
+Train Epoch: 7 [45/250 5760/32000 (18%)] Loss: 4.76498 (QuantReg: 15.24959) QuantErr: 15.24959 batch_time=0.60834 
+Train Epoch: 7 [56/250 7168/32000 (22%)] Loss: 4.13408 (QuantReg: 15.37472) QuantErr: 15.37472 batch_time=0.61645 
+Train Epoch: 7 [67/250 8576/32000 (27%)] Loss: 4.22251 (QuantReg: 15.16792) QuantErr: 15.16792 batch_time=0.70762 
+Train Epoch: 7 [78/250 9984/32000 (31%)] Loss: 4.49705 (QuantReg: 15.17070) QuantErr: 15.17070 batch_time=0.63517 
+Train Epoch: 7 [89/250 11392/32000 (36%)] Loss: 4.05532 (QuantReg: 15.02098) QuantErr: 15.02098 batch_time=0.66333 
+Train Epoch: 7 [100/250 12800/32000 (40%)] Loss: 4.16352 (QuantReg: 15.20739) QuantErr: 15.20739 batch_time=0.68805 
+Train Epoch: 7 [111/250 14208/32000 (44%)] Loss: 4.01010 (QuantReg: 15.57983) QuantErr: 15.57983 batch_time=0.62811 
+Train Epoch: 7 [122/250 15616/32000 (49%)] Loss: 4.34322 (QuantReg: 15.33084) QuantErr: 15.33084 batch_time=0.59867 
+Train Epoch: 7 [133/250 17024/32000 (53%)] Loss: 4.04306 (QuantReg: 15.47928) QuantErr: 15.47928 batch_time=0.62935 
+Train Epoch: 7 [144/250 18432/32000 (58%)] Loss: 3.84205 (QuantReg: 15.53749) QuantErr: 15.53749 batch_time=1.08514 
+Train Epoch: 7 [155/250 19840/32000 (62%)] Loss: 4.06867 (QuantReg: 15.63829) QuantErr: 15.63829 batch_time=0.80503 
+Train Epoch: 7 [166/250 21248/32000 (66%)] Loss: 3.74773 (QuantReg: 15.40965) QuantErr: 15.40965 batch_time=0.61706 
+Train Epoch: 7 [177/250 22656/32000 (71%)] Loss: 4.21131 (QuantReg: 15.33831) QuantErr: 15.33831 batch_time=0.62810 
+Train Epoch: 7 [188/250 24064/32000 (75%)] Loss: 4.17377 (QuantReg: 15.52669) QuantErr: 15.52669 batch_time=0.64706 
+Train Epoch: 7 [199/250 25472/32000 (80%)] Loss: 3.80440 (QuantReg: 15.42471) QuantErr: 15.42471 batch_time=0.66995 
+Train Epoch: 7 [210/250 26880/32000 (84%)] Loss: 3.85412 (QuantReg: 15.51505) QuantErr: 15.51505 batch_time=0.68202 
+Train Epoch: 7 [221/250 28288/32000 (88%)] Loss: 3.81949 (QuantReg: 15.60890) QuantErr: 15.60890 batch_time=0.76354 
+Train Epoch: 7 [232/250 29696/32000 (93%)] Loss: 3.86273 (QuantReg: 15.72789) QuantErr: 15.72789 batch_time=0.66417 
+Train Epoch: 7 [243/250 31104/32000 (97%)] Loss: 3.87481 (QuantReg: 15.64023) QuantErr: 15.64023 batch_time=0.65391 
+Train Epoch: 7 codebook_update_time=3.78238
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch7.pth ...
+Done in 4.810s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch7.pth ...
+Done in 9.491s
+removing stale ckpt [epoch 6] [took 0.01s]
+ epoch          : 7
+ loss           : 4.152259581565857
+ quant_reg      : 15.377689720153809
+ quant_err      : 15.377689720153809
+ learning_rate  : 3.675459453124999e-05
+ n_samples      : 224000
+ n_steps        : 1750
+ LSMDC_full_test/t2v_metrics/R1: 12.9
+ LSMDC_full_test/t2v_metrics/R5: 31.0
+ LSMDC_full_test/t2v_metrics/R10: 41.0
+ LSMDC_full_test/t2v_metrics/R50: 67.8
+ LSMDC_full_test/t2v_metrics/MedR: 18.0
+ LSMDC_full_test/t2v_metrics/MeanR: 69.544
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 25.404564455501863
+ LSMDC_full_test/v2t_metrics/R1: 13.1
+ LSMDC_full_test/v2t_metrics/R5: 30.2
+ LSMDC_full_test/v2t_metrics/R10: 40.8
+ LSMDC_full_test/v2t_metrics/R50: 67.5
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 67.9205
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.27237946612986
+ mnt_best       : 25.404564455501863
+ not_improved_count: 0
+Train Epoch: 8 [1/250 128/32000 (0%)] Loss: 3.98943 (QuantReg: 15.29104) QuantErr: 15.29104 batch_time=21.77599 
+Train Epoch: 8 [12/250 1536/32000 (5%)] Loss: 3.89192 (QuantReg: 15.54230) QuantErr: 15.54230 batch_time=0.69932 
+Train Epoch: 8 [23/250 2944/32000 (9%)] Loss: 4.05815 (QuantReg: 15.59001) QuantErr: 15.59001 batch_time=0.61399 
+Train Epoch: 8 [34/250 4352/32000 (14%)] Loss: 4.51471 (QuantReg: 15.42123) QuantErr: 15.42123 batch_time=0.61153 
+Train Epoch: 8 [45/250 5760/32000 (18%)] Loss: 3.64792 (QuantReg: 15.59848) QuantErr: 15.59848 batch_time=0.61675 
+Train Epoch: 8 [56/250 7168/32000 (22%)] Loss: 4.04147 (QuantReg: 15.37495) QuantErr: 15.37495 batch_time=0.63612 
+Train Epoch: 8 [67/250 8576/32000 (27%)] Loss: 3.91549 (QuantReg: 15.35633) QuantErr: 15.35633 batch_time=2.46265 
+Train Epoch: 8 [78/250 9984/32000 (31%)] Loss: 4.36769 (QuantReg: 15.68460) QuantErr: 15.68460 batch_time=0.66170 
+Train Epoch: 8 [89/250 11392/32000 (36%)] Loss: 3.79196 (QuantReg: 15.67974) QuantErr: 15.67974 batch_time=0.69758 
+Train Epoch: 8 [100/250 12800/32000 (40%)] Loss: 4.05032 (QuantReg: 15.37320) QuantErr: 15.37320 batch_time=0.65042 
+Train Epoch: 8 [111/250 14208/32000 (44%)] Loss: 4.31556 (QuantReg: 15.33080) QuantErr: 15.33080 batch_time=0.63656 
+Train Epoch: 8 [122/250 15616/32000 (49%)] Loss: 3.84168 (QuantReg: 15.63860) QuantErr: 15.63860 batch_time=0.60658 
+Train Epoch: 8 [133/250 17024/32000 (53%)] Loss: 3.87941 (QuantReg: 15.63982) QuantErr: 15.63982 batch_time=0.59827 
+Train Epoch: 8 [144/250 18432/32000 (58%)] Loss: 3.53796 (QuantReg: 15.91034) QuantErr: 15.91034 batch_time=1.40023 
+Train Epoch: 8 [155/250 19840/32000 (62%)] Loss: 4.18623 (QuantReg: 15.73014) QuantErr: 15.73014 batch_time=0.63764 
+Train Epoch: 8 [166/250 21248/32000 (66%)] Loss: 3.70738 (QuantReg: 15.70894) QuantErr: 15.70894 batch_time=0.67875 
+Train Epoch: 8 [177/250 22656/32000 (71%)] Loss: 3.91764 (QuantReg: 15.59819) QuantErr: 15.59819 batch_time=0.62300 
+Train Epoch: 8 [188/250 24064/32000 (75%)] Loss: 3.81446 (QuantReg: 15.63447) QuantErr: 15.63447 batch_time=0.60208 
+Train Epoch: 8 [199/250 25472/32000 (80%)] Loss: 3.82503 (QuantReg: 15.54389) QuantErr: 15.54389 batch_time=0.61603 
+Train Epoch: 8 [210/250 26880/32000 (84%)] Loss: 4.14689 (QuantReg: 15.56530) QuantErr: 15.56530 batch_time=0.65013 
+Train Epoch: 8 [221/250 28288/32000 (88%)] Loss: 3.63302 (QuantReg: 15.86120) QuantErr: 15.86120 batch_time=0.65104 
+Train Epoch: 8 [232/250 29696/32000 (93%)] Loss: 3.74455 (QuantReg: 16.00459) QuantErr: 16.00459 batch_time=0.71921 
+Train Epoch: 8 [243/250 31104/32000 (97%)] Loss: 3.78095 (QuantReg: 15.76544) QuantErr: 15.76544 batch_time=0.64161 
+Train Epoch: 8 codebook_update_time=3.86332
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch8.pth ...
+Done in 6.624s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch8.pth ...
+Done in 11.217s
+removing stale ckpt [epoch 7] [took 0.02s]
+ epoch          : 8
+ loss           : 3.9615639123916626
+ quant_reg      : 15.582129230499268
+ quant_err      : 15.582129230499268
+ learning_rate  : 3.4916864804687486e-05
+ n_samples      : 256000
+ n_steps        : 2000
+ LSMDC_full_test/t2v_metrics/R1: 14.5
+ LSMDC_full_test/t2v_metrics/R5: 29.7
+ LSMDC_full_test/t2v_metrics/R10: 38.1
+ LSMDC_full_test/t2v_metrics/R50: 67.1
+ LSMDC_full_test/t2v_metrics/MedR: 20.0
+ LSMDC_full_test/t2v_metrics/MeanR: 71.052
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 25.410691037493997
+ LSMDC_full_test/v2t_metrics/R1: 12.9
+ LSMDC_full_test/v2t_metrics/R5: 31.0
+ LSMDC_full_test/v2t_metrics/R10: 39.8
+ LSMDC_full_test/v2t_metrics/R50: 65.8
+ LSMDC_full_test/v2t_metrics/MedR: 21.0
+ LSMDC_full_test/v2t_metrics/MeanR: 71.107
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.15425690136327
+ mnt_best       : 25.410691037493997
+ not_improved_count: 0
+Train Epoch: 9 [1/250 128/32000 (0%)] Loss: 3.81747 (QuantReg: 15.17391) QuantErr: 15.17391 batch_time=21.31654 
+Train Epoch: 9 [12/250 1536/32000 (5%)] Loss: 3.91653 (QuantReg: 15.56689) QuantErr: 15.56689 batch_time=0.60439 
+Train Epoch: 9 [23/250 2944/32000 (9%)] Loss: 3.57506 (QuantReg: 15.65508) QuantErr: 15.65508 batch_time=0.61386 
+Train Epoch: 9 [34/250 4352/32000 (14%)] Loss: 4.28322 (QuantReg: 15.95987) QuantErr: 15.95987 batch_time=0.64765 
+Train Epoch: 9 [45/250 5760/32000 (18%)] Loss: 4.05886 (QuantReg: 15.58669) QuantErr: 15.58669 batch_time=0.67505 
+Train Epoch: 9 [56/250 7168/32000 (22%)] Loss: 3.53557 (QuantReg: 16.08935) QuantErr: 16.08935 batch_time=0.61233 
+Train Epoch: 9 [67/250 8576/32000 (27%)] Loss: 3.74263 (QuantReg: 15.71798) QuantErr: 15.71798 batch_time=0.61617 
+Train Epoch: 9 [78/250 9984/32000 (31%)] Loss: 4.26034 (QuantReg: 15.40934) QuantErr: 15.40934 batch_time=0.65609 
+Train Epoch: 9 [89/250 11392/32000 (36%)] Loss: 3.65544 (QuantReg: 15.48879) QuantErr: 15.48879 batch_time=0.66050 
+Train Epoch: 9 [100/250 12800/32000 (40%)] Loss: 3.47209 (QuantReg: 15.88784) QuantErr: 15.88784 batch_time=0.76303 
+Train Epoch: 9 [111/250 14208/32000 (44%)] Loss: 4.33936 (QuantReg: 15.65831) QuantErr: 15.65831 batch_time=0.60361 
+Train Epoch: 9 [122/250 15616/32000 (49%)] Loss: 3.78715 (QuantReg: 15.77707) QuantErr: 15.77707 batch_time=0.60522 
+Train Epoch: 9 [133/250 17024/32000 (53%)] Loss: 3.55606 (QuantReg: 15.73643) QuantErr: 15.73643 batch_time=0.62368 
+Train Epoch: 9 [144/250 18432/32000 (58%)] Loss: 3.67561 (QuantReg: 15.93407) QuantErr: 15.93407 batch_time=2.58334 
+Train Epoch: 9 [155/250 19840/32000 (62%)] Loss: 3.81574 (QuantReg: 15.83345) QuantErr: 15.83345 batch_time=0.67307 
+Train Epoch: 9 [166/250 21248/32000 (66%)] Loss: 3.91845 (QuantReg: 16.02037) QuantErr: 16.02037 batch_time=0.62895 
+Train Epoch: 9 [177/250 22656/32000 (71%)] Loss: 3.47643 (QuantReg: 16.05167) QuantErr: 16.05167 batch_time=0.63089 
+Train Epoch: 9 [188/250 24064/32000 (75%)] Loss: 3.54673 (QuantReg: 15.52814) QuantErr: 15.52814 batch_time=0.61747 
+Train Epoch: 9 [199/250 25472/32000 (80%)] Loss: 3.83869 (QuantReg: 15.65131) QuantErr: 15.65131 batch_time=0.86983 
+Train Epoch: 9 [210/250 26880/32000 (84%)] Loss: 3.73791 (QuantReg: 16.03139) QuantErr: 16.03139 batch_time=0.59559 
+Train Epoch: 9 [221/250 28288/32000 (88%)] Loss: 4.27496 (QuantReg: 15.95800) QuantErr: 15.95800 batch_time=0.66518 
+Train Epoch: 9 [232/250 29696/32000 (93%)] Loss: 4.36383 (QuantReg: 15.81182) QuantErr: 15.81182 batch_time=0.61443 
+Train Epoch: 9 [243/250 31104/32000 (97%)] Loss: 3.78065 (QuantReg: 15.69777) QuantErr: 15.69777 batch_time=0.64328 
+Train Epoch: 9 codebook_update_time=3.40412
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch9.pth ...
+Done in 5.228s
+removing stale ckpt [epoch 8] [took 0.00s]
+ epoch          : 9
+ loss           : 3.7766191720962525
+ quant_reg      : 15.77045654296875
+ quant_err      : 15.77045654296875
+ learning_rate  : 3.317102156445311e-05
+ n_samples      : 288000
+ n_steps        : 2250
+ LSMDC_full_test/t2v_metrics/R1: 13.3
+ LSMDC_full_test/t2v_metrics/R5: 30.2
+ LSMDC_full_test/t2v_metrics/R10: 40.5
+ LSMDC_full_test/t2v_metrics/R50: 68.0
+ LSMDC_full_test/t2v_metrics/MedR: 18.0
+ LSMDC_full_test/t2v_metrics/MeanR: 67.999
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 25.33793410592613
+ LSMDC_full_test/v2t_metrics/R1: 13.3
+ LSMDC_full_test/v2t_metrics/R5: 31.5
+ LSMDC_full_test/v2t_metrics/R10: 39.5
+ LSMDC_full_test/v2t_metrics/R50: 67.5
+ LSMDC_full_test/v2t_metrics/MedR: 20.0
+ LSMDC_full_test/v2t_metrics/MeanR: 67.392
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.483149190119484
+ mnt_best       : 25.410691037493997
+ not_improved_count: 1
+Train Epoch: 10 [1/250 128/32000 (0%)] Loss: 3.57447 (QuantReg: 15.79362) QuantErr: 15.79362 batch_time=21.49230 
+Train Epoch: 10 [12/250 1536/32000 (5%)] Loss: 3.55687 (QuantReg: 15.46526) QuantErr: 15.46526 batch_time=0.66563 
+Train Epoch: 10 [23/250 2944/32000 (9%)] Loss: 3.62568 (QuantReg: 15.58572) QuantErr: 15.58572 batch_time=0.66810 
+Train Epoch: 10 [34/250 4352/32000 (14%)] Loss: 3.47733 (QuantReg: 15.81688) QuantErr: 15.81688 batch_time=0.70803 
+Train Epoch: 10 [45/250 5760/32000 (18%)] Loss: 3.85268 (QuantReg: 15.83300) QuantErr: 15.83300 batch_time=0.60750 
+Train Epoch: 10 [56/250 7168/32000 (22%)] Loss: 3.32282 (QuantReg: 15.92708) QuantErr: 15.92708 batch_time=0.64295 
+Train Epoch: 10 [67/250 8576/32000 (27%)] Loss: 3.68335 (QuantReg: 15.87213) QuantErr: 15.87213 batch_time=0.61046 
+Train Epoch: 10 [78/250 9984/32000 (31%)] Loss: 3.54603 (QuantReg: 15.72868) QuantErr: 15.72868 batch_time=0.63387 
+Train Epoch: 10 [89/250 11392/32000 (36%)] Loss: 3.78630 (QuantReg: 16.15654) QuantErr: 16.15654 batch_time=0.63220 
+Train Epoch: 10 [100/250 12800/32000 (40%)] Loss: 3.82940 (QuantReg: 15.97391) QuantErr: 15.97391 batch_time=0.60852 
+Train Epoch: 10 [111/250 14208/32000 (44%)] Loss: 3.63567 (QuantReg: 16.04628) QuantErr: 16.04628 batch_time=0.62689 
+Train Epoch: 10 [122/250 15616/32000 (49%)] Loss: 3.67031 (QuantReg: 15.85475) QuantErr: 15.85475 batch_time=0.68480 
+Train Epoch: 10 [133/250 17024/32000 (53%)] Loss: 3.35663 (QuantReg: 15.92306) QuantErr: 15.92306 batch_time=0.61712 
+Train Epoch: 10 [144/250 18432/32000 (58%)] Loss: 3.69122 (QuantReg: 15.99301) QuantErr: 15.99301 batch_time=0.64071 
+Train Epoch: 10 [155/250 19840/32000 (62%)] Loss: 4.02619 (QuantReg: 15.91065) QuantErr: 15.91065 batch_time=1.26652 
+Train Epoch: 10 [166/250 21248/32000 (66%)] Loss: 3.81357 (QuantReg: 16.10884) QuantErr: 16.10884 batch_time=0.63132 
+Train Epoch: 10 [177/250 22656/32000 (71%)] Loss: 3.78710 (QuantReg: 15.81614) QuantErr: 15.81614 batch_time=0.67004 
+Train Epoch: 10 [188/250 24064/32000 (75%)] Loss: 3.69822 (QuantReg: 16.16249) QuantErr: 16.16249 batch_time=0.62095 
+Train Epoch: 10 [199/250 25472/32000 (80%)] Loss: 3.23135 (QuantReg: 15.87728) QuantErr: 15.87728 batch_time=0.68239 
+Train Epoch: 10 [210/250 26880/32000 (84%)] Loss: 3.36323 (QuantReg: 15.97142) QuantErr: 15.97142 batch_time=0.66018 
+Train Epoch: 10 [221/250 28288/32000 (88%)] Loss: 3.23552 (QuantReg: 16.01777) QuantErr: 16.01777 batch_time=0.63073 
+Train Epoch: 10 [232/250 29696/32000 (93%)] Loss: 4.18253 (QuantReg: 15.98098) QuantErr: 15.98098 batch_time=0.63019 
+Train Epoch: 10 [243/250 31104/32000 (97%)] Loss: 3.73443 (QuantReg: 15.93927) QuantErr: 15.93927 batch_time=0.63882 
+Train Epoch: 10 codebook_update_time=3.31837
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch10.pth ...
+Done in 5.590s
+removing stale ckpt [epoch 9] [took 0.01s]
+ epoch          : 10
+ loss           : 3.6227984437942506
+ quant_reg      : 15.91489729309082
+ quant_err      : 15.91489729309082
+ learning_rate  : 3.151247048623045e-05
+ n_samples      : 320000
+ n_steps        : 2500
+ LSMDC_full_test/t2v_metrics/R1: 12.4
+ LSMDC_full_test/t2v_metrics/R5: 30.2
+ LSMDC_full_test/t2v_metrics/R10: 39.4
+ LSMDC_full_test/t2v_metrics/R50: 69.2
+ LSMDC_full_test/t2v_metrics/MedR: 19.0
+ LSMDC_full_test/t2v_metrics/MeanR: 67.205
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 24.526841054095225
+ LSMDC_full_test/v2t_metrics/R1: 12.3
+ LSMDC_full_test/v2t_metrics/R5: 31.1
+ LSMDC_full_test/v2t_metrics/R10: 39.7
+ LSMDC_full_test/v2t_metrics/R50: 67.2
+ LSMDC_full_test/v2t_metrics/MedR: 21.0
+ LSMDC_full_test/v2t_metrics/MeanR: 67.437
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 24.763878758111545
+ mnt_best       : 25.410691037493997
+ not_improved_count: 2
+Train Epoch: 11 [1/250 128/32000 (0%)] Loss: 3.04075 (QuantReg: 16.15651) QuantErr: 16.15651 batch_time=22.60684 
+Train Epoch: 11 [12/250 1536/32000 (5%)] Loss: 3.62764 (QuantReg: 15.90143) QuantErr: 15.90143 batch_time=0.60457 
+Train Epoch: 11 [23/250 2944/32000 (9%)] Loss: 3.51704 (QuantReg: 15.69925) QuantErr: 15.69925 batch_time=0.69745 
+Train Epoch: 11 [34/250 4352/32000 (14%)] Loss: 3.45290 (QuantReg: 15.86111) QuantErr: 15.86111 batch_time=0.60689 
+Train Epoch: 11 [45/250 5760/32000 (18%)] Loss: 3.56112 (QuantReg: 15.88993) QuantErr: 15.88993 batch_time=0.62289 
+Train Epoch: 11 [56/250 7168/32000 (22%)] Loss: 4.12360 (QuantReg: 15.89765) QuantErr: 15.89765 batch_time=0.75989 
+Train Epoch: 11 [67/250 8576/32000 (27%)] Loss: 3.71094 (QuantReg: 15.94250) QuantErr: 15.94250 batch_time=0.62590 
+Train Epoch: 11 [78/250 9984/32000 (31%)] Loss: 3.54606 (QuantReg: 16.11891) QuantErr: 16.11891 batch_time=0.60174 
+Train Epoch: 11 [89/250 11392/32000 (36%)] Loss: 3.53473 (QuantReg: 16.09405) QuantErr: 16.09405 batch_time=0.63276 
+Train Epoch: 11 [100/250 12800/32000 (40%)] Loss: 3.09013 (QuantReg: 16.06941) QuantErr: 16.06941 batch_time=0.63383 
+Train Epoch: 11 [111/250 14208/32000 (44%)] Loss: 3.60831 (QuantReg: 16.36330) QuantErr: 16.36330 batch_time=0.89472 
+Train Epoch: 11 [122/250 15616/32000 (49%)] Loss: 2.95772 (QuantReg: 16.19193) QuantErr: 16.19193 batch_time=0.69259 
+Train Epoch: 11 [133/250 17024/32000 (53%)] Loss: 3.67671 (QuantReg: 16.05065) QuantErr: 16.05065 batch_time=0.64587 
+Train Epoch: 11 [144/250 18432/32000 (58%)] Loss: 2.84983 (QuantReg: 16.08867) QuantErr: 16.08867 batch_time=0.67219 
+Train Epoch: 11 [155/250 19840/32000 (62%)] Loss: 3.43726 (QuantReg: 16.06998) QuantErr: 16.06998 batch_time=0.61046 
+Train Epoch: 11 [166/250 21248/32000 (66%)] Loss: 4.01764 (QuantReg: 16.09876) QuantErr: 16.09876 batch_time=0.60816 
+Train Epoch: 11 [177/250 22656/32000 (71%)] Loss: 3.03791 (QuantReg: 16.33892) QuantErr: 16.33892 batch_time=1.36883 
+Train Epoch: 11 [188/250 24064/32000 (75%)] Loss: 3.33466 (QuantReg: 16.22872) QuantErr: 16.22872 batch_time=0.62112 
+Train Epoch: 11 [199/250 25472/32000 (80%)] Loss: 3.55232 (QuantReg: 16.04528) QuantErr: 16.04528 batch_time=0.78280 
+Train Epoch: 11 [210/250 26880/32000 (84%)] Loss: 3.74838 (QuantReg: 16.14415) QuantErr: 16.14415 batch_time=0.68576 
+Train Epoch: 11 [221/250 28288/32000 (88%)] Loss: 3.44104 (QuantReg: 15.88321) QuantErr: 15.88321 batch_time=0.68953 
+Train Epoch: 11 [232/250 29696/32000 (93%)] Loss: 3.03603 (QuantReg: 16.27282) QuantErr: 16.27282 batch_time=0.62482 
+Train Epoch: 11 [243/250 31104/32000 (97%)] Loss: 3.41805 (QuantReg: 15.96244) QuantErr: 15.96244 batch_time=0.62738 
+Train Epoch: 11 codebook_update_time=3.58941
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch11.pth ...
+Done in 4.233s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch11.pth ...
+Done in 9.110s
+removing stale ckpt [epoch 10] [took 0.04s]
+ epoch          : 11
+ loss           : 3.450694748878479
+ quant_reg      : 16.081873298645018
+ quant_err      : 16.081873298645018
+ learning_rate  : 2.993684696191893e-05
+ n_samples      : 352000
+ n_steps        : 2750
+ LSMDC_full_test/t2v_metrics/R1: 13.4
+ LSMDC_full_test/t2v_metrics/R5: 29.9
+ LSMDC_full_test/t2v_metrics/R10: 41.1
+ LSMDC_full_test/t2v_metrics/R50: 68.0
+ LSMDC_full_test/t2v_metrics/MedR: 18.0
+ LSMDC_full_test/t2v_metrics/MeanR: 68.346
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 25.441298265496325
+ LSMDC_full_test/v2t_metrics/R1: 13.1
+ LSMDC_full_test/v2t_metrics/R5: 30.6
+ LSMDC_full_test/v2t_metrics/R10: 39.7
+ LSMDC_full_test/v2t_metrics/R50: 67.5
+ LSMDC_full_test/v2t_metrics/MedR: 21.0
+ LSMDC_full_test/v2t_metrics/MeanR: 70.099
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.153267509279317
+ mnt_best       : 25.441298265496325
+ not_improved_count: 0
+Train Epoch: 12 [1/250 128/32000 (0%)] Loss: 3.55505 (QuantReg: 15.90794) QuantErr: 15.90794 batch_time=20.52096 
+Train Epoch: 12 [12/250 1536/32000 (5%)] Loss: 3.09475 (QuantReg: 16.15618) QuantErr: 16.15618 batch_time=0.93563 
+Train Epoch: 12 [23/250 2944/32000 (9%)] Loss: 3.82736 (QuantReg: 15.95611) QuantErr: 15.95611 batch_time=0.61011 
+Train Epoch: 12 [34/250 4352/32000 (14%)] Loss: 2.92395 (QuantReg: 16.13934) QuantErr: 16.13934 batch_time=0.66495 
+Train Epoch: 12 [45/250 5760/32000 (18%)] Loss: 2.93632 (QuantReg: 16.27385) QuantErr: 16.27385 batch_time=0.59726 
+Train Epoch: 12 [56/250 7168/32000 (22%)] Loss: 3.16501 (QuantReg: 16.18888) QuantErr: 16.18888 batch_time=0.63880 
+Train Epoch: 12 [67/250 8576/32000 (27%)] Loss: 3.45879 (QuantReg: 16.21455) QuantErr: 16.21455 batch_time=0.60305 
+Train Epoch: 12 [78/250 9984/32000 (31%)] Loss: 3.42467 (QuantReg: 15.89923) QuantErr: 15.89923 batch_time=0.63127 
+Train Epoch: 12 [89/250 11392/32000 (36%)] Loss: 3.32715 (QuantReg: 16.12108) QuantErr: 16.12108 batch_time=0.61543 
+Train Epoch: 12 [100/250 12800/32000 (40%)] Loss: 3.22592 (QuantReg: 16.26954) QuantErr: 16.26954 batch_time=0.62079 
+Train Epoch: 12 [111/250 14208/32000 (44%)] Loss: 3.44207 (QuantReg: 16.16871) QuantErr: 16.16871 batch_time=0.60479 
+Train Epoch: 12 [122/250 15616/32000 (49%)] Loss: 3.22154 (QuantReg: 16.24833) QuantErr: 16.24833 batch_time=0.68452 
+Train Epoch: 12 [133/250 17024/32000 (53%)] Loss: 3.73923 (QuantReg: 16.07605) QuantErr: 16.07605 batch_time=0.62408 
+Train Epoch: 12 [144/250 18432/32000 (58%)] Loss: 3.58869 (QuantReg: 16.08292) QuantErr: 16.08292 batch_time=5.36653 
+Train Epoch: 12 [155/250 19840/32000 (62%)] Loss: 3.41633 (QuantReg: 16.01112) QuantErr: 16.01112 batch_time=0.61451 
+Train Epoch: 12 [166/250 21248/32000 (66%)] Loss: 3.29426 (QuantReg: 16.24463) QuantErr: 16.24463 batch_time=0.66054 
+Train Epoch: 12 [177/250 22656/32000 (71%)] Loss: 2.56568 (QuantReg: 16.41540) QuantErr: 16.41540 batch_time=0.69116 
+Train Epoch: 12 [188/250 24064/32000 (75%)] Loss: 3.77214 (QuantReg: 16.04387) QuantErr: 16.04387 batch_time=0.62796 
+Train Epoch: 12 [199/250 25472/32000 (80%)] Loss: 2.85304 (QuantReg: 16.22714) QuantErr: 16.22714 batch_time=0.64351 
+Train Epoch: 12 [210/250 26880/32000 (84%)] Loss: 3.66504 (QuantReg: 16.10003) QuantErr: 16.10003 batch_time=0.61478 
+Train Epoch: 12 [221/250 28288/32000 (88%)] Loss: 3.29550 (QuantReg: 16.35716) QuantErr: 16.35716 batch_time=0.61389 
+Train Epoch: 12 [232/250 29696/32000 (93%)] Loss: 3.05523 (QuantReg: 16.34845) QuantErr: 16.34845 batch_time=0.67723 
+Train Epoch: 12 [243/250 31104/32000 (97%)] Loss: 3.23841 (QuantReg: 16.37490) QuantErr: 16.37490 batch_time=0.61223 
+Train Epoch: 12 codebook_update_time=3.44821
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch12.pth ...
+Done in 6.782s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch12.pth ...
+Done in 11.095s
+removing stale ckpt [epoch 11] [took 0.02s]
+ epoch          : 12
+ loss           : 3.322868664741516
+ quant_reg      : 16.147703563690186
+ quant_err      : 16.147703563690186
+ learning_rate  : 2.844000461382298e-05
+ n_samples      : 384000
+ n_steps        : 3000
+ LSMDC_full_test/t2v_metrics/R1: 13.9
+ LSMDC_full_test/t2v_metrics/R5: 31.1
+ LSMDC_full_test/t2v_metrics/R10: 40.6
+ LSMDC_full_test/t2v_metrics/R50: 68.5
+ LSMDC_full_test/t2v_metrics/MedR: 18.0
+ LSMDC_full_test/t2v_metrics/MeanR: 69.099
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 25.98765390169758
+ LSMDC_full_test/v2t_metrics/R1: 12.8
+ LSMDC_full_test/v2t_metrics/R5: 31.0
+ LSMDC_full_test/v2t_metrics/R10: 40.5
+ LSMDC_full_test/v2t_metrics/R50: 67.7
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 65.807
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.235324609537045
+ mnt_best       : 25.98765390169758
+ not_improved_count: 0
+Train Epoch: 13 [1/250 128/32000 (0%)] Loss: 2.91023 (QuantReg: 16.23493) QuantErr: 16.23493 batch_time=23.78021 
+Train Epoch: 13 [12/250 1536/32000 (5%)] Loss: 3.47701 (QuantReg: 16.02004) QuantErr: 16.02004 batch_time=0.88969 
+Train Epoch: 13 [23/250 2944/32000 (9%)] Loss: 3.32791 (QuantReg: 16.33929) QuantErr: 16.33929 batch_time=0.61620 
+Train Epoch: 13 [34/250 4352/32000 (14%)] Loss: 3.04869 (QuantReg: 16.29410) QuantErr: 16.29410 batch_time=0.62890 
+Train Epoch: 13 [45/250 5760/32000 (18%)] Loss: 2.90995 (QuantReg: 16.12414) QuantErr: 16.12414 batch_time=0.60794 
+Train Epoch: 13 [56/250 7168/32000 (22%)] Loss: 3.54431 (QuantReg: 16.05685) QuantErr: 16.05685 batch_time=0.65118 
+Train Epoch: 13 [67/250 8576/32000 (27%)] Loss: 3.17857 (QuantReg: 16.21957) QuantErr: 16.21957 batch_time=0.60808 
+Train Epoch: 13 [78/250 9984/32000 (31%)] Loss: 3.22663 (QuantReg: 16.43378) QuantErr: 16.43378 batch_time=0.60957 
+Train Epoch: 13 [89/250 11392/32000 (36%)] Loss: 2.81885 (QuantReg: 16.29154) QuantErr: 16.29154 batch_time=0.97178 
+Train Epoch: 13 [100/250 12800/32000 (40%)] Loss: 3.40971 (QuantReg: 16.16086) QuantErr: 16.16086 batch_time=0.66560 
+Train Epoch: 13 [111/250 14208/32000 (44%)] Loss: 3.39077 (QuantReg: 16.32481) QuantErr: 16.32481 batch_time=0.65351 
+Train Epoch: 13 [122/250 15616/32000 (49%)] Loss: 3.12796 (QuantReg: 16.42521) QuantErr: 16.42521 batch_time=0.61087 
+Train Epoch: 13 [133/250 17024/32000 (53%)] Loss: 3.40316 (QuantReg: 16.06327) QuantErr: 16.06327 batch_time=0.60732 
+Train Epoch: 13 [144/250 18432/32000 (58%)] Loss: 3.48661 (QuantReg: 16.25510) QuantErr: 16.25510 batch_time=0.64853 
+Train Epoch: 13 [155/250 19840/32000 (62%)] Loss: 3.30102 (QuantReg: 16.46553) QuantErr: 16.46553 batch_time=0.62884 
+Train Epoch: 13 [166/250 21248/32000 (66%)] Loss: 3.04639 (QuantReg: 16.50259) QuantErr: 16.50259 batch_time=0.65983 
+Train Epoch: 13 [177/250 22656/32000 (71%)] Loss: 3.00123 (QuantReg: 16.15833) QuantErr: 16.15833 batch_time=0.67569 
+Train Epoch: 13 [188/250 24064/32000 (75%)] Loss: 3.43166 (QuantReg: 16.27413) QuantErr: 16.27413 batch_time=0.61084 
+Train Epoch: 13 [199/250 25472/32000 (80%)] Loss: 3.27829 (QuantReg: 16.40330) QuantErr: 16.40330 batch_time=0.61585 
+Train Epoch: 13 [210/250 26880/32000 (84%)] Loss: 3.02575 (QuantReg: 16.16461) QuantErr: 16.16461 batch_time=0.62471 
+Train Epoch: 13 [221/250 28288/32000 (88%)] Loss: 3.25259 (QuantReg: 16.15057) QuantErr: 16.15057 batch_time=0.66158 
+Train Epoch: 13 [232/250 29696/32000 (93%)] Loss: 3.14316 (QuantReg: 16.23227) QuantErr: 16.23227 batch_time=0.61014 
+Train Epoch: 13 [243/250 31104/32000 (97%)] Loss: 3.05875 (QuantReg: 16.37320) QuantErr: 16.37320 batch_time=0.61420 
+Train Epoch: 13 codebook_update_time=3.37078
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch13.pth ...
+Done in 5.475s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch13.pth ...
+Done in 10.399s
+removing stale ckpt [epoch 12] [took 0.09s]
+ epoch          : 13
+ loss           : 3.188758454322815
+ quant_reg      : 16.25636781692505
+ quant_err      : 16.25636781692505
+ learning_rate  : 2.7018004383131832e-05
+ n_samples      : 416000
+ n_steps        : 3250
+ LSMDC_full_test/t2v_metrics/R1: 13.5
+ LSMDC_full_test/t2v_metrics/R5: 32.2
+ LSMDC_full_test/t2v_metrics/R10: 41.6
+ LSMDC_full_test/t2v_metrics/R50: 68.2
+ LSMDC_full_test/t2v_metrics/MedR: 18.0
+ LSMDC_full_test/t2v_metrics/MeanR: 68.87
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.24788554396936
+ LSMDC_full_test/v2t_metrics/R1: 14.1
+ LSMDC_full_test/v2t_metrics/R5: 31.3
+ LSMDC_full_test/v2t_metrics/R10: 41.0
+ LSMDC_full_test/v2t_metrics/R50: 67.9
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 66.603
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.253211398487966
+ mnt_best       : 26.24788554396936
+ not_improved_count: 0
+Train Epoch: 14 [1/250 128/32000 (0%)] Loss: 3.27719 (QuantReg: 16.13441) QuantErr: 16.13441 batch_time=26.55113 
+Train Epoch: 14 [12/250 1536/32000 (5%)] Loss: 3.00970 (QuantReg: 16.19254) QuantErr: 16.19254 batch_time=0.62609 
+Train Epoch: 14 [23/250 2944/32000 (9%)] Loss: 3.36760 (QuantReg: 16.17274) QuantErr: 16.17274 batch_time=0.60013 
+Train Epoch: 14 [34/250 4352/32000 (14%)] Loss: 2.83175 (QuantReg: 16.25349) QuantErr: 16.25349 batch_time=0.61806 
+Train Epoch: 14 [45/250 5760/32000 (18%)] Loss: 2.88585 (QuantReg: 16.35763) QuantErr: 16.35763 batch_time=1.19531 
+Train Epoch: 14 [56/250 7168/32000 (22%)] Loss: 2.99967 (QuantReg: 16.19400) QuantErr: 16.19400 batch_time=0.65879 
+Train Epoch: 14 [67/250 8576/32000 (27%)] Loss: 2.90442 (QuantReg: 16.16478) QuantErr: 16.16478 batch_time=0.62152 
+Train Epoch: 14 [78/250 9984/32000 (31%)] Loss: 3.69595 (QuantReg: 16.16450) QuantErr: 16.16450 batch_time=0.62423 
+Train Epoch: 14 [89/250 11392/32000 (36%)] Loss: 3.05806 (QuantReg: 16.32679) QuantErr: 16.32679 batch_time=0.59404 
+Train Epoch: 14 [100/250 12800/32000 (40%)] Loss: 3.31860 (QuantReg: 16.38398) QuantErr: 16.38398 batch_time=1.29412 
+Train Epoch: 14 [111/250 14208/32000 (44%)] Loss: 3.01311 (QuantReg: 16.33928) QuantErr: 16.33928 batch_time=0.60093 
+Train Epoch: 14 [122/250 15616/32000 (49%)] Loss: 3.44436 (QuantReg: 16.42229) QuantErr: 16.42229 batch_time=0.74303 
+Train Epoch: 14 [133/250 17024/32000 (53%)] Loss: 3.28413 (QuantReg: 16.20873) QuantErr: 16.20873 batch_time=0.62677 
+Train Epoch: 14 [144/250 18432/32000 (58%)] Loss: 3.00312 (QuantReg: 16.42601) QuantErr: 16.42601 batch_time=1.36085 
+Train Epoch: 14 [155/250 19840/32000 (62%)] Loss: 3.36040 (QuantReg: 16.38786) QuantErr: 16.38786 batch_time=0.62086 
+Train Epoch: 14 [166/250 21248/32000 (66%)] Loss: 3.15917 (QuantReg: 16.31876) QuantErr: 16.31876 batch_time=0.74590 
+Train Epoch: 14 [177/250 22656/32000 (71%)] Loss: 3.01996 (QuantReg: 16.37637) QuantErr: 16.37637 batch_time=0.60113 
+Train Epoch: 14 [188/250 24064/32000 (75%)] Loss: 3.42914 (QuantReg: 16.51753) QuantErr: 16.51753 batch_time=0.62239 
+Train Epoch: 14 [199/250 25472/32000 (80%)] Loss: 3.45609 (QuantReg: 16.36067) QuantErr: 16.36067 batch_time=0.61437 
+Train Epoch: 14 [210/250 26880/32000 (84%)] Loss: 3.31727 (QuantReg: 16.38783) QuantErr: 16.38783 batch_time=0.60801 
+Train Epoch: 14 [221/250 28288/32000 (88%)] Loss: 2.92136 (QuantReg: 16.51050) QuantErr: 16.51050 batch_time=0.62303 
+Train Epoch: 14 [232/250 29696/32000 (93%)] Loss: 2.84307 (QuantReg: 16.52704) QuantErr: 16.52704 batch_time=1.75876 
+Train Epoch: 14 [243/250 31104/32000 (97%)] Loss: 3.01582 (QuantReg: 16.62560) QuantErr: 16.62560 batch_time=0.60363 
+Train Epoch: 14 codebook_update_time=3.78080
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch14.pth ...
+Done in 4.126s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch14.pth ...
+Done in 8.724s
+removing stale ckpt [epoch 13] [took 0.01s]
+ epoch          : 14
+ loss           : 3.109896412849426
+ quant_reg      : 16.358777893066407
+ quant_err      : 16.358777893066407
+ learning_rate  : 2.566710416397524e-05
+ n_samples      : 448000
+ n_steps        : 3500
+ LSMDC_full_test/t2v_metrics/R1: 13.5
+ LSMDC_full_test/t2v_metrics/R5: 32.5
+ LSMDC_full_test/t2v_metrics/R10: 42.2
+ LSMDC_full_test/t2v_metrics/R50: 68.1
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.348
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.45512757296448
+ LSMDC_full_test/v2t_metrics/R1: 14.5
+ LSMDC_full_test/v2t_metrics/R5: 32.6
+ LSMDC_full_test/v2t_metrics/R10: 39.9
+ LSMDC_full_test/v2t_metrics/R50: 67.2
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 67.929
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.61865858805852
+ mnt_best       : 26.45512757296448
+ not_improved_count: 0
+Train Epoch: 15 [1/250 128/32000 (0%)] Loss: 2.36362 (QuantReg: 16.42882) QuantErr: 16.42882 batch_time=28.39687 
+Train Epoch: 15 [12/250 1536/32000 (5%)] Loss: 2.81185 (QuantReg: 16.22681) QuantErr: 16.22681 batch_time=0.60818 
+Train Epoch: 15 [23/250 2944/32000 (9%)] Loss: 3.00564 (QuantReg: 16.42087) QuantErr: 16.42087 batch_time=1.18213 
+Train Epoch: 15 [34/250 4352/32000 (14%)] Loss: 3.03948 (QuantReg: 16.44408) QuantErr: 16.44408 batch_time=0.59478 
+Train Epoch: 15 [45/250 5760/32000 (18%)] Loss: 2.46842 (QuantReg: 16.54240) QuantErr: 16.54240 batch_time=0.78789 
+Train Epoch: 15 [56/250 7168/32000 (22%)] Loss: 3.15770 (QuantReg: 16.47654) QuantErr: 16.47654 batch_time=0.60905 
+Train Epoch: 15 [67/250 8576/32000 (27%)] Loss: 2.46751 (QuantReg: 16.61832) QuantErr: 16.61832 batch_time=0.60648 
+Train Epoch: 15 [78/250 9984/32000 (31%)] Loss: 2.81736 (QuantReg: 16.46263) QuantErr: 16.46263 batch_time=0.59246 
+Train Epoch: 15 [89/250 11392/32000 (36%)] Loss: 3.43491 (QuantReg: 16.38246) QuantErr: 16.38246 batch_time=0.93568 
+Train Epoch: 15 [100/250 12800/32000 (40%)] Loss: 3.21943 (QuantReg: 16.34024) QuantErr: 16.34024 batch_time=0.61219 
+Train Epoch: 15 [111/250 14208/32000 (44%)] Loss: 2.74017 (QuantReg: 16.52378) QuantErr: 16.52378 batch_time=0.63168 
+Train Epoch: 15 [122/250 15616/32000 (49%)] Loss: 2.82065 (QuantReg: 16.35626) QuantErr: 16.35626 batch_time=0.59128 
+Train Epoch: 15 [133/250 17024/32000 (53%)] Loss: 2.93566 (QuantReg: 16.48119) QuantErr: 16.48119 batch_time=0.69016 
+Train Epoch: 15 [144/250 18432/32000 (58%)] Loss: 3.29427 (QuantReg: 16.60466) QuantErr: 16.60466 batch_time=0.75764 
+Train Epoch: 15 [155/250 19840/32000 (62%)] Loss: 2.69002 (QuantReg: 16.41380) QuantErr: 16.41380 batch_time=0.61480 
+Train Epoch: 15 [166/250 21248/32000 (66%)] Loss: 2.92017 (QuantReg: 16.51079) QuantErr: 16.51079 batch_time=0.59790 
+Train Epoch: 15 [177/250 22656/32000 (71%)] Loss: 3.16754 (QuantReg: 16.50340) QuantErr: 16.50340 batch_time=0.61850 
+Train Epoch: 15 [188/250 24064/32000 (75%)] Loss: 3.20579 (QuantReg: 16.48429) QuantErr: 16.48429 batch_time=0.61025 
+Train Epoch: 15 [199/250 25472/32000 (80%)] Loss: 3.07341 (QuantReg: 16.51656) QuantErr: 16.51656 batch_time=0.65137 
+Train Epoch: 15 [210/250 26880/32000 (84%)] Loss: 2.79607 (QuantReg: 16.52420) QuantErr: 16.52420 batch_time=0.61976 
+Train Epoch: 15 [221/250 28288/32000 (88%)] Loss: 2.94533 (QuantReg: 16.67464) QuantErr: 16.67464 batch_time=0.65068 
+Train Epoch: 15 [232/250 29696/32000 (93%)] Loss: 2.95302 (QuantReg: 16.54642) QuantErr: 16.54642 batch_time=0.63084 
+Train Epoch: 15 [243/250 31104/32000 (97%)] Loss: 3.06482 (QuantReg: 16.60044) QuantErr: 16.60044 batch_time=0.62272 
+Train Epoch: 15 codebook_update_time=3.57318
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch15.pth ...
+Done in 4.718s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch15.pth ...
+Done in 9.165s
+removing stale ckpt [epoch 14] [took 0.02s]
+ epoch          : 15
+ loss           : 2.989389842033386
+ quant_reg      : 16.470266738891603
+ quant_err      : 16.470266738891603
+ learning_rate  : 2.4383748955776477e-05
+ n_samples      : 480000
+ n_steps        : 3750
+ LSMDC_full_test/t2v_metrics/R1: 13.8
+ LSMDC_full_test/t2v_metrics/R5: 32.8
+ LSMDC_full_test/t2v_metrics/R10: 42.1
+ LSMDC_full_test/t2v_metrics/R50: 69.6
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 68.079
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.710273929157175
+ LSMDC_full_test/v2t_metrics/R1: 14.5
+ LSMDC_full_test/v2t_metrics/R5: 33.1
+ LSMDC_full_test/v2t_metrics/R10: 41.4
+ LSMDC_full_test/v2t_metrics/R50: 67.9
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 68.263
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 27.085204089053796
+ mnt_best       : 26.710273929157175
+ not_improved_count: 0
+Train Epoch: 16 [1/250 128/32000 (0%)] Loss: 2.96525 (QuantReg: 16.57909) QuantErr: 16.57909 batch_time=21.78806 
+Train Epoch: 16 [12/250 1536/32000 (5%)] Loss: 2.53489 (QuantReg: 16.55473) QuantErr: 16.55473 batch_time=0.64002 
+Train Epoch: 16 [23/250 2944/32000 (9%)] Loss: 2.52147 (QuantReg: 16.55862) QuantErr: 16.55862 batch_time=0.60662 
+Train Epoch: 16 [34/250 4352/32000 (14%)] Loss: 3.29608 (QuantReg: 16.32049) QuantErr: 16.32049 batch_time=0.60933 
+Train Epoch: 16 [45/250 5760/32000 (18%)] Loss: 3.22522 (QuantReg: 16.38781) QuantErr: 16.38781 batch_time=0.62387 
+Train Epoch: 16 [56/250 7168/32000 (22%)] Loss: 3.02096 (QuantReg: 16.59221) QuantErr: 16.59221 batch_time=0.60236 
+Train Epoch: 16 [67/250 8576/32000 (27%)] Loss: 2.76400 (QuantReg: 16.37467) QuantErr: 16.37467 batch_time=6.57284 
+Train Epoch: 16 [78/250 9984/32000 (31%)] Loss: 3.08778 (QuantReg: 16.45181) QuantErr: 16.45181 batch_time=0.60775 
+Train Epoch: 16 [89/250 11392/32000 (36%)] Loss: 2.71461 (QuantReg: 16.66260) QuantErr: 16.66260 batch_time=1.81473 
+Train Epoch: 16 [100/250 12800/32000 (40%)] Loss: 3.08137 (QuantReg: 16.51464) QuantErr: 16.51464 batch_time=0.63304 
+Train Epoch: 16 [111/250 14208/32000 (44%)] Loss: 3.13594 (QuantReg: 16.41837) QuantErr: 16.41837 batch_time=0.64244 
+Train Epoch: 16 [122/250 15616/32000 (49%)] Loss: 3.28810 (QuantReg: 16.31583) QuantErr: 16.31583 batch_time=0.65935 
+Train Epoch: 16 [133/250 17024/32000 (53%)] Loss: 2.81230 (QuantReg: 16.58537) QuantErr: 16.58537 batch_time=0.61795 
+Train Epoch: 16 [144/250 18432/32000 (58%)] Loss: 3.05560 (QuantReg: 16.49566) QuantErr: 16.49566 batch_time=0.63012 
+Train Epoch: 16 [155/250 19840/32000 (62%)] Loss: 2.49369 (QuantReg: 16.68044) QuantErr: 16.68044 batch_time=0.69399 
+Train Epoch: 16 [166/250 21248/32000 (66%)] Loss: 2.82914 (QuantReg: 16.76769) QuantErr: 16.76769 batch_time=0.59237 
+Train Epoch: 16 [177/250 22656/32000 (71%)] Loss: 2.85007 (QuantReg: 16.40282) QuantErr: 16.40282 batch_time=0.62905 
+Train Epoch: 16 [188/250 24064/32000 (75%)] Loss: 3.00035 (QuantReg: 16.65529) QuantErr: 16.65529 batch_time=0.59565 
+Train Epoch: 16 [199/250 25472/32000 (80%)] Loss: 2.73536 (QuantReg: 16.65067) QuantErr: 16.65067 batch_time=0.63294 
+Train Epoch: 16 [210/250 26880/32000 (84%)] Loss: 3.04927 (QuantReg: 16.55423) QuantErr: 16.55423 batch_time=0.68387 
+Train Epoch: 16 [221/250 28288/32000 (88%)] Loss: 2.67567 (QuantReg: 16.67908) QuantErr: 16.67908 batch_time=0.62854 
+Train Epoch: 16 [232/250 29696/32000 (93%)] Loss: 2.68232 (QuantReg: 16.65233) QuantErr: 16.65233 batch_time=0.59123 
+Train Epoch: 16 [243/250 31104/32000 (97%)] Loss: 2.73901 (QuantReg: 16.63129) QuantErr: 16.63129 batch_time=0.64548 
+Train Epoch: 16 codebook_update_time=3.36688
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch16.pth ...
+Done in 5.565s
+removing stale ckpt [epoch 15] [took 0.02s]
+ epoch          : 16
+ loss           : 2.888849912643433
+ quant_reg      : 16.556770027160645
+ quant_err      : 16.556770027160645
+ learning_rate  : 2.3164561507987653e-05
+ n_samples      : 512000
+ n_steps        : 4000
+ LSMDC_full_test/t2v_metrics/R1: 12.8
+ LSMDC_full_test/t2v_metrics/R5: 32.3
+ LSMDC_full_test/t2v_metrics/R10: 41.4
+ LSMDC_full_test/t2v_metrics/R50: 68.9
+ LSMDC_full_test/t2v_metrics/MedR: 18.0
+ LSMDC_full_test/t2v_metrics/MeanR: 69.372
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 25.77137622340337
+ LSMDC_full_test/v2t_metrics/R1: 13.2
+ LSMDC_full_test/v2t_metrics/R5: 31.4
+ LSMDC_full_test/v2t_metrics/R10: 41.1
+ LSMDC_full_test/v2t_metrics/R50: 66.6
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 68.724
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.730514306052502
+ mnt_best       : 26.710273929157175
+ not_improved_count: 1
+Train Epoch: 17 [1/250 128/32000 (0%)] Loss: 2.76651 (QuantReg: 16.45425) QuantErr: 16.45425 batch_time=25.15982 
+Train Epoch: 17 [12/250 1536/32000 (5%)] Loss: 3.38457 (QuantReg: 16.51793) QuantErr: 16.51793 batch_time=0.66722 
+Train Epoch: 17 [23/250 2944/32000 (9%)] Loss: 3.08265 (QuantReg: 16.69600) QuantErr: 16.69600 batch_time=0.61754 
+Train Epoch: 17 [34/250 4352/32000 (14%)] Loss: 2.55301 (QuantReg: 16.75336) QuantErr: 16.75336 batch_time=0.62867 
+Train Epoch: 17 [45/250 5760/32000 (18%)] Loss: 3.04202 (QuantReg: 16.48611) QuantErr: 16.48611 batch_time=1.13784 
+Train Epoch: 17 [56/250 7168/32000 (22%)] Loss: 2.82248 (QuantReg: 16.50663) QuantErr: 16.50663 batch_time=0.62710 
+Train Epoch: 17 [67/250 8576/32000 (27%)] Loss: 2.46987 (QuantReg: 16.61916) QuantErr: 16.61916 batch_time=0.60977 
+Train Epoch: 17 [78/250 9984/32000 (31%)] Loss: 2.28587 (QuantReg: 16.73573) QuantErr: 16.73573 batch_time=0.62568 
+Train Epoch: 17 [89/250 11392/32000 (36%)] Loss: 2.95827 (QuantReg: 16.60977) QuantErr: 16.60977 batch_time=0.69057 
+Train Epoch: 17 [100/250 12800/32000 (40%)] Loss: 2.66879 (QuantReg: 16.72640) QuantErr: 16.72640 batch_time=0.63511 
+Train Epoch: 17 [111/250 14208/32000 (44%)] Loss: 2.31229 (QuantReg: 16.90959) QuantErr: 16.90959 batch_time=0.60389 
+Train Epoch: 17 [122/250 15616/32000 (49%)] Loss: 2.80915 (QuantReg: 16.57030) QuantErr: 16.57030 batch_time=0.59497 
+Train Epoch: 17 [133/250 17024/32000 (53%)] Loss: 2.65883 (QuantReg: 16.72097) QuantErr: 16.72097 batch_time=0.61944 
+Train Epoch: 17 [144/250 18432/32000 (58%)] Loss: 2.92755 (QuantReg: 16.45928) QuantErr: 16.45928 batch_time=2.77403 
+Train Epoch: 17 [155/250 19840/32000 (62%)] Loss: 2.91343 (QuantReg: 16.52978) QuantErr: 16.52978 batch_time=0.61217 
+Train Epoch: 17 [166/250 21248/32000 (66%)] Loss: 2.43295 (QuantReg: 16.69077) QuantErr: 16.69077 batch_time=0.66552 
+Train Epoch: 17 [177/250 22656/32000 (71%)] Loss: 2.89839 (QuantReg: 16.65134) QuantErr: 16.65134 batch_time=0.62184 
+Train Epoch: 17 [188/250 24064/32000 (75%)] Loss: 3.08219 (QuantReg: 16.72612) QuantErr: 16.72612 batch_time=0.62361 
+Train Epoch: 17 [199/250 25472/32000 (80%)] Loss: 2.60802 (QuantReg: 16.89193) QuantErr: 16.89193 batch_time=0.62993 
+Train Epoch: 17 [210/250 26880/32000 (84%)] Loss: 3.10640 (QuantReg: 16.54035) QuantErr: 16.54035 batch_time=0.64016 
+Train Epoch: 17 [221/250 28288/32000 (88%)] Loss: 2.74935 (QuantReg: 16.61274) QuantErr: 16.61274 batch_time=0.63986 
+Train Epoch: 17 [232/250 29696/32000 (93%)] Loss: 3.18175 (QuantReg: 16.66187) QuantErr: 16.66187 batch_time=0.65128 
+Train Epoch: 17 [243/250 31104/32000 (97%)] Loss: 2.49637 (QuantReg: 16.73289) QuantErr: 16.73289 batch_time=0.63907 
+Train Epoch: 17 codebook_update_time=3.54177
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch17.pth ...
+Done in 5.487s
+removing stale ckpt [epoch 16] [took 0.01s]
+ epoch          : 17
+ loss           : 2.790562448501587
+ quant_reg      : 16.60333519744873
+ quant_err      : 16.60333519744873
+ learning_rate  : 2.2006333432588268e-05
+ n_samples      : 544000
+ n_steps        : 4250
+ LSMDC_full_test/t2v_metrics/R1: 13.1
+ LSMDC_full_test/t2v_metrics/R5: 31.8
+ LSMDC_full_test/t2v_metrics/R10: 41.6
+ LSMDC_full_test/t2v_metrics/R50: 67.8
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.527
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 25.87799246587303
+ LSMDC_full_test/v2t_metrics/R1: 14.6
+ LSMDC_full_test/v2t_metrics/R5: 32.1
+ LSMDC_full_test/v2t_metrics/R10: 41.5
+ LSMDC_full_test/v2t_metrics/R50: 67.3
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 69.001
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.892757040772867
+ mnt_best       : 26.710273929157175
+ not_improved_count: 2
+Train Epoch: 18 [1/250 128/32000 (0%)] Loss: 2.86744 (QuantReg: 16.59143) QuantErr: 16.59143 batch_time=22.33865 
+Train Epoch: 18 [12/250 1536/32000 (5%)] Loss: 2.48988 (QuantReg: 16.77836) QuantErr: 16.77836 batch_time=0.60783 
+Train Epoch: 18 [23/250 2944/32000 (9%)] Loss: 2.52653 (QuantReg: 16.57368) QuantErr: 16.57368 batch_time=0.94288 
+Train Epoch: 18 [34/250 4352/32000 (14%)] Loss: 2.56827 (QuantReg: 16.72631) QuantErr: 16.72631 batch_time=0.59903 
+Train Epoch: 18 [45/250 5760/32000 (18%)] Loss: 2.65144 (QuantReg: 16.62041) QuantErr: 16.62041 batch_time=0.60723 
+Train Epoch: 18 [56/250 7168/32000 (22%)] Loss: 2.67630 (QuantReg: 16.65324) QuantErr: 16.65324 batch_time=0.61164 
+Train Epoch: 18 [67/250 8576/32000 (27%)] Loss: 2.54547 (QuantReg: 16.65713) QuantErr: 16.65713 batch_time=0.61793 
+Train Epoch: 18 [78/250 9984/32000 (31%)] Loss: 2.90711 (QuantReg: 16.84790) QuantErr: 16.84790 batch_time=0.60070 
+Train Epoch: 18 [89/250 11392/32000 (36%)] Loss: 3.23744 (QuantReg: 16.64059) QuantErr: 16.64059 batch_time=0.59346 
+Train Epoch: 18 [100/250 12800/32000 (40%)] Loss: 2.47295 (QuantReg: 16.78449) QuantErr: 16.78449 batch_time=0.60833 
+Train Epoch: 18 [111/250 14208/32000 (44%)] Loss: 2.58748 (QuantReg: 16.80379) QuantErr: 16.80379 batch_time=0.62024 
+Train Epoch: 18 [122/250 15616/32000 (49%)] Loss: 2.48235 (QuantReg: 16.76651) QuantErr: 16.76651 batch_time=0.63057 
+Train Epoch: 18 [133/250 17024/32000 (53%)] Loss: 2.40349 (QuantReg: 16.68115) QuantErr: 16.68115 batch_time=0.59023 
+Train Epoch: 18 [144/250 18432/32000 (58%)] Loss: 2.62903 (QuantReg: 16.65165) QuantErr: 16.65165 batch_time=0.60949 
+Train Epoch: 18 [155/250 19840/32000 (62%)] Loss: 2.54154 (QuantReg: 16.73741) QuantErr: 16.73741 batch_time=0.59676 
+Train Epoch: 18 [166/250 21248/32000 (66%)] Loss: 3.19123 (QuantReg: 16.64172) QuantErr: 16.64172 batch_time=0.60836 
+Train Epoch: 18 [177/250 22656/32000 (71%)] Loss: 2.68948 (QuantReg: 16.63125) QuantErr: 16.63125 batch_time=0.62316 
+Train Epoch: 18 [188/250 24064/32000 (75%)] Loss: 2.88839 (QuantReg: 16.63007) QuantErr: 16.63007 batch_time=0.58791 
+Train Epoch: 18 [199/250 25472/32000 (80%)] Loss: 2.48934 (QuantReg: 16.76845) QuantErr: 16.76845 batch_time=0.72377 
+Train Epoch: 18 [210/250 26880/32000 (84%)] Loss: 2.64082 (QuantReg: 16.67947) QuantErr: 16.67947 batch_time=0.60176 
+Train Epoch: 18 [221/250 28288/32000 (88%)] Loss: 3.39150 (QuantReg: 16.64489) QuantErr: 16.64489 batch_time=0.62107 
+Train Epoch: 18 [232/250 29696/32000 (93%)] Loss: 2.90963 (QuantReg: 16.73695) QuantErr: 16.73695 batch_time=0.63205 
+Train Epoch: 18 [243/250 31104/32000 (97%)] Loss: 2.72907 (QuantReg: 16.57960) QuantErr: 16.57960 batch_time=0.62156 
+Train Epoch: 18 codebook_update_time=3.79411
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch18.pth ...
+Done in 4.710s
+removing stale ckpt [epoch 17] [took 0.79s]
+ epoch          : 18
+ loss           : 2.685614429473877
+ quant_reg      : 16.666835891723633
+ quant_err      : 16.666835891723633
+ learning_rate  : 2.0906016760958855e-05
+ n_samples      : 576000
+ n_steps        : 4500
+ LSMDC_full_test/t2v_metrics/R1: 14.0
+ LSMDC_full_test/t2v_metrics/R5: 32.4
+ LSMDC_full_test/t2v_metrics/R10: 41.7
+ LSMDC_full_test/t2v_metrics/R50: 68.6
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.182
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.644221390938178
+ LSMDC_full_test/v2t_metrics/R1: 14.1
+ LSMDC_full_test/v2t_metrics/R5: 33.1
+ LSMDC_full_test/v2t_metrics/R10: 41.4
+ LSMDC_full_test/v2t_metrics/R50: 68.3
+ LSMDC_full_test/v2t_metrics/MedR: 17.5
+ LSMDC_full_test/v2t_metrics/MeanR: 68.412
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.833818782502174
+ mnt_best       : 26.710273929157175
+ not_improved_count: 3
+Train Epoch: 19 [1/250 128/32000 (0%)] Loss: 2.30045 (QuantReg: 16.66164) QuantErr: 16.66164 batch_time=20.34341 
+Train Epoch: 19 [12/250 1536/32000 (5%)] Loss: 2.86609 (QuantReg: 16.60087) QuantErr: 16.60087 batch_time=0.70948 
+Train Epoch: 19 [23/250 2944/32000 (9%)] Loss: 2.97105 (QuantReg: 16.60223) QuantErr: 16.60223 batch_time=0.59684 
+Train Epoch: 19 [34/250 4352/32000 (14%)] Loss: 2.60617 (QuantReg: 16.64645) QuantErr: 16.64645 batch_time=0.64844 
+Train Epoch: 19 [45/250 5760/32000 (18%)] Loss: 2.39356 (QuantReg: 16.76141) QuantErr: 16.76141 batch_time=0.62338 
+Train Epoch: 19 [56/250 7168/32000 (22%)] Loss: 3.12386 (QuantReg: 16.67306) QuantErr: 16.67306 batch_time=0.64291 
+Train Epoch: 19 [67/250 8576/32000 (27%)] Loss: 2.73619 (QuantReg: 16.64792) QuantErr: 16.64792 batch_time=1.62506 
+Train Epoch: 19 [78/250 9984/32000 (31%)] Loss: 2.73848 (QuantReg: 16.74669) QuantErr: 16.74669 batch_time=0.68936 
+Train Epoch: 19 [89/250 11392/32000 (36%)] Loss: 2.46033 (QuantReg: 16.70480) QuantErr: 16.70480 batch_time=0.72347 
+Train Epoch: 19 [100/250 12800/32000 (40%)] Loss: 2.66538 (QuantReg: 16.75303) QuantErr: 16.75303 batch_time=0.64256 
+Train Epoch: 19 [111/250 14208/32000 (44%)] Loss: 2.76595 (QuantReg: 16.48425) QuantErr: 16.48425 batch_time=0.65165 
+Train Epoch: 19 [122/250 15616/32000 (49%)] Loss: 2.69018 (QuantReg: 16.60455) QuantErr: 16.60455 batch_time=0.65684 
+Train Epoch: 19 [133/250 17024/32000 (53%)] Loss: 2.33237 (QuantReg: 16.82642) QuantErr: 16.82642 batch_time=0.60168 
+Train Epoch: 19 [144/250 18432/32000 (58%)] Loss: 2.69335 (QuantReg: 16.64485) QuantErr: 16.64485 batch_time=0.69597 
+Train Epoch: 19 [155/250 19840/32000 (62%)] Loss: 2.79900 (QuantReg: 16.78032) QuantErr: 16.78032 batch_time=0.60614 
+Train Epoch: 19 [166/250 21248/32000 (66%)] Loss: 2.41922 (QuantReg: 16.95197) QuantErr: 16.95197 batch_time=0.61589 
+Train Epoch: 19 [177/250 22656/32000 (71%)] Loss: 2.55753 (QuantReg: 16.78978) QuantErr: 16.78978 batch_time=0.94348 
+Train Epoch: 19 [188/250 24064/32000 (75%)] Loss: 2.53266 (QuantReg: 16.64538) QuantErr: 16.64538 batch_time=0.65451 
+Train Epoch: 19 [199/250 25472/32000 (80%)] Loss: 2.28788 (QuantReg: 16.96164) QuantErr: 16.96164 batch_time=0.60474 
+Train Epoch: 19 [210/250 26880/32000 (84%)] Loss: 2.78890 (QuantReg: 16.74043) QuantErr: 16.74043 batch_time=0.65751 
+Train Epoch: 19 [221/250 28288/32000 (88%)] Loss: 2.53078 (QuantReg: 16.63902) QuantErr: 16.63902 batch_time=0.61882 
+Train Epoch: 19 [232/250 29696/32000 (93%)] Loss: 2.54390 (QuantReg: 16.83791) QuantErr: 16.83791 batch_time=0.67048 
+Train Epoch: 19 [243/250 31104/32000 (97%)] Loss: 2.19047 (QuantReg: 16.73927) QuantErr: 16.73927 batch_time=1.20388 
+Train Epoch: 19 codebook_update_time=3.65886
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch19.pth ...
+Done in 4.374s
+removing stale ckpt [epoch 18] [took 0.00s]
+ epoch          : 19
+ loss           : 2.6228488874435425
+ quant_reg      : 16.72257305145264
+ quant_err      : 16.72257305145264
+ learning_rate  : 1.986071592291091e-05
+ n_samples      : 608000
+ n_steps        : 4750
+ LSMDC_full_test/t2v_metrics/R1: 12.7
+ LSMDC_full_test/t2v_metrics/R5: 31.6
+ LSMDC_full_test/t2v_metrics/R10: 42.6
+ LSMDC_full_test/t2v_metrics/R50: 69.2
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.61
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 25.761242208270634
+ LSMDC_full_test/v2t_metrics/R1: 13.4
+ LSMDC_full_test/v2t_metrics/R5: 31.7
+ LSMDC_full_test/v2t_metrics/R10: 41.0
+ LSMDC_full_test/v2t_metrics/R50: 67.2
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 71.732
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.92085399246452
+ mnt_best       : 26.710273929157175
+ not_improved_count: 4
+Train Epoch: 20 [1/250 128/32000 (0%)] Loss: 2.58906 (QuantReg: 16.94642) QuantErr: 16.94642 batch_time=21.51865 
+Train Epoch: 20 [12/250 1536/32000 (5%)] Loss: 2.96151 (QuantReg: 16.80813) QuantErr: 16.80813 batch_time=1.72863 
+Train Epoch: 20 [23/250 2944/32000 (9%)] Loss: 2.08790 (QuantReg: 16.76979) QuantErr: 16.76979 batch_time=0.66934 
+Train Epoch: 20 [34/250 4352/32000 (14%)] Loss: 2.62055 (QuantReg: 16.79494) QuantErr: 16.79494 batch_time=0.64922 
+Train Epoch: 20 [45/250 5760/32000 (18%)] Loss: 2.15438 (QuantReg: 16.75278) QuantErr: 16.75278 batch_time=0.67798 
+Train Epoch: 20 [56/250 7168/32000 (22%)] Loss: 2.64297 (QuantReg: 16.72712) QuantErr: 16.72712 batch_time=0.61654 
+Train Epoch: 20 [67/250 8576/32000 (27%)] Loss: 2.80966 (QuantReg: 16.70368) QuantErr: 16.70368 batch_time=0.63743 
+Train Epoch: 20 [78/250 9984/32000 (31%)] Loss: 2.81963 (QuantReg: 16.78556) QuantErr: 16.78556 batch_time=0.63590 
+Train Epoch: 20 [89/250 11392/32000 (36%)] Loss: 2.31878 (QuantReg: 16.58514) QuantErr: 16.58514 batch_time=0.63298 
+Train Epoch: 20 [100/250 12800/32000 (40%)] Loss: 2.70250 (QuantReg: 16.55514) QuantErr: 16.55514 batch_time=0.70706 
+Train Epoch: 20 [111/250 14208/32000 (44%)] Loss: 2.70292 (QuantReg: 16.55582) QuantErr: 16.55582 batch_time=0.66250 
+Train Epoch: 20 [122/250 15616/32000 (49%)] Loss: 2.46721 (QuantReg: 16.79561) QuantErr: 16.79561 batch_time=0.60076 
+Train Epoch: 20 [133/250 17024/32000 (53%)] Loss: 2.84267 (QuantReg: 16.71868) QuantErr: 16.71868 batch_time=0.72089 
+Train Epoch: 20 [144/250 18432/32000 (58%)] Loss: 2.65015 (QuantReg: 16.56049) QuantErr: 16.56049 batch_time=1.66853 
+Train Epoch: 20 [155/250 19840/32000 (62%)] Loss: 2.39115 (QuantReg: 16.65302) QuantErr: 16.65302 batch_time=0.60812 
+Train Epoch: 20 [166/250 21248/32000 (66%)] Loss: 2.72635 (QuantReg: 16.80837) QuantErr: 16.80837 batch_time=0.62975 
+Train Epoch: 20 [177/250 22656/32000 (71%)] Loss: 2.20902 (QuantReg: 16.69874) QuantErr: 16.69874 batch_time=0.65670 
+Train Epoch: 20 [188/250 24064/32000 (75%)] Loss: 2.37344 (QuantReg: 16.55546) QuantErr: 16.55546 batch_time=0.61971 
+Train Epoch: 20 [199/250 25472/32000 (80%)] Loss: 2.25244 (QuantReg: 16.90909) QuantErr: 16.90909 batch_time=0.64219 
+Train Epoch: 20 [210/250 26880/32000 (84%)] Loss: 2.27581 (QuantReg: 16.77535) QuantErr: 16.77535 batch_time=0.61818 
+Train Epoch: 20 [221/250 28288/32000 (88%)] Loss: 2.43457 (QuantReg: 16.77292) QuantErr: 16.77292 batch_time=1.50732 
+Train Epoch: 20 [232/250 29696/32000 (93%)] Loss: 2.40586 (QuantReg: 16.66497) QuantErr: 16.66497 batch_time=0.60405 
+Train Epoch: 20 [243/250 31104/32000 (97%)] Loss: 2.01748 (QuantReg: 16.85379) QuantErr: 16.85379 batch_time=0.66240 
+Train Epoch: 20 codebook_update_time=3.45216
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch20.pth ...
+Done in 4.286s
+removing stale ckpt [epoch 19] [took 0.00s]
+ epoch          : 20
+ loss           : 2.550998140335083
+ quant_reg      : 16.736919845581056
+ quant_err      : 16.736919845581056
+ learning_rate  : 1.8867680126765363e-05
+ n_samples      : 640000
+ n_steps        : 5000
+ LSMDC_full_test/t2v_metrics/R1: 13.0
+ LSMDC_full_test/t2v_metrics/R5: 33.7
+ LSMDC_full_test/t2v_metrics/R10: 42.7
+ LSMDC_full_test/t2v_metrics/R50: 68.7
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.59
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.546078606737037
+ LSMDC_full_test/v2t_metrics/R1: 13.9
+ LSMDC_full_test/v2t_metrics/R5: 31.6
+ LSMDC_full_test/v2t_metrics/R10: 41.8
+ LSMDC_full_test/v2t_metrics/R50: 68.3
+ LSMDC_full_test/v2t_metrics/MedR: 16.5
+ LSMDC_full_test/v2t_metrics/MeanR: 69.887
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.381089150616553
+ mnt_best       : 26.710273929157175
+ not_improved_count: 5
+Train Epoch: 21 [1/250 128/32000 (0%)] Loss: 2.38290 (QuantReg: 16.69426) QuantErr: 16.69426 batch_time=19.00047 
+Train Epoch: 21 [12/250 1536/32000 (5%)] Loss: 2.34173 (QuantReg: 16.70433) QuantErr: 16.70433 batch_time=0.64430 
+Train Epoch: 21 [23/250 2944/32000 (9%)] Loss: 2.67958 (QuantReg: 16.85955) QuantErr: 16.85955 batch_time=0.60616 
+Train Epoch: 21 [34/250 4352/32000 (14%)] Loss: 2.46629 (QuantReg: 16.65994) QuantErr: 16.65994 batch_time=0.65231 
+Train Epoch: 21 [45/250 5760/32000 (18%)] Loss: 2.08502 (QuantReg: 16.72996) QuantErr: 16.72996 batch_time=0.67784 
+Train Epoch: 21 [56/250 7168/32000 (22%)] Loss: 2.70795 (QuantReg: 16.75675) QuantErr: 16.75675 batch_time=0.63510 
+Train Epoch: 21 [67/250 8576/32000 (27%)] Loss: 2.22233 (QuantReg: 16.83552) QuantErr: 16.83552 batch_time=0.68717 
+Train Epoch: 21 [78/250 9984/32000 (31%)] Loss: 2.26836 (QuantReg: 16.93451) QuantErr: 16.93451 batch_time=0.61973 
+Train Epoch: 21 [89/250 11392/32000 (36%)] Loss: 2.86208 (QuantReg: 16.67985) QuantErr: 16.67985 batch_time=0.59738 
+Train Epoch: 21 [100/250 12800/32000 (40%)] Loss: 2.34024 (QuantReg: 16.85887) QuantErr: 16.85887 batch_time=0.67757 
+Train Epoch: 21 [111/250 14208/32000 (44%)] Loss: 2.30928 (QuantReg: 16.76455) QuantErr: 16.76455 batch_time=0.62920 
+Train Epoch: 21 [122/250 15616/32000 (49%)] Loss: 2.31493 (QuantReg: 16.66320) QuantErr: 16.66320 batch_time=0.72880 
+Train Epoch: 21 [133/250 17024/32000 (53%)] Loss: 2.31550 (QuantReg: 16.81207) QuantErr: 16.81207 batch_time=1.11095 
+Train Epoch: 21 [144/250 18432/32000 (58%)] Loss: 2.82318 (QuantReg: 16.68330) QuantErr: 16.68330 batch_time=0.63263 
+Train Epoch: 21 [155/250 19840/32000 (62%)] Loss: 2.20822 (QuantReg: 16.78894) QuantErr: 16.78894 batch_time=1.23348 
+Train Epoch: 21 [166/250 21248/32000 (66%)] Loss: 2.60556 (QuantReg: 16.76823) QuantErr: 16.76823 batch_time=0.59051 
+Train Epoch: 21 [177/250 22656/32000 (71%)] Loss: 2.46984 (QuantReg: 16.80440) QuantErr: 16.80440 batch_time=0.60709 
+Train Epoch: 21 [188/250 24064/32000 (75%)] Loss: 2.46877 (QuantReg: 16.95144) QuantErr: 16.95144 batch_time=0.66710 
+Train Epoch: 21 [199/250 25472/32000 (80%)] Loss: 2.52441 (QuantReg: 16.81334) QuantErr: 16.81334 batch_time=0.75186 
+Train Epoch: 21 [210/250 26880/32000 (84%)] Loss: 2.54126 (QuantReg: 16.93558) QuantErr: 16.93558 batch_time=1.13091 
+Train Epoch: 21 [221/250 28288/32000 (88%)] Loss: 2.45654 (QuantReg: 16.79540) QuantErr: 16.79540 batch_time=0.64605 
+Train Epoch: 21 [232/250 29696/32000 (93%)] Loss: 2.44565 (QuantReg: 16.87070) QuantErr: 16.87070 batch_time=0.68324 
+Train Epoch: 21 [243/250 31104/32000 (97%)] Loss: 2.98665 (QuantReg: 16.82017) QuantErr: 16.82017 batch_time=0.67833 
+Train Epoch: 21 codebook_update_time=3.74926
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch21.pth ...
+Done in 4.717s
+removing stale ckpt [epoch 20] [took 0.00s]
+ epoch          : 21
+ loss           : 2.4571462182998656
+ quant_reg      : 16.787413650512697
+ quant_err      : 16.787413650512697
+ learning_rate  : 1.7924296120427095e-05
+ n_samples      : 672000
+ n_steps        : 5250
+ LSMDC_full_test/t2v_metrics/R1: 13.6
+ LSMDC_full_test/t2v_metrics/R5: 32.8
+ LSMDC_full_test/t2v_metrics/R10: 41.5
+ LSMDC_full_test/t2v_metrics/R50: 69.0
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.422
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.453732009614747
+ LSMDC_full_test/v2t_metrics/R1: 13.9
+ LSMDC_full_test/v2t_metrics/R5: 32.1
+ LSMDC_full_test/v2t_metrics/R10: 41.2
+ LSMDC_full_test/v2t_metrics/R50: 66.7
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 68.058
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.39200285780734
+ mnt_best       : 26.710273929157175
+ not_improved_count: 6
+Train Epoch: 22 [1/250 128/32000 (0%)] Loss: 2.76599 (QuantReg: 16.71666) QuantErr: 16.71666 batch_time=22.15879 
+Train Epoch: 22 [12/250 1536/32000 (5%)] Loss: 2.37082 (QuantReg: 16.82651) QuantErr: 16.82651 batch_time=0.71943 
+Train Epoch: 22 [23/250 2944/32000 (9%)] Loss: 2.72415 (QuantReg: 16.69506) QuantErr: 16.69506 batch_time=0.66650 
+Train Epoch: 22 [34/250 4352/32000 (14%)] Loss: 2.20603 (QuantReg: 16.84866) QuantErr: 16.84866 batch_time=0.69987 
+Train Epoch: 22 [45/250 5760/32000 (18%)] Loss: 2.47566 (QuantReg: 16.86047) QuantErr: 16.86047 batch_time=0.61655 
+Train Epoch: 22 [56/250 7168/32000 (22%)] Loss: 2.36717 (QuantReg: 16.92712) QuantErr: 16.92712 batch_time=0.62910 
+Train Epoch: 22 [67/250 8576/32000 (27%)] Loss: 2.51424 (QuantReg: 16.80643) QuantErr: 16.80643 batch_time=0.60286 
+Train Epoch: 22 [78/250 9984/32000 (31%)] Loss: 2.32463 (QuantReg: 16.84271) QuantErr: 16.84271 batch_time=0.61865 
+Train Epoch: 22 [89/250 11392/32000 (36%)] Loss: 2.50609 (QuantReg: 16.75809) QuantErr: 16.75809 batch_time=0.62327 
+Train Epoch: 22 [100/250 12800/32000 (40%)] Loss: 2.03515 (QuantReg: 16.85277) QuantErr: 16.85277 batch_time=0.59836 
+Train Epoch: 22 [111/250 14208/32000 (44%)] Loss: 2.22842 (QuantReg: 16.98258) QuantErr: 16.98258 batch_time=0.62275 
+Train Epoch: 22 [122/250 15616/32000 (49%)] Loss: 2.48965 (QuantReg: 16.88294) QuantErr: 16.88294 batch_time=0.66271 
+Train Epoch: 22 [133/250 17024/32000 (53%)] Loss: 2.35459 (QuantReg: 16.93964) QuantErr: 16.93964 batch_time=4.03063 
+Train Epoch: 22 [144/250 18432/32000 (58%)] Loss: 2.82808 (QuantReg: 16.78388) QuantErr: 16.78388 batch_time=0.67814 
+Train Epoch: 22 [155/250 19840/32000 (62%)] Loss: 2.44762 (QuantReg: 16.80218) QuantErr: 16.80218 batch_time=0.65002 
+Train Epoch: 22 [166/250 21248/32000 (66%)] Loss: 2.22360 (QuantReg: 16.87226) QuantErr: 16.87226 batch_time=0.70483 
+Train Epoch: 22 [177/250 22656/32000 (71%)] Loss: 2.79155 (QuantReg: 16.87600) QuantErr: 16.87600 batch_time=0.67180 
+Train Epoch: 22 [188/250 24064/32000 (75%)] Loss: 2.11958 (QuantReg: 16.99093) QuantErr: 16.99093 batch_time=0.64410 
+Train Epoch: 22 [199/250 25472/32000 (80%)] Loss: 2.43261 (QuantReg: 16.77976) QuantErr: 16.77976 batch_time=0.81531 
+Train Epoch: 22 [210/250 26880/32000 (84%)] Loss: 2.13288 (QuantReg: 16.85265) QuantErr: 16.85265 batch_time=0.66992 
+Train Epoch: 22 [221/250 28288/32000 (88%)] Loss: 1.95420 (QuantReg: 16.99705) QuantErr: 16.99705 batch_time=0.64300 
+Train Epoch: 22 [232/250 29696/32000 (93%)] Loss: 2.14642 (QuantReg: 17.10557) QuantErr: 17.10557 batch_time=0.64283 
+Train Epoch: 22 [243/250 31104/32000 (97%)] Loss: 2.52210 (QuantReg: 16.72586) QuantErr: 16.72586 batch_time=0.64401 
+Train Epoch: 22 codebook_update_time=3.44426
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch22.pth ...
+Done in 4.700s
+removing stale ckpt [epoch 21] [took 0.03s]
+ epoch          : 22
+ loss           : 2.39518314409256
+ quant_reg      : 16.846934341430664
+ quant_err      : 16.846934341430664
+ learning_rate  : 1.702808131440574e-05
+ n_samples      : 704000
+ n_steps        : 5500
+ LSMDC_full_test/t2v_metrics/R1: 13.0
+ LSMDC_full_test/t2v_metrics/R5: 33.1
+ LSMDC_full_test/t2v_metrics/R10: 41.5
+ LSMDC_full_test/t2v_metrics/R50: 69.9
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 69.89
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.138047785157802
+ LSMDC_full_test/v2t_metrics/R1: 13.3
+ LSMDC_full_test/v2t_metrics/R5: 32.3
+ LSMDC_full_test/v2t_metrics/R10: 42.6
+ LSMDC_full_test/v2t_metrics/R50: 69.0
+ LSMDC_full_test/v2t_metrics/MedR: 16.0
+ LSMDC_full_test/v2t_metrics/MeanR: 67.776
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.352465542284296
+ mnt_best       : 26.710273929157175
+ not_improved_count: 7
+Train Epoch: 23 [1/250 128/32000 (0%)] Loss: 2.44524 (QuantReg: 16.93388) QuantErr: 16.93388 batch_time=28.04967 
+Train Epoch: 23 [12/250 1536/32000 (5%)] Loss: 2.54597 (QuantReg: 17.00431) QuantErr: 17.00431 batch_time=0.61826 
+Train Epoch: 23 [23/250 2944/32000 (9%)] Loss: 2.12213 (QuantReg: 16.84837) QuantErr: 16.84837 batch_time=0.61868 
+Train Epoch: 23 [34/250 4352/32000 (14%)] Loss: 2.46627 (QuantReg: 16.90832) QuantErr: 16.90832 batch_time=0.59252 
+Train Epoch: 23 [45/250 5760/32000 (18%)] Loss: 1.99891 (QuantReg: 17.00950) QuantErr: 17.00950 batch_time=0.62286 
+Train Epoch: 23 [56/250 7168/32000 (22%)] Loss: 2.64657 (QuantReg: 16.83035) QuantErr: 16.83035 batch_time=0.60276 
+Train Epoch: 23 [67/250 8576/32000 (27%)] Loss: 2.38653 (QuantReg: 16.83843) QuantErr: 16.83843 batch_time=0.60147 
+Train Epoch: 23 [78/250 9984/32000 (31%)] Loss: 2.09409 (QuantReg: 16.97441) QuantErr: 16.97441 batch_time=0.65143 
+Train Epoch: 23 [89/250 11392/32000 (36%)] Loss: 2.09802 (QuantReg: 16.85571) QuantErr: 16.85571 batch_time=0.64789 
+Train Epoch: 23 [100/250 12800/32000 (40%)] Loss: 2.00810 (QuantReg: 16.93860) QuantErr: 16.93860 batch_time=0.64288 
+Train Epoch: 23 [111/250 14208/32000 (44%)] Loss: 2.42715 (QuantReg: 16.98739) QuantErr: 16.98739 batch_time=0.66450 
+Train Epoch: 23 [122/250 15616/32000 (49%)] Loss: 2.47916 (QuantReg: 16.76262) QuantErr: 16.76262 batch_time=0.65520 
+Train Epoch: 23 [133/250 17024/32000 (53%)] Loss: 2.39448 (QuantReg: 16.82286) QuantErr: 16.82286 batch_time=0.60790 
+Train Epoch: 23 [144/250 18432/32000 (58%)] Loss: 2.14980 (QuantReg: 16.84120) QuantErr: 16.84120 batch_time=0.59622 
+Train Epoch: 23 [155/250 19840/32000 (62%)] Loss: 2.36018 (QuantReg: 16.90997) QuantErr: 16.90997 batch_time=0.61762 
+Train Epoch: 23 [166/250 21248/32000 (66%)] Loss: 2.19230 (QuantReg: 16.97264) QuantErr: 16.97264 batch_time=0.88753 
+Train Epoch: 23 [177/250 22656/32000 (71%)] Loss: 2.38557 (QuantReg: 16.95598) QuantErr: 16.95598 batch_time=0.65104 
+Train Epoch: 23 [188/250 24064/32000 (75%)] Loss: 2.05198 (QuantReg: 16.90324) QuantErr: 16.90324 batch_time=0.74136 
+Train Epoch: 23 [199/250 25472/32000 (80%)] Loss: 2.19503 (QuantReg: 16.99588) QuantErr: 16.99588 batch_time=0.62788 
+Train Epoch: 23 [210/250 26880/32000 (84%)] Loss: 1.90056 (QuantReg: 16.96433) QuantErr: 16.96433 batch_time=0.64906 
+Train Epoch: 23 [221/250 28288/32000 (88%)] Loss: 2.45857 (QuantReg: 16.86210) QuantErr: 16.86210 batch_time=0.60536 
+Train Epoch: 23 [232/250 29696/32000 (93%)] Loss: 2.36720 (QuantReg: 16.83538) QuantErr: 16.83538 batch_time=0.64179 
+Train Epoch: 23 [243/250 31104/32000 (97%)] Loss: 1.93764 (QuantReg: 16.94083) QuantErr: 16.94083 batch_time=0.61547 
+Train Epoch: 23 codebook_update_time=3.42566
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch23.pth ...
+Done in 4.759s
+removing stale ckpt [epoch 22] [took 0.01s]
+ epoch          : 23
+ loss           : 2.3198916792869566
+ quant_reg      : 16.90524192047119
+ quant_err      : 16.90524192047119
+ learning_rate  : 1.6176677248685452e-05
+ n_samples      : 736000
+ n_steps        : 5750
+ LSMDC_full_test/t2v_metrics/R1: 13.1
+ LSMDC_full_test/t2v_metrics/R5: 33.1
+ LSMDC_full_test/t2v_metrics/R10: 41.9
+ LSMDC_full_test/t2v_metrics/R50: 70.1
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 67.87
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.288820685907872
+ LSMDC_full_test/v2t_metrics/R1: 13.1
+ LSMDC_full_test/v2t_metrics/R5: 30.8
+ LSMDC_full_test/v2t_metrics/R10: 41.1
+ LSMDC_full_test/v2t_metrics/R50: 68.2
+ LSMDC_full_test/v2t_metrics/MedR: 17.0
+ LSMDC_full_test/v2t_metrics/MeanR: 68.694
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.500847338241062
+ mnt_best       : 26.710273929157175
+ not_improved_count: 8
+Train Epoch: 24 [1/250 128/32000 (0%)] Loss: 2.36569 (QuantReg: 16.94356) QuantErr: 16.94356 batch_time=23.41102 
+Train Epoch: 24 [12/250 1536/32000 (5%)] Loss: 2.06726 (QuantReg: 16.89694) QuantErr: 16.89694 batch_time=0.64683 
+Train Epoch: 24 [23/250 2944/32000 (9%)] Loss: 2.69506 (QuantReg: 16.68122) QuantErr: 16.68122 batch_time=0.60363 
+Train Epoch: 24 [34/250 4352/32000 (14%)] Loss: 2.42747 (QuantReg: 16.74764) QuantErr: 16.74764 batch_time=3.56722 
+Train Epoch: 24 [45/250 5760/32000 (18%)] Loss: 2.27567 (QuantReg: 17.05985) QuantErr: 17.05985 batch_time=0.60261 
+Train Epoch: 24 [56/250 7168/32000 (22%)] Loss: 2.50297 (QuantReg: 16.94372) QuantErr: 16.94372 batch_time=0.67311 
+Train Epoch: 24 [67/250 8576/32000 (27%)] Loss: 2.00259 (QuantReg: 16.89332) QuantErr: 16.89332 batch_time=0.69978 
+Train Epoch: 24 [78/250 9984/32000 (31%)] Loss: 2.12777 (QuantReg: 16.95220) QuantErr: 16.95220 batch_time=0.58295 
+Train Epoch: 24 [89/250 11392/32000 (36%)] Loss: 2.29207 (QuantReg: 16.91442) QuantErr: 16.91442 batch_time=0.61095 
+Train Epoch: 24 [100/250 12800/32000 (40%)] Loss: 2.24078 (QuantReg: 16.89514) QuantErr: 16.89514 batch_time=0.78171 
+Train Epoch: 24 [111/250 14208/32000 (44%)] Loss: 1.86120 (QuantReg: 16.93130) QuantErr: 16.93130 batch_time=0.60622 
+Train Epoch: 24 [122/250 15616/32000 (49%)] Loss: 2.18907 (QuantReg: 16.96999) QuantErr: 16.96999 batch_time=0.61495 
+Train Epoch: 24 [133/250 17024/32000 (53%)] Loss: 2.30228 (QuantReg: 16.93922) QuantErr: 16.93922 batch_time=0.65038 
+Train Epoch: 24 [144/250 18432/32000 (58%)] Loss: 2.05024 (QuantReg: 16.86258) QuantErr: 16.86258 batch_time=1.93709 
+Train Epoch: 24 [155/250 19840/32000 (62%)] Loss: 2.14371 (QuantReg: 16.95471) QuantErr: 16.95471 batch_time=0.62258 
+Train Epoch: 24 [166/250 21248/32000 (66%)] Loss: 2.71332 (QuantReg: 16.95745) QuantErr: 16.95745 batch_time=0.60402 
+Train Epoch: 24 [177/250 22656/32000 (71%)] Loss: 2.41222 (QuantReg: 16.77677) QuantErr: 16.77677 batch_time=0.61894 
+Train Epoch: 24 [188/250 24064/32000 (75%)] Loss: 2.37969 (QuantReg: 16.89084) QuantErr: 16.89084 batch_time=0.67441 
+Train Epoch: 24 [199/250 25472/32000 (80%)] Loss: 2.45155 (QuantReg: 16.87024) QuantErr: 16.87024 batch_time=0.63007 
+Train Epoch: 24 [210/250 26880/32000 (84%)] Loss: 2.35485 (QuantReg: 17.01249) QuantErr: 17.01249 batch_time=0.63934 
+Train Epoch: 24 [221/250 28288/32000 (88%)] Loss: 2.27960 (QuantReg: 16.79650) QuantErr: 16.79650 batch_time=0.62662 
+Train Epoch: 24 [232/250 29696/32000 (93%)] Loss: 1.99406 (QuantReg: 17.04910) QuantErr: 17.04910 batch_time=0.81903 
+Train Epoch: 24 [243/250 31104/32000 (97%)] Loss: 2.22572 (QuantReg: 16.84715) QuantErr: 16.84715 batch_time=0.60798 
+Train Epoch: 24 codebook_update_time=3.53311
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch24.pth ...
+Done in 6.567s
+removing stale ckpt [epoch 23] [took 0.01s]
+ epoch          : 24
+ loss           : 2.28386852312088
+ quant_reg      : 16.884227340698242
+ quant_err      : 16.884227340698242
+ learning_rate  : 1.5367843386251178e-05
+ n_samples      : 768000
+ n_steps        : 6000
+ LSMDC_full_test/t2v_metrics/R1: 12.9
+ LSMDC_full_test/t2v_metrics/R5: 32.8
+ LSMDC_full_test/t2v_metrics/R10: 42.4
+ LSMDC_full_test/t2v_metrics/R50: 69.9
+ LSMDC_full_test/t2v_metrics/MedR: 18.0
+ LSMDC_full_test/t2v_metrics/MeanR: 68.715
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.17840226197906
+ LSMDC_full_test/v2t_metrics/R1: 13.8
+ LSMDC_full_test/v2t_metrics/R5: 32.8
+ LSMDC_full_test/v2t_metrics/R10: 41.7
+ LSMDC_full_test/v2t_metrics/R50: 68.8
+ LSMDC_full_test/v2t_metrics/MedR: 17.5
+ LSMDC_full_test/v2t_metrics/MeanR: 68.981
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.625411486069254
+ mnt_best       : 26.710273929157175
+ not_improved_count: 9
+Train Epoch: 25 [1/250 128/32000 (0%)] Loss: 2.30262 (QuantReg: 16.90413) QuantErr: 16.90413 batch_time=29.28600 
+Train Epoch: 25 [12/250 1536/32000 (5%)] Loss: 2.38120 (QuantReg: 16.81058) QuantErr: 16.81058 batch_time=0.77956 
+Train Epoch: 25 [23/250 2944/32000 (9%)] Loss: 2.02753 (QuantReg: 16.86158) QuantErr: 16.86158 batch_time=0.62241 
+Train Epoch: 25 [34/250 4352/32000 (14%)] Loss: 2.16460 (QuantReg: 16.86349) QuantErr: 16.86349 batch_time=0.68061 
+Train Epoch: 25 [45/250 5760/32000 (18%)] Loss: 2.03457 (QuantReg: 16.90242) QuantErr: 16.90242 batch_time=0.63532 
+Train Epoch: 25 [56/250 7168/32000 (22%)] Loss: 2.30357 (QuantReg: 16.92638) QuantErr: 16.92638 batch_time=0.66175 
+Train Epoch: 25 [67/250 8576/32000 (27%)] Loss: 2.51211 (QuantReg: 16.98261) QuantErr: 16.98261 batch_time=0.69419 
+Train Epoch: 25 [78/250 9984/32000 (31%)] Loss: 2.05409 (QuantReg: 16.88574) QuantErr: 16.88574 batch_time=0.66277 
+Train Epoch: 25 [89/250 11392/32000 (36%)] Loss: 2.04193 (QuantReg: 16.98058) QuantErr: 16.98058 batch_time=0.61995 
+Train Epoch: 25 [100/250 12800/32000 (40%)] Loss: 2.07333 (QuantReg: 16.90797) QuantErr: 16.90797 batch_time=0.67473 
+Train Epoch: 25 [111/250 14208/32000 (44%)] Loss: 2.02291 (QuantReg: 16.92550) QuantErr: 16.92550 batch_time=0.65373 
+Train Epoch: 25 [122/250 15616/32000 (49%)] Loss: 2.32250 (QuantReg: 16.83001) QuantErr: 16.83001 batch_time=0.63092 
+Train Epoch: 25 [133/250 17024/32000 (53%)] Loss: 2.85574 (QuantReg: 16.86727) QuantErr: 16.86727 batch_time=0.63848 
+Train Epoch: 25 [144/250 18432/32000 (58%)] Loss: 2.13064 (QuantReg: 16.91685) QuantErr: 16.91685 batch_time=0.62399 
+Train Epoch: 25 [155/250 19840/32000 (62%)] Loss: 2.34539 (QuantReg: 16.90554) QuantErr: 16.90554 batch_time=0.66098 
+Train Epoch: 25 [166/250 21248/32000 (66%)] Loss: 2.38978 (QuantReg: 17.03812) QuantErr: 17.03812 batch_time=0.64452 
+Train Epoch: 25 [177/250 22656/32000 (71%)] Loss: 2.05274 (QuantReg: 16.80548) QuantErr: 16.80548 batch_time=0.61109 
+Train Epoch: 25 [188/250 24064/32000 (75%)] Loss: 2.42726 (QuantReg: 17.07719) QuantErr: 17.07719 batch_time=0.70088 
+Train Epoch: 25 [199/250 25472/32000 (80%)] Loss: 2.43334 (QuantReg: 16.86417) QuantErr: 16.86417 batch_time=0.68328 
+Train Epoch: 25 [210/250 26880/32000 (84%)] Loss: 2.09366 (QuantReg: 17.03582) QuantErr: 17.03582 batch_time=0.60875 
+Train Epoch: 25 [221/250 28288/32000 (88%)] Loss: 2.24573 (QuantReg: 17.03881) QuantErr: 17.03881 batch_time=0.65929 
+Train Epoch: 25 [232/250 29696/32000 (93%)] Loss: 1.93699 (QuantReg: 16.91946) QuantErr: 16.91946 batch_time=0.68570 
+Train Epoch: 25 [243/250 31104/32000 (97%)] Loss: 2.14366 (QuantReg: 17.04155) QuantErr: 17.04155 batch_time=0.63982 
+Train Epoch: 25 codebook_update_time=3.77390
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch25.pth ...
+Done in 4.931s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch25.pth ...
+Done in 10.376s
+removing stale ckpt [epoch 24] [took 0.00s]
+ epoch          : 25
+ loss           : 2.2308943934440615
+ quant_reg      : 16.92416059112549
+ quant_err      : 16.92416059112549
+ learning_rate  : 1.4599451216938618e-05
+ n_samples      : 800000
+ n_steps        : 6250
+ LSMDC_full_test/t2v_metrics/R1: 13.6
+ LSMDC_full_test/t2v_metrics/R5: 33.9
+ LSMDC_full_test/t2v_metrics/R10: 42.7
+ LSMDC_full_test/t2v_metrics/R50: 69.4
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 68.672
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.00155820911155
+ LSMDC_full_test/v2t_metrics/R1: 13.3
+ LSMDC_full_test/v2t_metrics/R5: 31.9
+ LSMDC_full_test/v2t_metrics/R10: 41.5
+ LSMDC_full_test/v2t_metrics/R50: 67.6
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 68.763
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.01537798359851
+ mnt_best       : 27.00155820911155
+ not_improved_count: 0
+Train Epoch: 26 [1/250 128/32000 (0%)] Loss: 2.29957 (QuantReg: 16.94307) QuantErr: 16.94307 batch_time=19.77433 
+Train Epoch: 26 [12/250 1536/32000 (5%)] Loss: 2.33041 (QuantReg: 16.88158) QuantErr: 16.88158 batch_time=0.60579 
+Train Epoch: 26 [23/250 2944/32000 (9%)] Loss: 2.17408 (QuantReg: 16.92785) QuantErr: 16.92785 batch_time=0.61381 
+Train Epoch: 26 [34/250 4352/32000 (14%)] Loss: 1.89440 (QuantReg: 17.01099) QuantErr: 17.01099 batch_time=0.60358 
+Train Epoch: 26 [45/250 5760/32000 (18%)] Loss: 2.19287 (QuantReg: 16.77223) QuantErr: 16.77223 batch_time=0.63491 
+Train Epoch: 26 [56/250 7168/32000 (22%)] Loss: 2.04466 (QuantReg: 16.95710) QuantErr: 16.95710 batch_time=0.61534 
+Train Epoch: 26 [67/250 8576/32000 (27%)] Loss: 2.15301 (QuantReg: 16.93663) QuantErr: 16.93663 batch_time=1.31181 
+Train Epoch: 26 [78/250 9984/32000 (31%)] Loss: 2.41196 (QuantReg: 16.81765) QuantErr: 16.81765 batch_time=0.60911 
+Train Epoch: 26 [89/250 11392/32000 (36%)] Loss: 2.52934 (QuantReg: 16.76892) QuantErr: 16.76892 batch_time=0.59388 
+Train Epoch: 26 [100/250 12800/32000 (40%)] Loss: 2.32698 (QuantReg: 16.89407) QuantErr: 16.89407 batch_time=0.60292 
+Train Epoch: 26 [111/250 14208/32000 (44%)] Loss: 2.62948 (QuantReg: 16.73841) QuantErr: 16.73841 batch_time=0.61100 
+Train Epoch: 26 [122/250 15616/32000 (49%)] Loss: 2.40757 (QuantReg: 16.97820) QuantErr: 16.97820 batch_time=0.67304 
+Train Epoch: 26 [133/250 17024/32000 (53%)] Loss: 2.31406 (QuantReg: 17.02276) QuantErr: 17.02276 batch_time=0.61848 
+Train Epoch: 26 [144/250 18432/32000 (58%)] Loss: 2.40218 (QuantReg: 16.94038) QuantErr: 16.94038 batch_time=4.16096 
+Train Epoch: 26 [155/250 19840/32000 (62%)] Loss: 2.60268 (QuantReg: 16.93780) QuantErr: 16.93780 batch_time=0.61649 
+Train Epoch: 26 [166/250 21248/32000 (66%)] Loss: 2.32917 (QuantReg: 16.88236) QuantErr: 16.88236 batch_time=0.66157 
+Train Epoch: 26 [177/250 22656/32000 (71%)] Loss: 1.87793 (QuantReg: 16.98687) QuantErr: 16.98687 batch_time=0.62093 
+Train Epoch: 26 [188/250 24064/32000 (75%)] Loss: 2.58536 (QuantReg: 16.75370) QuantErr: 16.75370 batch_time=0.61004 
+Train Epoch: 26 [199/250 25472/32000 (80%)] Loss: 2.01030 (QuantReg: 16.83326) QuantErr: 16.83326 batch_time=0.68278 
+Train Epoch: 26 [210/250 26880/32000 (84%)] Loss: 2.19530 (QuantReg: 17.00112) QuantErr: 17.00112 batch_time=0.60135 
+Train Epoch: 26 [221/250 28288/32000 (88%)] Loss: 1.99475 (QuantReg: 17.01242) QuantErr: 17.01242 batch_time=0.70611 
+Train Epoch: 26 [232/250 29696/32000 (93%)] Loss: 2.47310 (QuantReg: 16.97614) QuantErr: 16.97614 batch_time=0.62258 
+Train Epoch: 26 [243/250 31104/32000 (97%)] Loss: 1.85037 (QuantReg: 17.08105) QuantErr: 17.08105 batch_time=0.60446 
+Train Epoch: 26 codebook_update_time=3.42797
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch26.pth ...
+Done in 5.675s
+removing stale ckpt [epoch 25] [took 0.02s]
+ epoch          : 26
+ loss           : 2.1652247462272642
+ quant_reg      : 16.958274284362794
+ quant_err      : 16.958274284362794
+ learning_rate  : 1.3869478656091687e-05
+ n_samples      : 832000
+ n_steps        : 6500
+ LSMDC_full_test/t2v_metrics/R1: 13.2
+ LSMDC_full_test/t2v_metrics/R5: 32.9
+ LSMDC_full_test/t2v_metrics/R10: 43.3
+ LSMDC_full_test/t2v_metrics/R50: 68.8
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.425
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.592096319527283
+ LSMDC_full_test/v2t_metrics/R1: 15.0
+ LSMDC_full_test/v2t_metrics/R5: 32.2
+ LSMDC_full_test/v2t_metrics/R10: 40.8
+ LSMDC_full_test/v2t_metrics/R50: 68.7
+ LSMDC_full_test/v2t_metrics/MedR: 17.0
+ LSMDC_full_test/v2t_metrics/MeanR: 68.13
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 27.010695351231348
+ mnt_best       : 27.00155820911155
+ not_improved_count: 1
+Train Epoch: 27 [1/250 128/32000 (0%)] Loss: 2.01768 (QuantReg: 16.99907) QuantErr: 16.99907 batch_time=21.68866 
+Train Epoch: 27 [12/250 1536/32000 (5%)] Loss: 1.74399 (QuantReg: 16.96486) QuantErr: 16.96486 batch_time=0.60986 
+Train Epoch: 27 [23/250 2944/32000 (9%)] Loss: 2.38306 (QuantReg: 16.95909) QuantErr: 16.95909 batch_time=0.67291 
+Train Epoch: 27 [34/250 4352/32000 (14%)] Loss: 2.25946 (QuantReg: 16.83181) QuantErr: 16.83181 batch_time=0.72630 
+Train Epoch: 27 [45/250 5760/32000 (18%)] Loss: 2.58567 (QuantReg: 16.81308) QuantErr: 16.81308 batch_time=0.67704 
+Train Epoch: 27 [56/250 7168/32000 (22%)] Loss: 1.87160 (QuantReg: 16.97223) QuantErr: 16.97223 batch_time=0.64155 
+Train Epoch: 27 [67/250 8576/32000 (27%)] Loss: 2.07506 (QuantReg: 17.01948) QuantErr: 17.01948 batch_time=7.37693 
+Train Epoch: 27 [78/250 9984/32000 (31%)] Loss: 2.52629 (QuantReg: 16.83325) QuantErr: 16.83325 batch_time=0.64294 
+Train Epoch: 27 [89/250 11392/32000 (36%)] Loss: 1.86988 (QuantReg: 17.00022) QuantErr: 17.00022 batch_time=0.61545 
+Train Epoch: 27 [100/250 12800/32000 (40%)] Loss: 2.29754 (QuantReg: 16.95807) QuantErr: 16.95807 batch_time=0.66108 
+Train Epoch: 27 [111/250 14208/32000 (44%)] Loss: 2.21592 (QuantReg: 16.90952) QuantErr: 16.90952 batch_time=0.61518 
+Train Epoch: 27 [122/250 15616/32000 (49%)] Loss: 2.23544 (QuantReg: 17.09944) QuantErr: 17.09944 batch_time=0.60727 
+Train Epoch: 27 [133/250 17024/32000 (53%)] Loss: 1.81936 (QuantReg: 16.98834) QuantErr: 16.98834 batch_time=0.64032 
+Train Epoch: 27 [144/250 18432/32000 (58%)] Loss: 2.32052 (QuantReg: 16.96454) QuantErr: 16.96454 batch_time=0.60094 
+Train Epoch: 27 [155/250 19840/32000 (62%)] Loss: 2.31102 (QuantReg: 17.12646) QuantErr: 17.12646 batch_time=0.62868 
+Train Epoch: 27 [166/250 21248/32000 (66%)] Loss: 1.82349 (QuantReg: 17.05033) QuantErr: 17.05033 batch_time=0.74995 
+Train Epoch: 27 [177/250 22656/32000 (71%)] Loss: 2.13733 (QuantReg: 17.07861) QuantErr: 17.07861 batch_time=1.03608 
+Train Epoch: 27 [188/250 24064/32000 (75%)] Loss: 2.21656 (QuantReg: 17.11898) QuantErr: 17.11898 batch_time=0.60353 
+Train Epoch: 27 [199/250 25472/32000 (80%)] Loss: 1.92938 (QuantReg: 17.01721) QuantErr: 17.01721 batch_time=0.62887 
+Train Epoch: 27 [210/250 26880/32000 (84%)] Loss: 1.96229 (QuantReg: 16.90033) QuantErr: 16.90033 batch_time=0.70501 
+Train Epoch: 27 [221/250 28288/32000 (88%)] Loss: 2.13120 (QuantReg: 16.93870) QuantErr: 16.93870 batch_time=0.62600 
+Train Epoch: 27 [232/250 29696/32000 (93%)] Loss: 1.60034 (QuantReg: 17.16510) QuantErr: 17.16510 batch_time=0.68468 
+Train Epoch: 27 [243/250 31104/32000 (97%)] Loss: 2.38240 (QuantReg: 17.12094) QuantErr: 17.12094 batch_time=0.64843 
+Train Epoch: 27 codebook_update_time=3.71278
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch27.pth ...
+Done in 4.407s
+removing stale ckpt [epoch 26] [took 0.13s]
+ epoch          : 27
+ loss           : 2.1341372179985045
+ quant_reg      : 16.983140838623047
+ quant_err      : 16.983140838623047
+ learning_rate  : 1.3176004723287102e-05
+ n_samples      : 864000
+ n_steps        : 6750
+ LSMDC_full_test/t2v_metrics/R1: 13.3
+ LSMDC_full_test/t2v_metrics/R5: 31.7
+ LSMDC_full_test/t2v_metrics/R10: 42.4
+ LSMDC_full_test/t2v_metrics/R50: 69.1
+ LSMDC_full_test/t2v_metrics/MedR: 16.5
+ LSMDC_full_test/t2v_metrics/MeanR: 70.415
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.147223948441518
+ LSMDC_full_test/v2t_metrics/R1: 13.5
+ LSMDC_full_test/v2t_metrics/R5: 31.4
+ LSMDC_full_test/v2t_metrics/R10: 40.2
+ LSMDC_full_test/v2t_metrics/R50: 68.7
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 68.388
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.733359657652187
+ mnt_best       : 27.00155820911155
+ not_improved_count: 2
+Train Epoch: 28 [1/250 128/32000 (0%)] Loss: 1.97624 (QuantReg: 16.98529) QuantErr: 16.98529 batch_time=23.87167 
+Train Epoch: 28 [12/250 1536/32000 (5%)] Loss: 2.14812 (QuantReg: 16.95795) QuantErr: 16.95795 batch_time=0.62560 
+Train Epoch: 28 [23/250 2944/32000 (9%)] Loss: 2.08840 (QuantReg: 16.99752) QuantErr: 16.99752 batch_time=0.58636 
+Train Epoch: 28 [34/250 4352/32000 (14%)] Loss: 2.02542 (QuantReg: 16.90600) QuantErr: 16.90600 batch_time=1.19927 
+Train Epoch: 28 [45/250 5760/32000 (18%)] Loss: 2.06824 (QuantReg: 17.03744) QuantErr: 17.03744 batch_time=0.72299 
+Train Epoch: 28 [56/250 7168/32000 (22%)] Loss: 2.19398 (QuantReg: 16.93204) QuantErr: 16.93204 batch_time=0.62225 
+Train Epoch: 28 [67/250 8576/32000 (27%)] Loss: 2.13824 (QuantReg: 17.05878) QuantErr: 17.05878 batch_time=1.45469 
+Train Epoch: 28 [78/250 9984/32000 (31%)] Loss: 1.95438 (QuantReg: 17.00879) QuantErr: 17.00879 batch_time=0.59246 
+Train Epoch: 28 [89/250 11392/32000 (36%)] Loss: 2.11444 (QuantReg: 16.95849) QuantErr: 16.95849 batch_time=0.66234 
+Train Epoch: 28 [100/250 12800/32000 (40%)] Loss: 2.44091 (QuantReg: 17.06327) QuantErr: 17.06327 batch_time=0.61659 
+Train Epoch: 28 [111/250 14208/32000 (44%)] Loss: 2.21456 (QuantReg: 17.02173) QuantErr: 17.02173 batch_time=0.61947 
+Train Epoch: 28 [122/250 15616/32000 (49%)] Loss: 1.61600 (QuantReg: 16.98938) QuantErr: 16.98938 batch_time=0.60927 
+Train Epoch: 28 [133/250 17024/32000 (53%)] Loss: 2.05261 (QuantReg: 16.88144) QuantErr: 16.88144 batch_time=0.62960 
+Train Epoch: 28 [144/250 18432/32000 (58%)] Loss: 1.89386 (QuantReg: 16.98035) QuantErr: 16.98035 batch_time=1.72818 
+Train Epoch: 28 [155/250 19840/32000 (62%)] Loss: 2.22304 (QuantReg: 16.96280) QuantErr: 16.96280 batch_time=0.59669 
+Train Epoch: 28 [166/250 21248/32000 (66%)] Loss: 1.85908 (QuantReg: 16.89837) QuantErr: 16.89837 batch_time=0.60746 
+Train Epoch: 28 [177/250 22656/32000 (71%)] Loss: 2.35725 (QuantReg: 16.80190) QuantErr: 16.80190 batch_time=0.62997 
+Train Epoch: 28 [188/250 24064/32000 (75%)] Loss: 2.02312 (QuantReg: 17.21914) QuantErr: 17.21914 batch_time=0.60433 
+Train Epoch: 28 [199/250 25472/32000 (80%)] Loss: 1.85698 (QuantReg: 16.86126) QuantErr: 16.86126 batch_time=0.62748 
+Train Epoch: 28 [210/250 26880/32000 (84%)] Loss: 1.75503 (QuantReg: 17.03219) QuantErr: 17.03219 batch_time=0.59802 
+Train Epoch: 28 [221/250 28288/32000 (88%)] Loss: 2.15015 (QuantReg: 16.99202) QuantErr: 16.99202 batch_time=0.62801 
+Train Epoch: 28 [232/250 29696/32000 (93%)] Loss: 1.79239 (QuantReg: 17.13239) QuantErr: 17.13239 batch_time=0.61509 
+Train Epoch: 28 [243/250 31104/32000 (97%)] Loss: 1.71788 (QuantReg: 17.10548) QuantErr: 17.10548 batch_time=0.61017 
+Train Epoch: 28 codebook_update_time=3.55464
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch28.pth ...
+Done in 8.628s
+removing stale ckpt [epoch 27] [took 0.04s]
+ epoch          : 28
+ loss           : 2.076942275047302
+ quant_reg      : 17.003695030212402
+ quant_err      : 17.003695030212402
+ learning_rate  : 1.2517204487122746e-05
+ n_samples      : 896000
+ n_steps        : 7000
+ LSMDC_full_test/t2v_metrics/R1: 13.9
+ LSMDC_full_test/t2v_metrics/R5: 32.6
+ LSMDC_full_test/t2v_metrics/R10: 42.5
+ LSMDC_full_test/t2v_metrics/R50: 69.2
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 69.574
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.804462945771682
+ LSMDC_full_test/v2t_metrics/R1: 14.7
+ LSMDC_full_test/v2t_metrics/R5: 31.7
+ LSMDC_full_test/v2t_metrics/R10: 41.8
+ LSMDC_full_test/v2t_metrics/R50: 68.4
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 68.954
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.90611286201501
+ mnt_best       : 27.00155820911155
+ not_improved_count: 3
+Train Epoch: 29 [1/250 128/32000 (0%)] Loss: 2.06212 (QuantReg: 16.91901) QuantErr: 16.91901 batch_time=20.67740 
+Train Epoch: 29 [12/250 1536/32000 (5%)] Loss: 2.13718 (QuantReg: 16.96642) QuantErr: 16.96642 batch_time=0.63133 
+Train Epoch: 29 [23/250 2944/32000 (9%)] Loss: 2.34197 (QuantReg: 17.00310) QuantErr: 17.00310 batch_time=0.66327 
+Train Epoch: 29 [34/250 4352/32000 (14%)] Loss: 2.28138 (QuantReg: 16.85014) QuantErr: 16.85014 batch_time=0.60105 
+Train Epoch: 29 [45/250 5760/32000 (18%)] Loss: 2.11665 (QuantReg: 16.93550) QuantErr: 16.93550 batch_time=0.64301 
+Train Epoch: 29 [56/250 7168/32000 (22%)] Loss: 1.74675 (QuantReg: 17.05826) QuantErr: 17.05826 batch_time=0.63882 
+Train Epoch: 29 [67/250 8576/32000 (27%)] Loss: 2.35196 (QuantReg: 16.92207) QuantErr: 16.92207 batch_time=0.88175 
+Train Epoch: 29 [78/250 9984/32000 (31%)] Loss: 2.35971 (QuantReg: 17.10506) QuantErr: 17.10506 batch_time=0.60429 
+Train Epoch: 29 [89/250 11392/32000 (36%)] Loss: 1.63292 (QuantReg: 17.14434) QuantErr: 17.14434 batch_time=0.60950 
+Train Epoch: 29 [100/250 12800/32000 (40%)] Loss: 2.19464 (QuantReg: 16.96794) QuantErr: 16.96794 batch_time=0.62996 
+Train Epoch: 29 [111/250 14208/32000 (44%)] Loss: 1.96671 (QuantReg: 16.90339) QuantErr: 16.90339 batch_time=0.61492 
+Train Epoch: 29 [122/250 15616/32000 (49%)] Loss: 1.97426 (QuantReg: 17.00451) QuantErr: 17.00451 batch_time=0.61554 
+Train Epoch: 29 [133/250 17024/32000 (53%)] Loss: 2.11845 (QuantReg: 17.11388) QuantErr: 17.11388 batch_time=0.72556 
+Train Epoch: 29 [144/250 18432/32000 (58%)] Loss: 1.68491 (QuantReg: 17.22757) QuantErr: 17.22757 batch_time=0.63582 
+Train Epoch: 29 [155/250 19840/32000 (62%)] Loss: 2.34241 (QuantReg: 16.99987) QuantErr: 16.99987 batch_time=0.62643 
+Train Epoch: 29 [166/250 21248/32000 (66%)] Loss: 1.81547 (QuantReg: 17.16502) QuantErr: 17.16502 batch_time=0.64957 
+Train Epoch: 29 [177/250 22656/32000 (71%)] Loss: 2.16280 (QuantReg: 17.00592) QuantErr: 17.00592 batch_time=0.66253 
+Train Epoch: 29 [188/250 24064/32000 (75%)] Loss: 1.78068 (QuantReg: 17.09116) QuantErr: 17.09116 batch_time=0.64617 
+Train Epoch: 29 [199/250 25472/32000 (80%)] Loss: 2.09362 (QuantReg: 17.22828) QuantErr: 17.22828 batch_time=0.63729 
+Train Epoch: 29 [210/250 26880/32000 (84%)] Loss: 1.76172 (QuantReg: 17.11518) QuantErr: 17.11518 batch_time=0.65455 
+Train Epoch: 29 [221/250 28288/32000 (88%)] Loss: 1.72704 (QuantReg: 17.09144) QuantErr: 17.09144 batch_time=0.62680 
+Train Epoch: 29 [232/250 29696/32000 (93%)] Loss: 1.53115 (QuantReg: 17.10386) QuantErr: 17.10386 batch_time=0.62143 
+Train Epoch: 29 [243/250 31104/32000 (97%)] Loss: 2.10775 (QuantReg: 17.07646) QuantErr: 17.07646 batch_time=0.59398 
+Train Epoch: 29 codebook_update_time=3.66803
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch29.pth ...
+Done in 6.619s
+removing stale ckpt [epoch 28] [took 0.01s]
+ epoch          : 29
+ loss           : 2.0361166620254516
+ quant_reg      : 17.03473213195801
+ quant_err      : 17.03473213195801
+ learning_rate  : 1.1891344262766608e-05
+ n_samples      : 928000
+ n_steps        : 7250
+ LSMDC_full_test/t2v_metrics/R1: 13.4
+ LSMDC_full_test/t2v_metrics/R5: 33.4
+ LSMDC_full_test/t2v_metrics/R10: 42.5
+ LSMDC_full_test/t2v_metrics/R50: 68.3
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.8
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.693984159019983
+ LSMDC_full_test/v2t_metrics/R1: 14.2
+ LSMDC_full_test/v2t_metrics/R5: 32.0
+ LSMDC_full_test/v2t_metrics/R10: 41.4
+ LSMDC_full_test/v2t_metrics/R50: 67.4
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 72.028
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.59578956102498
+ mnt_best       : 27.00155820911155
+ not_improved_count: 4
+Train Epoch: 30 [1/250 128/32000 (0%)] Loss: 2.13337 (QuantReg: 17.09561) QuantErr: 17.09561 batch_time=23.80600 
+Train Epoch: 30 [12/250 1536/32000 (5%)] Loss: 2.13769 (QuantReg: 17.03843) QuantErr: 17.03843 batch_time=0.60423 
+Train Epoch: 30 [23/250 2944/32000 (9%)] Loss: 2.18113 (QuantReg: 16.98753) QuantErr: 16.98753 batch_time=0.67328 
+Train Epoch: 30 [34/250 4352/32000 (14%)] Loss: 2.14584 (QuantReg: 17.08619) QuantErr: 17.08619 batch_time=0.66918 
+Train Epoch: 30 [45/250 5760/32000 (18%)] Loss: 2.05792 (QuantReg: 17.01498) QuantErr: 17.01498 batch_time=0.60956 
+Train Epoch: 30 [56/250 7168/32000 (22%)] Loss: 2.16849 (QuantReg: 16.98856) QuantErr: 16.98856 batch_time=0.64232 
+Train Epoch: 30 [67/250 8576/32000 (27%)] Loss: 1.82645 (QuantReg: 17.14030) QuantErr: 17.14030 batch_time=6.91906 
+Train Epoch: 30 [78/250 9984/32000 (31%)] Loss: 2.14748 (QuantReg: 16.90218) QuantErr: 16.90218 batch_time=0.60956 
+Train Epoch: 30 [89/250 11392/32000 (36%)] Loss: 2.19778 (QuantReg: 17.02082) QuantErr: 17.02082 batch_time=0.67793 
+Train Epoch: 30 [100/250 12800/32000 (40%)] Loss: 1.79633 (QuantReg: 17.09889) QuantErr: 17.09889 batch_time=0.62549 
+Train Epoch: 30 [111/250 14208/32000 (44%)] Loss: 1.72165 (QuantReg: 17.18090) QuantErr: 17.18090 batch_time=0.60348 
+Train Epoch: 30 [122/250 15616/32000 (49%)] Loss: 1.95598 (QuantReg: 16.99659) QuantErr: 16.99659 batch_time=0.77805 
+Train Epoch: 30 [133/250 17024/32000 (53%)] Loss: 1.89546 (QuantReg: 17.03720) QuantErr: 17.03720 batch_time=0.59227 
+Train Epoch: 30 [144/250 18432/32000 (58%)] Loss: 1.95315 (QuantReg: 17.01514) QuantErr: 17.01514 batch_time=0.61808 
+Train Epoch: 30 [155/250 19840/32000 (62%)] Loss: 1.94750 (QuantReg: 17.10394) QuantErr: 17.10394 batch_time=0.59816 
+Train Epoch: 30 [166/250 21248/32000 (66%)] Loss: 1.98558 (QuantReg: 16.96501) QuantErr: 16.96501 batch_time=0.61368 
+Train Epoch: 30 [177/250 22656/32000 (71%)] Loss: 1.86981 (QuantReg: 17.08162) QuantErr: 17.08162 batch_time=0.60581 
+Train Epoch: 30 [188/250 24064/32000 (75%)] Loss: 2.04590 (QuantReg: 17.06262) QuantErr: 17.06262 batch_time=0.62278 
+Train Epoch: 30 [199/250 25472/32000 (80%)] Loss: 2.26984 (QuantReg: 17.11759) QuantErr: 17.11759 batch_time=0.66903 
+Train Epoch: 30 [210/250 26880/32000 (84%)] Loss: 1.81084 (QuantReg: 17.09441) QuantErr: 17.09441 batch_time=0.62011 
+Train Epoch: 30 [221/250 28288/32000 (88%)] Loss: 1.93257 (QuantReg: 16.96590) QuantErr: 16.96590 batch_time=1.81701 
+Train Epoch: 30 [232/250 29696/32000 (93%)] Loss: 1.80510 (QuantReg: 17.15220) QuantErr: 17.15220 batch_time=0.66940 
+Train Epoch: 30 [243/250 31104/32000 (97%)] Loss: 2.17592 (QuantReg: 17.11409) QuantErr: 17.11409 batch_time=0.61114 
+Train Epoch: 30 codebook_update_time=3.47515
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch30.pth ...
+Done in 5.625s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch30.pth ...
+Done in 12.155s
+removing stale ckpt [epoch 29] [took 0.01s]
+ epoch          : 30
+ loss           : 2.018350874900818
+ quant_reg      : 17.04803520965576
+ quant_err      : 17.04803520965576
+ learning_rate  : 1.1296777049628277e-05
+ n_samples      : 960000
+ n_steps        : 7500
+ LSMDC_full_test/t2v_metrics/R1: 14.5
+ LSMDC_full_test/t2v_metrics/R5: 32.1
+ LSMDC_full_test/t2v_metrics/R10: 42.7
+ LSMDC_full_test/t2v_metrics/R50: 68.2
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 71.045
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.087378099388047
+ LSMDC_full_test/v2t_metrics/R1: 14.7
+ LSMDC_full_test/v2t_metrics/R5: 32.2
+ LSMDC_full_test/v2t_metrics/R10: 41.4
+ LSMDC_full_test/v2t_metrics/R50: 67.5
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 69.797
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.96028729658299
+ mnt_best       : 27.087378099388047
+ not_improved_count: 0
+Train Epoch: 31 [1/250 128/32000 (0%)] Loss: 1.61234 (QuantReg: 17.06302) QuantErr: 17.06302 batch_time=25.01339 
+Train Epoch: 31 [12/250 1536/32000 (5%)] Loss: 1.87709 (QuantReg: 17.08980) QuantErr: 17.08980 batch_time=0.59737 
+Train Epoch: 31 [23/250 2944/32000 (9%)] Loss: 2.18891 (QuantReg: 17.03331) QuantErr: 17.03331 batch_time=0.65219 
+Train Epoch: 31 [34/250 4352/32000 (14%)] Loss: 1.89656 (QuantReg: 17.06964) QuantErr: 17.06964 batch_time=0.63979 
+Train Epoch: 31 [45/250 5760/32000 (18%)] Loss: 1.84007 (QuantReg: 17.02580) QuantErr: 17.02580 batch_time=0.64433 
+Train Epoch: 31 [56/250 7168/32000 (22%)] Loss: 1.87965 (QuantReg: 17.03161) QuantErr: 17.03161 batch_time=0.60925 
+Train Epoch: 31 [67/250 8576/32000 (27%)] Loss: 1.73211 (QuantReg: 16.96204) QuantErr: 16.96204 batch_time=0.65944 
+Train Epoch: 31 [78/250 9984/32000 (31%)] Loss: 1.88472 (QuantReg: 16.99564) QuantErr: 16.99564 batch_time=0.62338 
+Train Epoch: 31 [89/250 11392/32000 (36%)] Loss: 1.89863 (QuantReg: 17.01554) QuantErr: 17.01554 batch_time=0.80105 
+Train Epoch: 31 [100/250 12800/32000 (40%)] Loss: 1.86532 (QuantReg: 17.12856) QuantErr: 17.12856 batch_time=0.63935 
+Train Epoch: 31 [111/250 14208/32000 (44%)] Loss: 1.78785 (QuantReg: 17.17660) QuantErr: 17.17660 batch_time=0.60106 
+Train Epoch: 31 [122/250 15616/32000 (49%)] Loss: 1.70469 (QuantReg: 17.05276) QuantErr: 17.05276 batch_time=0.61365 
+Train Epoch: 31 [133/250 17024/32000 (53%)] Loss: 1.93651 (QuantReg: 17.00747) QuantErr: 17.00747 batch_time=0.63178 
+Train Epoch: 31 [144/250 18432/32000 (58%)] Loss: 2.33177 (QuantReg: 17.05892) QuantErr: 17.05892 batch_time=0.63843 
+Train Epoch: 31 [155/250 19840/32000 (62%)] Loss: 1.95809 (QuantReg: 17.08239) QuantErr: 17.08239 batch_time=0.84603 
+Train Epoch: 31 [166/250 21248/32000 (66%)] Loss: 2.35104 (QuantReg: 16.94583) QuantErr: 16.94583 batch_time=0.62619 
+Train Epoch: 31 [177/250 22656/32000 (71%)] Loss: 1.83046 (QuantReg: 17.03867) QuantErr: 17.03867 batch_time=0.61543 
+Train Epoch: 31 [188/250 24064/32000 (75%)] Loss: 1.99881 (QuantReg: 16.90553) QuantErr: 16.90553 batch_time=0.64965 
+Train Epoch: 31 [199/250 25472/32000 (80%)] Loss: 1.95764 (QuantReg: 17.07182) QuantErr: 17.07182 batch_time=1.17848 
+Train Epoch: 31 [210/250 26880/32000 (84%)] Loss: 1.83869 (QuantReg: 17.07523) QuantErr: 17.07523 batch_time=0.62361 
+Train Epoch: 31 [221/250 28288/32000 (88%)] Loss: 1.79769 (QuantReg: 17.16409) QuantErr: 17.16409 batch_time=0.72030 
+Train Epoch: 31 [232/250 29696/32000 (93%)] Loss: 1.83550 (QuantReg: 17.10756) QuantErr: 17.10756 batch_time=0.60646 
+Train Epoch: 31 [243/250 31104/32000 (97%)] Loss: 2.31206 (QuantReg: 17.04292) QuantErr: 17.04292 batch_time=0.67442 
+Train Epoch: 31 codebook_update_time=3.89526
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch31.pth ...
+Done in 6.501s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch31.pth ...
+Done in 11.090s
+removing stale ckpt [epoch 30] [took 0.00s]
+ epoch          : 31
+ loss           : 1.9782055406570433
+ quant_reg      : 17.048852737426756
+ quant_err      : 17.048852737426756
+ learning_rate  : 1.0731938197146863e-05
+ n_samples      : 992000
+ n_steps        : 7750
+ LSMDC_full_test/t2v_metrics/R1: 14.5
+ LSMDC_full_test/t2v_metrics/R5: 32.6
+ LSMDC_full_test/t2v_metrics/R10: 43.2
+ LSMDC_full_test/t2v_metrics/R50: 68.7
+ LSMDC_full_test/t2v_metrics/MedR: 17.5
+ LSMDC_full_test/t2v_metrics/MeanR: 69.609
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.333156188950436
+ LSMDC_full_test/v2t_metrics/R1: 13.8
+ LSMDC_full_test/v2t_metrics/R5: 32.9
+ LSMDC_full_test/v2t_metrics/R10: 42.1
+ LSMDC_full_test/v2t_metrics/R50: 69.0
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 68.544
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.737390977150252
+ mnt_best       : 27.333156188950436
+ not_improved_count: 0
+Train Epoch: 32 [1/250 128/32000 (0%)] Loss: 2.13865 (QuantReg: 17.15298) QuantErr: 17.15298 batch_time=22.82949 
+Train Epoch: 32 [12/250 1536/32000 (5%)] Loss: 1.82757 (QuantReg: 17.04083) QuantErr: 17.04083 batch_time=0.74549 
+Train Epoch: 32 [23/250 2944/32000 (9%)] Loss: 1.93554 (QuantReg: 17.16655) QuantErr: 17.16655 batch_time=0.62585 
+Train Epoch: 32 [34/250 4352/32000 (14%)] Loss: 1.98399 (QuantReg: 17.16360) QuantErr: 17.16360 batch_time=0.62310 
+Train Epoch: 32 [45/250 5760/32000 (18%)] Loss: 2.03452 (QuantReg: 16.98205) QuantErr: 16.98205 batch_time=0.65992 
+Train Epoch: 32 [56/250 7168/32000 (22%)] Loss: 2.10190 (QuantReg: 16.92850) QuantErr: 16.92850 batch_time=0.86644 
+Train Epoch: 32 [67/250 8576/32000 (27%)] Loss: 1.61501 (QuantReg: 17.01663) QuantErr: 17.01663 batch_time=1.19334 
+Train Epoch: 32 [78/250 9984/32000 (31%)] Loss: 2.01283 (QuantReg: 17.10344) QuantErr: 17.10344 batch_time=0.65114 
+Train Epoch: 32 [89/250 11392/32000 (36%)] Loss: 2.38863 (QuantReg: 17.05496) QuantErr: 17.05496 batch_time=0.62034 
+Train Epoch: 32 [100/250 12800/32000 (40%)] Loss: 1.94353 (QuantReg: 17.06906) QuantErr: 17.06906 batch_time=0.64310 
+Train Epoch: 32 [111/250 14208/32000 (44%)] Loss: 2.08714 (QuantReg: 17.21519) QuantErr: 17.21519 batch_time=0.62103 
+Train Epoch: 32 [122/250 15616/32000 (49%)] Loss: 2.01184 (QuantReg: 17.02368) QuantErr: 17.02368 batch_time=0.63269 
+Train Epoch: 32 [133/250 17024/32000 (53%)] Loss: 2.06688 (QuantReg: 17.02060) QuantErr: 17.02060 batch_time=0.88967 
+Train Epoch: 32 [144/250 18432/32000 (58%)] Loss: 1.97467 (QuantReg: 17.19477) QuantErr: 17.19477 batch_time=1.77228 
+Train Epoch: 32 [155/250 19840/32000 (62%)] Loss: 1.84187 (QuantReg: 17.11444) QuantErr: 17.11444 batch_time=0.61887 
+Train Epoch: 32 [166/250 21248/32000 (66%)] Loss: 2.09798 (QuantReg: 17.07766) QuantErr: 17.07766 batch_time=0.63138 
+Train Epoch: 32 [177/250 22656/32000 (71%)] Loss: 1.56827 (QuantReg: 17.13309) QuantErr: 17.13309 batch_time=0.61452 
+Train Epoch: 32 [188/250 24064/32000 (75%)] Loss: 1.85054 (QuantReg: 17.17298) QuantErr: 17.17298 batch_time=0.62005 
+Train Epoch: 32 [199/250 25472/32000 (80%)] Loss: 2.17705 (QuantReg: 17.19808) QuantErr: 17.19808 batch_time=0.63401 
+Train Epoch: 32 [210/250 26880/32000 (84%)] Loss: 1.88279 (QuantReg: 17.12751) QuantErr: 17.12751 batch_time=0.83132 
+Train Epoch: 32 [221/250 28288/32000 (88%)] Loss: 2.29147 (QuantReg: 17.10512) QuantErr: 17.10512 batch_time=0.65002 
+Train Epoch: 32 [232/250 29696/32000 (93%)] Loss: 1.71159 (QuantReg: 16.96140) QuantErr: 16.96140 batch_time=0.62594 
+Train Epoch: 32 [243/250 31104/32000 (97%)] Loss: 1.57259 (QuantReg: 17.11093) QuantErr: 17.11093 batch_time=0.60474 
+Train Epoch: 32 codebook_update_time=3.82441
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch32.pth ...
+Done in 19.864s
+removing stale ckpt [epoch 31] [took 0.07s]
+ epoch          : 32
+ loss           : 1.9452788052558898
+ quant_reg      : 17.0748558883667
+ quant_err      : 17.0748558883667
+ learning_rate  : 1.019534128728952e-05
+ n_samples      : 1024000
+ n_steps        : 8000
+ LSMDC_full_test/t2v_metrics/R1: 13.6
+ LSMDC_full_test/t2v_metrics/R5: 31.8
+ LSMDC_full_test/t2v_metrics/R10: 42.4
+ LSMDC_full_test/t2v_metrics/R50: 68.7
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 69.911
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.37003026988075
+ LSMDC_full_test/v2t_metrics/R1: 14.7
+ LSMDC_full_test/v2t_metrics/R5: 32.7
+ LSMDC_full_test/v2t_metrics/R10: 42.2
+ LSMDC_full_test/v2t_metrics/R50: 68.7
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 69.44
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 27.27255624741237
+ mnt_best       : 27.333156188950436
+ not_improved_count: 1
+Train Epoch: 33 [1/250 128/32000 (0%)] Loss: 1.74899 (QuantReg: 17.05872) QuantErr: 17.05872 batch_time=23.82933 
+Train Epoch: 33 [12/250 1536/32000 (5%)] Loss: 2.11515 (QuantReg: 17.12716) QuantErr: 17.12716 batch_time=0.64019 
+Train Epoch: 33 [23/250 2944/32000 (9%)] Loss: 1.70723 (QuantReg: 17.10786) QuantErr: 17.10786 batch_time=0.60639 
+Train Epoch: 33 [34/250 4352/32000 (14%)] Loss: 1.70993 (QuantReg: 17.14326) QuantErr: 17.14326 batch_time=0.62164 
+Train Epoch: 33 [45/250 5760/32000 (18%)] Loss: 1.98082 (QuantReg: 17.03932) QuantErr: 17.03932 batch_time=0.61046 
+Train Epoch: 33 [56/250 7168/32000 (22%)] Loss: 1.68297 (QuantReg: 17.18085) QuantErr: 17.18085 batch_time=0.63441 
+Train Epoch: 33 [67/250 8576/32000 (27%)] Loss: 2.04067 (QuantReg: 16.98958) QuantErr: 16.98958 batch_time=0.58494 
+Train Epoch: 33 [78/250 9984/32000 (31%)] Loss: 1.99251 (QuantReg: 17.11642) QuantErr: 17.11642 batch_time=0.58536 
+Train Epoch: 33 [89/250 11392/32000 (36%)] Loss: 1.80116 (QuantReg: 17.20901) QuantErr: 17.20901 batch_time=0.59338 
+Train Epoch: 33 [100/250 12800/32000 (40%)] Loss: 2.14905 (QuantReg: 17.15109) QuantErr: 17.15109 batch_time=0.62365 
+Train Epoch: 33 [111/250 14208/32000 (44%)] Loss: 1.93526 (QuantReg: 16.94184) QuantErr: 16.94184 batch_time=0.61518 
+Train Epoch: 33 [122/250 15616/32000 (49%)] Loss: 2.08490 (QuantReg: 17.12634) QuantErr: 17.12634 batch_time=0.69541 
+Train Epoch: 33 [133/250 17024/32000 (53%)] Loss: 1.93294 (QuantReg: 17.08527) QuantErr: 17.08527 batch_time=0.59598 
+Train Epoch: 33 [144/250 18432/32000 (58%)] Loss: 1.62512 (QuantReg: 17.11373) QuantErr: 17.11373 batch_time=0.58911 
+Train Epoch: 33 [155/250 19840/32000 (62%)] Loss: 2.19898 (QuantReg: 17.10676) QuantErr: 17.10676 batch_time=0.63833 
+Train Epoch: 33 [166/250 21248/32000 (66%)] Loss: 1.76736 (QuantReg: 17.15855) QuantErr: 17.15855 batch_time=0.59185 
+Train Epoch: 33 [177/250 22656/32000 (71%)] Loss: 1.87857 (QuantReg: 17.20153) QuantErr: 17.20153 batch_time=0.62808 
+Train Epoch: 33 [188/250 24064/32000 (75%)] Loss: 2.02400 (QuantReg: 17.10376) QuantErr: 17.10376 batch_time=0.61137 
+Train Epoch: 33 [199/250 25472/32000 (80%)] Loss: 1.79176 (QuantReg: 17.09140) QuantErr: 17.09140 batch_time=0.58428 
+Train Epoch: 33 [210/250 26880/32000 (84%)] Loss: 1.77170 (QuantReg: 17.17201) QuantErr: 17.17201 batch_time=2.51267 
+Train Epoch: 33 [221/250 28288/32000 (88%)] Loss: 1.74640 (QuantReg: 17.10226) QuantErr: 17.10226 batch_time=0.61961 
+Train Epoch: 33 [232/250 29696/32000 (93%)] Loss: 1.77710 (QuantReg: 17.02689) QuantErr: 17.02689 batch_time=0.69672 
+Train Epoch: 33 [243/250 31104/32000 (97%)] Loss: 1.76703 (QuantReg: 17.09759) QuantErr: 17.09759 batch_time=0.61597 
+Train Epoch: 33 codebook_update_time=3.54714
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch33.pth ...
+Done in 6.353s
+removing stale ckpt [epoch 32] [took 0.01s]
+ epoch          : 33
+ loss           : 1.9179699840545654
+ quant_reg      : 17.08708415222168
+ quant_err      : 17.08708415222168
+ learning_rate  : 9.685574222925043e-06
+ n_samples      : 1056000
+ n_steps        : 8250
+ LSMDC_full_test/t2v_metrics/R1: 13.9
+ LSMDC_full_test/t2v_metrics/R5: 33.9
+ LSMDC_full_test/t2v_metrics/R10: 42.4
+ LSMDC_full_test/t2v_metrics/R50: 69.7
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 72.162
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.134810003338576
+ LSMDC_full_test/v2t_metrics/R1: 13.1
+ LSMDC_full_test/v2t_metrics/R5: 32.4
+ LSMDC_full_test/v2t_metrics/R10: 41.7
+ LSMDC_full_test/v2t_metrics/R50: 68.8
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 69.513
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.060582592753562
+ mnt_best       : 27.333156188950436
+ not_improved_count: 2
+Train Epoch: 34 [1/250 128/32000 (0%)] Loss: 1.86517 (QuantReg: 17.01617) QuantErr: 17.01617 batch_time=25.14181 
+Train Epoch: 34 [12/250 1536/32000 (5%)] Loss: 1.78929 (QuantReg: 17.11275) QuantErr: 17.11275 batch_time=0.59564 
+Train Epoch: 34 [23/250 2944/32000 (9%)] Loss: 2.27028 (QuantReg: 16.96707) QuantErr: 16.96707 batch_time=0.69503 
+Train Epoch: 34 [34/250 4352/32000 (14%)] Loss: 1.62994 (QuantReg: 17.19005) QuantErr: 17.19005 batch_time=0.60573 
+Train Epoch: 34 [45/250 5760/32000 (18%)] Loss: 2.15236 (QuantReg: 17.03022) QuantErr: 17.03022 batch_time=0.62256 
+Train Epoch: 34 [56/250 7168/32000 (22%)] Loss: 1.60211 (QuantReg: 17.08640) QuantErr: 17.08640 batch_time=0.63968 
+Train Epoch: 34 [67/250 8576/32000 (27%)] Loss: 1.89004 (QuantReg: 17.21418) QuantErr: 17.21418 batch_time=0.60735 
+Train Epoch: 34 [78/250 9984/32000 (31%)] Loss: 2.18534 (QuantReg: 17.17369) QuantErr: 17.17369 batch_time=0.63623 
+Train Epoch: 34 [89/250 11392/32000 (36%)] Loss: 1.88540 (QuantReg: 17.08716) QuantErr: 17.08716 batch_time=0.60583 
+Train Epoch: 34 [100/250 12800/32000 (40%)] Loss: 1.65767 (QuantReg: 17.06148) QuantErr: 17.06148 batch_time=0.62250 
+Train Epoch: 34 [111/250 14208/32000 (44%)] Loss: 1.66346 (QuantReg: 17.24846) QuantErr: 17.24846 batch_time=0.59591 
+Train Epoch: 34 [122/250 15616/32000 (49%)] Loss: 1.89310 (QuantReg: 17.11029) QuantErr: 17.11029 batch_time=0.61927 
+Train Epoch: 34 [133/250 17024/32000 (53%)] Loss: 2.09476 (QuantReg: 17.09559) QuantErr: 17.09559 batch_time=0.58493 
+Train Epoch: 34 [144/250 18432/32000 (58%)] Loss: 1.77563 (QuantReg: 16.96322) QuantErr: 16.96322 batch_time=1.96730 
+Train Epoch: 34 [155/250 19840/32000 (62%)] Loss: 1.68845 (QuantReg: 17.08273) QuantErr: 17.08273 batch_time=0.69314 
+Train Epoch: 34 [166/250 21248/32000 (66%)] Loss: 1.92496 (QuantReg: 16.99948) QuantErr: 16.99948 batch_time=0.59191 
+Train Epoch: 34 [177/250 22656/32000 (71%)] Loss: 1.72109 (QuantReg: 17.05074) QuantErr: 17.05074 batch_time=0.62970 
+Train Epoch: 34 [188/250 24064/32000 (75%)] Loss: 1.71516 (QuantReg: 17.26145) QuantErr: 17.26145 batch_time=0.59957 
+Train Epoch: 34 [199/250 25472/32000 (80%)] Loss: 2.08155 (QuantReg: 17.07924) QuantErr: 17.07924 batch_time=0.59243 
+Train Epoch: 34 [210/250 26880/32000 (84%)] Loss: 1.93739 (QuantReg: 17.02896) QuantErr: 17.02896 batch_time=2.16011 
+Train Epoch: 34 [221/250 28288/32000 (88%)] Loss: 1.92415 (QuantReg: 17.19309) QuantErr: 17.19309 batch_time=0.60333 
+Train Epoch: 34 [232/250 29696/32000 (93%)] Loss: 1.98792 (QuantReg: 17.22507) QuantErr: 17.22507 batch_time=0.61822 
+Train Epoch: 34 [243/250 31104/32000 (97%)] Loss: 2.33543 (QuantReg: 16.94814) QuantErr: 16.94814 batch_time=0.61083 
+Train Epoch: 34 codebook_update_time=3.68735
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch34.pth ...
+Done in 4.094s
+removing stale ckpt [epoch 33] [took 0.00s]
+ epoch          : 34
+ loss           : 1.88359583568573
+ quant_reg      : 17.094050354003905
+ quant_err      : 17.094050354003905
+ learning_rate  : 9.20129551177879e-06
+ n_samples      : 1088000
+ n_steps        : 8500
+ LSMDC_full_test/t2v_metrics/R1: 14.2
+ LSMDC_full_test/t2v_metrics/R5: 33.2
+ LSMDC_full_test/t2v_metrics/R10: 42.1
+ LSMDC_full_test/t2v_metrics/R50: 68.9
+ LSMDC_full_test/t2v_metrics/MedR: 18.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.958
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.07506500315343
+ LSMDC_full_test/v2t_metrics/R1: 14.2
+ LSMDC_full_test/v2t_metrics/R5: 32.8
+ LSMDC_full_test/v2t_metrics/R10: 41.8
+ LSMDC_full_test/v2t_metrics/R50: 68.4
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 69.645
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.9016854248164
+ mnt_best       : 27.333156188950436
+ not_improved_count: 3
+Train Epoch: 35 [1/250 128/32000 (0%)] Loss: 2.25618 (QuantReg: 17.02307) QuantErr: 17.02307 batch_time=24.86338 
+Train Epoch: 35 [12/250 1536/32000 (5%)] Loss: 1.92464 (QuantReg: 17.11263) QuantErr: 17.11263 batch_time=0.58612 
+Train Epoch: 35 [23/250 2944/32000 (9%)] Loss: 1.52587 (QuantReg: 17.13435) QuantErr: 17.13435 batch_time=0.60919 
+Train Epoch: 35 [34/250 4352/32000 (14%)] Loss: 1.73809 (QuantReg: 17.21547) QuantErr: 17.21547 batch_time=0.62836 
+Train Epoch: 35 [45/250 5760/32000 (18%)] Loss: 2.06620 (QuantReg: 17.18355) QuantErr: 17.18355 batch_time=0.74675 
+Train Epoch: 35 [56/250 7168/32000 (22%)] Loss: 1.86825 (QuantReg: 17.18319) QuantErr: 17.18319 batch_time=1.01976 
+Train Epoch: 35 [67/250 8576/32000 (27%)] Loss: 2.29313 (QuantReg: 17.08152) QuantErr: 17.08152 batch_time=0.64829 
+Train Epoch: 35 [78/250 9984/32000 (31%)] Loss: 1.66078 (QuantReg: 17.30746) QuantErr: 17.30746 batch_time=0.61223 
+Train Epoch: 35 [89/250 11392/32000 (36%)] Loss: 1.57215 (QuantReg: 17.13203) QuantErr: 17.13203 batch_time=0.62427 
+Train Epoch: 35 [100/250 12800/32000 (40%)] Loss: 1.34755 (QuantReg: 17.16249) QuantErr: 17.16249 batch_time=0.64281 
+Train Epoch: 35 [111/250 14208/32000 (44%)] Loss: 2.00681 (QuantReg: 17.05674) QuantErr: 17.05674 batch_time=0.62584 
+Train Epoch: 35 [122/250 15616/32000 (49%)] Loss: 1.67568 (QuantReg: 17.08960) QuantErr: 17.08960 batch_time=0.59259 
+Train Epoch: 35 [133/250 17024/32000 (53%)] Loss: 2.09805 (QuantReg: 17.05704) QuantErr: 17.05704 batch_time=0.63075 
+Train Epoch: 35 [144/250 18432/32000 (58%)] Loss: 1.59881 (QuantReg: 17.21312) QuantErr: 17.21312 batch_time=1.50492 
+Train Epoch: 35 [155/250 19840/32000 (62%)] Loss: 1.88276 (QuantReg: 17.18658) QuantErr: 17.18658 batch_time=0.60746 
+Train Epoch: 35 [166/250 21248/32000 (66%)] Loss: 1.58736 (QuantReg: 17.05448) QuantErr: 17.05448 batch_time=0.59217 
+Train Epoch: 35 [177/250 22656/32000 (71%)] Loss: 1.74862 (QuantReg: 17.23017) QuantErr: 17.23017 batch_time=0.60825 
+Train Epoch: 35 [188/250 24064/32000 (75%)] Loss: 1.95657 (QuantReg: 16.94395) QuantErr: 16.94395 batch_time=0.58461 
+Train Epoch: 35 [199/250 25472/32000 (80%)] Loss: 1.76901 (QuantReg: 17.06906) QuantErr: 17.06906 batch_time=0.62923 
+Train Epoch: 35 [210/250 26880/32000 (84%)] Loss: 1.85193 (QuantReg: 17.05540) QuantErr: 17.05540 batch_time=0.58866 
+Train Epoch: 35 [221/250 28288/32000 (88%)] Loss: 1.70041 (QuantReg: 17.24524) QuantErr: 17.24524 batch_time=0.58122 
+Train Epoch: 35 [232/250 29696/32000 (93%)] Loss: 2.06943 (QuantReg: 17.03230) QuantErr: 17.03230 batch_time=1.29454 
+Train Epoch: 35 [243/250 31104/32000 (97%)] Loss: 1.81717 (QuantReg: 17.09879) QuantErr: 17.09879 batch_time=0.83917 
+Train Epoch: 35 codebook_update_time=3.37293
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch35.pth ...
+Done in 4.240s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch35.pth ...
+Done in 8.230s
+removing stale ckpt [epoch 34] [took 0.06s]
+ epoch          : 35
+ loss           : 1.840571524143219
+ quant_reg      : 17.110205558776855
+ quant_err      : 17.110205558776855
+ learning_rate  : 8.74123073618985e-06
+ n_samples      : 1120000
+ n_steps        : 8750
+ LSMDC_full_test/t2v_metrics/R1: 14.7
+ LSMDC_full_test/t2v_metrics/R5: 33.2
+ LSMDC_full_test/t2v_metrics/R10: 42.9
+ LSMDC_full_test/t2v_metrics/R50: 70.0
+ LSMDC_full_test/t2v_metrics/MedR: 17.5
+ LSMDC_full_test/t2v_metrics/MeanR: 69.444
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.56158802727068
+ LSMDC_full_test/v2t_metrics/R1: 13.9
+ LSMDC_full_test/v2t_metrics/R5: 32.5
+ LSMDC_full_test/v2t_metrics/R10: 40.4
+ LSMDC_full_test/v2t_metrics/R50: 68.5
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 69.512
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.328523752644802
+ mnt_best       : 27.56158802727068
+ not_improved_count: 0
+Train Epoch: 36 [1/250 128/32000 (0%)] Loss: 2.03807 (QuantReg: 17.15644) QuantErr: 17.15644 batch_time=25.56812 
+Train Epoch: 36 [12/250 1536/32000 (5%)] Loss: 1.71044 (QuantReg: 17.06917) QuantErr: 17.06917 batch_time=0.62270 
+Train Epoch: 36 [23/250 2944/32000 (9%)] Loss: 1.82561 (QuantReg: 17.19581) QuantErr: 17.19581 batch_time=0.70920 
+Train Epoch: 36 [34/250 4352/32000 (14%)] Loss: 1.71060 (QuantReg: 17.06895) QuantErr: 17.06895 batch_time=0.65209 
+Train Epoch: 36 [45/250 5760/32000 (18%)] Loss: 1.68864 (QuantReg: 17.00611) QuantErr: 17.00611 batch_time=0.60903 
+Train Epoch: 36 [56/250 7168/32000 (22%)] Loss: 1.68169 (QuantReg: 17.05552) QuantErr: 17.05552 batch_time=0.59765 
+Train Epoch: 36 [67/250 8576/32000 (27%)] Loss: 2.04486 (QuantReg: 16.97026) QuantErr: 16.97026 batch_time=0.61921 
+Train Epoch: 36 [78/250 9984/32000 (31%)] Loss: 1.82763 (QuantReg: 17.10289) QuantErr: 17.10289 batch_time=0.59576 
+Train Epoch: 36 [89/250 11392/32000 (36%)] Loss: 1.78642 (QuantReg: 17.01926) QuantErr: 17.01926 batch_time=0.62527 
+Train Epoch: 36 [100/250 12800/32000 (40%)] Loss: 1.56646 (QuantReg: 17.21897) QuantErr: 17.21897 batch_time=0.59731 
+Train Epoch: 36 [111/250 14208/32000 (44%)] Loss: 1.62364 (QuantReg: 17.08624) QuantErr: 17.08624 batch_time=0.61800 
+Train Epoch: 36 [122/250 15616/32000 (49%)] Loss: 2.09715 (QuantReg: 17.15030) QuantErr: 17.15030 batch_time=0.58982 
+Train Epoch: 36 [133/250 17024/32000 (53%)] Loss: 1.79220 (QuantReg: 17.20469) QuantErr: 17.20469 batch_time=0.62526 
+Train Epoch: 36 [144/250 18432/32000 (58%)] Loss: 1.85572 (QuantReg: 17.02013) QuantErr: 17.02013 batch_time=0.63655 
+Train Epoch: 36 [155/250 19840/32000 (62%)] Loss: 1.68471 (QuantReg: 17.22791) QuantErr: 17.22791 batch_time=0.60424 
+Train Epoch: 36 [166/250 21248/32000 (66%)] Loss: 1.60971 (QuantReg: 17.30295) QuantErr: 17.30295 batch_time=0.62111 
+Train Epoch: 36 [177/250 22656/32000 (71%)] Loss: 1.81607 (QuantReg: 17.14795) QuantErr: 17.14795 batch_time=0.59675 
+Train Epoch: 36 [188/250 24064/32000 (75%)] Loss: 1.62399 (QuantReg: 16.91026) QuantErr: 16.91026 batch_time=0.60539 
+Train Epoch: 36 [199/250 25472/32000 (80%)] Loss: 1.87802 (QuantReg: 17.23869) QuantErr: 17.23869 batch_time=0.59214 
+Train Epoch: 36 [210/250 26880/32000 (84%)] Loss: 1.81638 (QuantReg: 17.10969) QuantErr: 17.10969 batch_time=0.59796 
+Train Epoch: 36 [221/250 28288/32000 (88%)] Loss: 1.87552 (QuantReg: 17.12740) QuantErr: 17.12740 batch_time=0.60462 
+Train Epoch: 36 [232/250 29696/32000 (93%)] Loss: 1.81565 (QuantReg: 17.21826) QuantErr: 17.21826 batch_time=0.61715 
+Train Epoch: 36 [243/250 31104/32000 (97%)] Loss: 1.93040 (QuantReg: 17.11995) QuantErr: 17.11995 batch_time=0.66530 
+Train Epoch: 36 codebook_update_time=3.41818
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch36.pth ...
+Done in 4.476s
+removing stale ckpt [epoch 35] [took 0.00s]
+ epoch          : 36
+ loss           : 1.832642240524292
+ quant_reg      : 17.120019332885743
+ quant_err      : 17.120019332885743
+ learning_rate  : 8.304169199380357e-06
+ n_samples      : 1152000
+ n_steps        : 9000
+ LSMDC_full_test/t2v_metrics/R1: 14.0
+ LSMDC_full_test/t2v_metrics/R5: 32.6
+ LSMDC_full_test/t2v_metrics/R10: 43.0
+ LSMDC_full_test/t2v_metrics/R50: 68.7
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.956
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.973545189802927
+ LSMDC_full_test/v2t_metrics/R1: 13.9
+ LSMDC_full_test/v2t_metrics/R5: 32.1
+ LSMDC_full_test/v2t_metrics/R10: 42.1
+ LSMDC_full_test/v2t_metrics/R50: 67.0
+ LSMDC_full_test/v2t_metrics/MedR: 17.5
+ LSMDC_full_test/v2t_metrics/MeanR: 69.813
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.58279504374346
+ mnt_best       : 27.56158802727068
+ not_improved_count: 1
+Train Epoch: 37 [1/250 128/32000 (0%)] Loss: 1.84292 (QuantReg: 17.07153) QuantErr: 17.07153 batch_time=21.88766 
+Train Epoch: 37 [12/250 1536/32000 (5%)] Loss: 1.78856 (QuantReg: 17.07607) QuantErr: 17.07607 batch_time=0.58524 
+Train Epoch: 37 [23/250 2944/32000 (9%)] Loss: 1.71911 (QuantReg: 17.21901) QuantErr: 17.21901 batch_time=0.59199 
+Train Epoch: 37 [34/250 4352/32000 (14%)] Loss: 1.62147 (QuantReg: 17.10676) QuantErr: 17.10676 batch_time=0.76486 
+Train Epoch: 37 [45/250 5760/32000 (18%)] Loss: 1.96618 (QuantReg: 17.15624) QuantErr: 17.15624 batch_time=0.60122 
+Train Epoch: 37 [56/250 7168/32000 (22%)] Loss: 1.70755 (QuantReg: 17.19165) QuantErr: 17.19165 batch_time=0.64095 
+Train Epoch: 37 [67/250 8576/32000 (27%)] Loss: 2.23680 (QuantReg: 17.10257) QuantErr: 17.10257 batch_time=1.29087 
+Train Epoch: 37 [78/250 9984/32000 (31%)] Loss: 2.27350 (QuantReg: 17.04436) QuantErr: 17.04436 batch_time=0.59169 
+Train Epoch: 37 [89/250 11392/32000 (36%)] Loss: 1.85274 (QuantReg: 17.11036) QuantErr: 17.11036 batch_time=0.58295 
+Train Epoch: 37 [100/250 12800/32000 (40%)] Loss: 1.75764 (QuantReg: 17.10112) QuantErr: 17.10112 batch_time=0.69446 
+Train Epoch: 37 [111/250 14208/32000 (44%)] Loss: 1.53178 (QuantReg: 17.00400) QuantErr: 17.00400 batch_time=0.63879 
+Train Epoch: 37 [122/250 15616/32000 (49%)] Loss: 1.78691 (QuantReg: 17.10022) QuantErr: 17.10022 batch_time=0.63073 
+Train Epoch: 37 [133/250 17024/32000 (53%)] Loss: 1.81123 (QuantReg: 17.26809) QuantErr: 17.26809 batch_time=0.61253 
+Train Epoch: 37 [144/250 18432/32000 (58%)] Loss: 1.96130 (QuantReg: 17.10806) QuantErr: 17.10806 batch_time=0.59059 
+Train Epoch: 37 [155/250 19840/32000 (62%)] Loss: 1.90174 (QuantReg: 17.08808) QuantErr: 17.08808 batch_time=0.59655 
+Train Epoch: 37 [166/250 21248/32000 (66%)] Loss: 1.49690 (QuantReg: 17.19010) QuantErr: 17.19010 batch_time=0.59016 
+Train Epoch: 37 [177/250 22656/32000 (71%)] Loss: 1.66632 (QuantReg: 17.12878) QuantErr: 17.12878 batch_time=0.61290 
+Train Epoch: 37 [188/250 24064/32000 (75%)] Loss: 1.99568 (QuantReg: 17.17575) QuantErr: 17.17575 batch_time=0.61830 
+Train Epoch: 37 [199/250 25472/32000 (80%)] Loss: 1.67368 (QuantReg: 17.21457) QuantErr: 17.21457 batch_time=0.61978 
+Train Epoch: 37 [210/250 26880/32000 (84%)] Loss: 1.75145 (QuantReg: 16.99492) QuantErr: 16.99492 batch_time=0.81778 
+Train Epoch: 37 [221/250 28288/32000 (88%)] Loss: 1.77119 (QuantReg: 17.25880) QuantErr: 17.25880 batch_time=0.85322 
+Train Epoch: 37 [232/250 29696/32000 (93%)] Loss: 2.18705 (QuantReg: 17.17270) QuantErr: 17.17270 batch_time=0.85551 
+Train Epoch: 37 [243/250 31104/32000 (97%)] Loss: 1.81785 (QuantReg: 17.25642) QuantErr: 17.25642 batch_time=0.60597 
+Train Epoch: 37 codebook_update_time=3.37347
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch37.pth ...
+Done in 4.809s
+removing stale ckpt [epoch 36] [took 0.00s]
+ epoch          : 37
+ loss           : 1.811025396823883
+ quant_reg      : 17.154433380126953
+ quant_err      : 17.154433380126953
+ learning_rate  : 7.888960739411339e-06
+ n_samples      : 1184000
+ n_steps        : 9250
+ LSMDC_full_test/t2v_metrics/R1: 14.3
+ LSMDC_full_test/t2v_metrics/R5: 32.4
+ LSMDC_full_test/t2v_metrics/R10: 42.6
+ LSMDC_full_test/t2v_metrics/R50: 69.0
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 70.455
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.024865981228224
+ LSMDC_full_test/v2t_metrics/R1: 13.9
+ LSMDC_full_test/v2t_metrics/R5: 32.4
+ LSMDC_full_test/v2t_metrics/R10: 41.8
+ LSMDC_full_test/v2t_metrics/R50: 68.1
+ LSMDC_full_test/v2t_metrics/MedR: 17.0
+ LSMDC_full_test/v2t_metrics/MeanR: 68.65
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.601861667054088
+ mnt_best       : 27.56158802727068
+ not_improved_count: 2
+Train Epoch: 38 [1/250 128/32000 (0%)] Loss: 1.93835 (QuantReg: 17.16369) QuantErr: 17.16369 batch_time=17.07563 
+Train Epoch: 38 [12/250 1536/32000 (5%)] Loss: 1.86020 (QuantReg: 17.09076) QuantErr: 17.09076 batch_time=0.68607 
+Train Epoch: 38 [23/250 2944/32000 (9%)] Loss: 1.83702 (QuantReg: 17.12690) QuantErr: 17.12690 batch_time=0.58590 
+Train Epoch: 38 [34/250 4352/32000 (14%)] Loss: 1.65806 (QuantReg: 17.19969) QuantErr: 17.19969 batch_time=0.62610 
+Train Epoch: 38 [45/250 5760/32000 (18%)] Loss: 1.78934 (QuantReg: 17.07271) QuantErr: 17.07271 batch_time=0.72712 
+Train Epoch: 38 [56/250 7168/32000 (22%)] Loss: 1.85977 (QuantReg: 17.01607) QuantErr: 17.01607 batch_time=0.60430 
+Train Epoch: 38 [67/250 8576/32000 (27%)] Loss: 1.81092 (QuantReg: 17.00385) QuantErr: 17.00385 batch_time=0.65862 
+Train Epoch: 38 [78/250 9984/32000 (31%)] Loss: 1.69588 (QuantReg: 17.15435) QuantErr: 17.15435 batch_time=0.66638 
+Train Epoch: 38 [89/250 11392/32000 (36%)] Loss: 1.60369 (QuantReg: 17.11999) QuantErr: 17.11999 batch_time=0.61351 
+Train Epoch: 38 [100/250 12800/32000 (40%)] Loss: 1.72027 (QuantReg: 17.02029) QuantErr: 17.02029 batch_time=0.66955 
+Train Epoch: 38 [111/250 14208/32000 (44%)] Loss: 1.70869 (QuantReg: 17.11839) QuantErr: 17.11839 batch_time=0.59883 
+Train Epoch: 38 [122/250 15616/32000 (49%)] Loss: 1.86735 (QuantReg: 17.14017) QuantErr: 17.14017 batch_time=0.59211 
+Train Epoch: 38 [133/250 17024/32000 (53%)] Loss: 1.78384 (QuantReg: 17.09421) QuantErr: 17.09421 batch_time=0.62751 
+Train Epoch: 38 [144/250 18432/32000 (58%)] Loss: 1.45548 (QuantReg: 17.22505) QuantErr: 17.22505 batch_time=0.60035 
+Train Epoch: 38 [155/250 19840/32000 (62%)] Loss: 1.65826 (QuantReg: 17.20241) QuantErr: 17.20241 batch_time=0.59460 
+Train Epoch: 38 [166/250 21248/32000 (66%)] Loss: 1.86845 (QuantReg: 17.21746) QuantErr: 17.21746 batch_time=0.61296 
+Train Epoch: 38 [177/250 22656/32000 (71%)] Loss: 1.60962 (QuantReg: 17.17580) QuantErr: 17.17580 batch_time=0.60616 
+Train Epoch: 38 [188/250 24064/32000 (75%)] Loss: 1.94506 (QuantReg: 17.09560) QuantErr: 17.09560 batch_time=0.60884 
+Train Epoch: 38 [199/250 25472/32000 (80%)] Loss: 1.94644 (QuantReg: 17.07766) QuantErr: 17.07766 batch_time=0.59811 
+Train Epoch: 38 [210/250 26880/32000 (84%)] Loss: 1.79082 (QuantReg: 17.25404) QuantErr: 17.25404 batch_time=0.59690 
+Train Epoch: 38 [221/250 28288/32000 (88%)] Loss: 1.88298 (QuantReg: 17.26438) QuantErr: 17.26438 batch_time=0.61772 
+Train Epoch: 38 [232/250 29696/32000 (93%)] Loss: 1.42741 (QuantReg: 17.21705) QuantErr: 17.21705 batch_time=0.60405 
+Train Epoch: 38 [243/250 31104/32000 (97%)] Loss: 1.93162 (QuantReg: 17.19172) QuantErr: 17.19172 batch_time=0.61653 
+Train Epoch: 38 codebook_update_time=3.47559
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch38.pth ...
+Done in 6.324s
+removing stale ckpt [epoch 37] [took 0.01s]
+ epoch          : 38
+ loss           : 1.7658948049545289
+ quant_reg      : 17.141814544677736
+ quant_err      : 17.141814544677736
+ learning_rate  : 7.494512702440772e-06
+ n_samples      : 1216000
+ n_steps        : 9500
+ LSMDC_full_test/t2v_metrics/R1: 13.8
+ LSMDC_full_test/t2v_metrics/R5: 32.2
+ LSMDC_full_test/t2v_metrics/R10: 43.2
+ LSMDC_full_test/t2v_metrics/R50: 68.9
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 71.59
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.775621999061773
+ LSMDC_full_test/v2t_metrics/R1: 13.0
+ LSMDC_full_test/v2t_metrics/R5: 32.6
+ LSMDC_full_test/v2t_metrics/R10: 41.2
+ LSMDC_full_test/v2t_metrics/R50: 67.1
+ LSMDC_full_test/v2t_metrics/MedR: 17.5
+ LSMDC_full_test/v2t_metrics/MeanR: 69.3035
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.94295184184398
+ mnt_best       : 27.56158802727068
+ not_improved_count: 3
+Train Epoch: 39 [1/250 128/32000 (0%)] Loss: 1.62121 (QuantReg: 17.16254) QuantErr: 17.16254 batch_time=21.53587 
+Train Epoch: 39 [12/250 1536/32000 (5%)] Loss: 1.43396 (QuantReg: 17.23870) QuantErr: 17.23870 batch_time=0.71900 
+Train Epoch: 39 [23/250 2944/32000 (9%)] Loss: 1.95678 (QuantReg: 17.22258) QuantErr: 17.22258 batch_time=0.60362 
+Train Epoch: 39 [34/250 4352/32000 (14%)] Loss: 1.95241 (QuantReg: 17.05573) QuantErr: 17.05573 batch_time=0.61294 
+Train Epoch: 39 [45/250 5760/32000 (18%)] Loss: 1.83765 (QuantReg: 17.06576) QuantErr: 17.06576 batch_time=0.59074 
+Train Epoch: 39 [56/250 7168/32000 (22%)] Loss: 1.55165 (QuantReg: 17.26534) QuantErr: 17.26534 batch_time=0.60956 
+Train Epoch: 39 [67/250 8576/32000 (27%)] Loss: 1.73034 (QuantReg: 17.07681) QuantErr: 17.07681 batch_time=1.21494 
+Train Epoch: 39 [78/250 9984/32000 (31%)] Loss: 1.96840 (QuantReg: 17.18303) QuantErr: 17.18303 batch_time=0.64818 
+Train Epoch: 39 [89/250 11392/32000 (36%)] Loss: 2.16988 (QuantReg: 17.10161) QuantErr: 17.10161 batch_time=0.65388 
+Train Epoch: 39 [100/250 12800/32000 (40%)] Loss: 1.94215 (QuantReg: 17.11897) QuantErr: 17.11897 batch_time=0.63500 
+Train Epoch: 39 [111/250 14208/32000 (44%)] Loss: 2.08374 (QuantReg: 17.19154) QuantErr: 17.19154 batch_time=0.60543 
+Train Epoch: 39 [122/250 15616/32000 (49%)] Loss: 1.83459 (QuantReg: 17.25366) QuantErr: 17.25366 batch_time=0.57955 
+Train Epoch: 39 [133/250 17024/32000 (53%)] Loss: 1.63821 (QuantReg: 17.09309) QuantErr: 17.09309 batch_time=0.98079 
+Train Epoch: 39 [144/250 18432/32000 (58%)] Loss: 1.86349 (QuantReg: 17.23483) QuantErr: 17.23483 batch_time=0.62186 
+Train Epoch: 39 [155/250 19840/32000 (62%)] Loss: 1.67096 (QuantReg: 17.31422) QuantErr: 17.31422 batch_time=0.65344 
+Train Epoch: 39 [166/250 21248/32000 (66%)] Loss: 1.67744 (QuantReg: 17.17690) QuantErr: 17.17690 batch_time=0.61226 
+Train Epoch: 39 [177/250 22656/32000 (71%)] Loss: 2.19384 (QuantReg: 17.15285) QuantErr: 17.15285 batch_time=0.62829 
+Train Epoch: 39 [188/250 24064/32000 (75%)] Loss: 1.58986 (QuantReg: 17.18133) QuantErr: 17.18133 batch_time=0.68151 
+Train Epoch: 39 [199/250 25472/32000 (80%)] Loss: 1.90496 (QuantReg: 17.03360) QuantErr: 17.03360 batch_time=0.64569 
+Train Epoch: 39 [210/250 26880/32000 (84%)] Loss: 1.91837 (QuantReg: 17.04947) QuantErr: 17.04947 batch_time=2.28546 
+Train Epoch: 39 [221/250 28288/32000 (88%)] Loss: 1.88274 (QuantReg: 17.26988) QuantErr: 17.26988 batch_time=0.60912 
+Train Epoch: 39 [232/250 29696/32000 (93%)] Loss: 1.64639 (QuantReg: 17.05476) QuantErr: 17.05476 batch_time=0.60226 
+Train Epoch: 39 [243/250 31104/32000 (97%)] Loss: 1.65586 (QuantReg: 17.19351) QuantErr: 17.19351 batch_time=0.60527 
+Train Epoch: 39 codebook_update_time=3.62365
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch39.pth ...
+Done in 5.001s
+removing stale ckpt [epoch 38] [took 0.01s]
+ epoch          : 39
+ loss           : 1.7591697764396668
+ quant_reg      : 17.15333745574951
+ quant_err      : 17.15333745574951
+ learning_rate  : 7.119787067318733e-06
+ n_samples      : 1248000
+ n_steps        : 9750
+ LSMDC_full_test/t2v_metrics/R1: 13.3
+ LSMDC_full_test/t2v_metrics/R5: 33.4
+ LSMDC_full_test/t2v_metrics/R10: 43.0
+ LSMDC_full_test/t2v_metrics/R50: 69.5
+ LSMDC_full_test/t2v_metrics/MedR: 16.5
+ LSMDC_full_test/t2v_metrics/MeanR: 71.033
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.73142974085816
+ LSMDC_full_test/v2t_metrics/R1: 13.8
+ LSMDC_full_test/v2t_metrics/R5: 31.7
+ LSMDC_full_test/v2t_metrics/R10: 41.8
+ LSMDC_full_test/v2t_metrics/R50: 67.9
+ LSMDC_full_test/v2t_metrics/MedR: 17.0
+ LSMDC_full_test/v2t_metrics/MeanR: 69.175
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.345404851936383
+ mnt_best       : 27.56158802727068
+ not_improved_count: 4
+Train Epoch: 40 [1/250 128/32000 (0%)] Loss: 1.78148 (QuantReg: 17.06796) QuantErr: 17.06796 batch_time=21.85445 
+Train Epoch: 40 [12/250 1536/32000 (5%)] Loss: 1.62022 (QuantReg: 17.17119) QuantErr: 17.17119 batch_time=0.59183 
+Train Epoch: 40 [23/250 2944/32000 (9%)] Loss: 1.77410 (QuantReg: 17.14098) QuantErr: 17.14098 batch_time=0.60170 
+Train Epoch: 40 [34/250 4352/32000 (14%)] Loss: 1.70778 (QuantReg: 17.19629) QuantErr: 17.19629 batch_time=0.58725 
+Train Epoch: 40 [45/250 5760/32000 (18%)] Loss: 1.53174 (QuantReg: 17.29051) QuantErr: 17.29051 batch_time=0.59371 
+Train Epoch: 40 [56/250 7168/32000 (22%)] Loss: 1.98801 (QuantReg: 17.23458) QuantErr: 17.23458 batch_time=0.60310 
+Train Epoch: 40 [67/250 8576/32000 (27%)] Loss: 2.21122 (QuantReg: 17.12318) QuantErr: 17.12318 batch_time=0.62115 
+Train Epoch: 40 [78/250 9984/32000 (31%)] Loss: 1.90439 (QuantReg: 17.29801) QuantErr: 17.29801 batch_time=0.60132 
+Train Epoch: 40 [89/250 11392/32000 (36%)] Loss: 1.42198 (QuantReg: 17.00343) QuantErr: 17.00343 batch_time=0.58770 
+Train Epoch: 40 [100/250 12800/32000 (40%)] Loss: 1.93809 (QuantReg: 17.08133) QuantErr: 17.08133 batch_time=0.66497 
+Train Epoch: 40 [111/250 14208/32000 (44%)] Loss: 1.90724 (QuantReg: 17.08017) QuantErr: 17.08017 batch_time=0.62493 
+Train Epoch: 40 [122/250 15616/32000 (49%)] Loss: 1.69127 (QuantReg: 17.30509) QuantErr: 17.30509 batch_time=0.59524 
+Train Epoch: 40 [133/250 17024/32000 (53%)] Loss: 1.62617 (QuantReg: 16.98108) QuantErr: 16.98108 batch_time=0.59313 
+Train Epoch: 40 [144/250 18432/32000 (58%)] Loss: 1.61247 (QuantReg: 17.26237) QuantErr: 17.26237 batch_time=0.60699 
+Train Epoch: 40 [155/250 19840/32000 (62%)] Loss: 1.70649 (QuantReg: 17.22264) QuantErr: 17.22264 batch_time=0.60365 
+Train Epoch: 40 [166/250 21248/32000 (66%)] Loss: 1.63087 (QuantReg: 17.09942) QuantErr: 17.09942 batch_time=0.60269 
+Train Epoch: 40 [177/250 22656/32000 (71%)] Loss: 1.80543 (QuantReg: 17.10766) QuantErr: 17.10766 batch_time=0.60615 
+Train Epoch: 40 [188/250 24064/32000 (75%)] Loss: 2.00559 (QuantReg: 17.16925) QuantErr: 17.16925 batch_time=0.58464 
+Train Epoch: 40 [199/250 25472/32000 (80%)] Loss: 1.57808 (QuantReg: 17.26703) QuantErr: 17.26703 batch_time=0.57526 
+Train Epoch: 40 [210/250 26880/32000 (84%)] Loss: 1.69648 (QuantReg: 17.15376) QuantErr: 17.15376 batch_time=2.02657 
+Train Epoch: 40 [221/250 28288/32000 (88%)] Loss: 1.39068 (QuantReg: 17.18580) QuantErr: 17.18580 batch_time=2.08001 
+Train Epoch: 40 [232/250 29696/32000 (93%)] Loss: 1.65235 (QuantReg: 17.25982) QuantErr: 17.25982 batch_time=0.60899 
+Train Epoch: 40 [243/250 31104/32000 (97%)] Loss: 1.68581 (QuantReg: 17.17205) QuantErr: 17.17205 batch_time=0.60153 
+Train Epoch: 40 codebook_update_time=3.54912
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch40.pth ...
+Done in 4.624s
+removing stale ckpt [epoch 39] [took 0.03s]
+ epoch          : 40
+ loss           : 1.7515256571769715
+ quant_reg      : 17.159834732055664
+ quant_err      : 17.159834732055664
+ learning_rate  : 6.763797713952796e-06
+ n_samples      : 1280000
+ n_steps        : 10000
+ LSMDC_full_test/t2v_metrics/R1: 14.1
+ LSMDC_full_test/t2v_metrics/R5: 32.8
+ LSMDC_full_test/t2v_metrics/R10: 42.1
+ LSMDC_full_test/t2v_metrics/R50: 68.7
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 71.194
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.90244078035708
+ LSMDC_full_test/v2t_metrics/R1: 14.2
+ LSMDC_full_test/v2t_metrics/R5: 31.7
+ LSMDC_full_test/v2t_metrics/R10: 41.5
+ LSMDC_full_test/v2t_metrics/R50: 66.4
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 71.308
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.533746019916162
+ mnt_best       : 27.56158802727068
+ not_improved_count: 5
+Train Epoch: 41 [1/250 128/32000 (0%)] Loss: 1.63820 (QuantReg: 17.18978) QuantErr: 17.18978 batch_time=17.63474 
+Train Epoch: 41 [12/250 1536/32000 (5%)] Loss: 1.82323 (QuantReg: 17.26613) QuantErr: 17.26613 batch_time=0.61849 
+Train Epoch: 41 [23/250 2944/32000 (9%)] Loss: 1.74233 (QuantReg: 17.15145) QuantErr: 17.15145 batch_time=0.60241 
+Train Epoch: 41 [34/250 4352/32000 (14%)] Loss: 1.91450 (QuantReg: 17.18505) QuantErr: 17.18505 batch_time=0.61693 
+Train Epoch: 41 [45/250 5760/32000 (18%)] Loss: 1.59586 (QuantReg: 17.12026) QuantErr: 17.12026 batch_time=0.61616 
+Train Epoch: 41 [56/250 7168/32000 (22%)] Loss: 1.64597 (QuantReg: 17.25064) QuantErr: 17.25064 batch_time=0.59179 
+Train Epoch: 41 [67/250 8576/32000 (27%)] Loss: 1.77322 (QuantReg: 17.21111) QuantErr: 17.21111 batch_time=0.59073 
+Train Epoch: 41 [78/250 9984/32000 (31%)] Loss: 1.48071 (QuantReg: 17.18778) QuantErr: 17.18778 batch_time=0.59154 
+Train Epoch: 41 [89/250 11392/32000 (36%)] Loss: 1.43927 (QuantReg: 17.21494) QuantErr: 17.21494 batch_time=0.64126 
+Train Epoch: 41 [100/250 12800/32000 (40%)] Loss: 1.80798 (QuantReg: 17.12551) QuantErr: 17.12551 batch_time=0.60916 
+Train Epoch: 41 [111/250 14208/32000 (44%)] Loss: 1.78045 (QuantReg: 17.20021) QuantErr: 17.20021 batch_time=0.63756 
+Train Epoch: 41 [122/250 15616/32000 (49%)] Loss: 1.63829 (QuantReg: 17.31559) QuantErr: 17.31559 batch_time=0.68847 
+Train Epoch: 41 [133/250 17024/32000 (53%)] Loss: 1.76627 (QuantReg: 17.14345) QuantErr: 17.14345 batch_time=0.70618 
+Train Epoch: 41 [144/250 18432/32000 (58%)] Loss: 2.17950 (QuantReg: 17.18022) QuantErr: 17.18022 batch_time=0.60198 
+Train Epoch: 41 [155/250 19840/32000 (62%)] Loss: 1.49447 (QuantReg: 17.12030) QuantErr: 17.12030 batch_time=0.62144 
+Train Epoch: 41 [166/250 21248/32000 (66%)] Loss: 1.94315 (QuantReg: 17.06983) QuantErr: 17.06983 batch_time=0.61527 
+Train Epoch: 41 [177/250 22656/32000 (71%)] Loss: 1.77995 (QuantReg: 17.18105) QuantErr: 17.18105 batch_time=0.60634 
+Train Epoch: 41 [188/250 24064/32000 (75%)] Loss: 2.06699 (QuantReg: 17.10915) QuantErr: 17.10915 batch_time=0.61165 
+Train Epoch: 41 [199/250 25472/32000 (80%)] Loss: 1.64108 (QuantReg: 17.15202) QuantErr: 17.15202 batch_time=1.01327 
+Train Epoch: 41 [210/250 26880/32000 (84%)] Loss: 1.49318 (QuantReg: 17.25424) QuantErr: 17.25424 batch_time=0.59365 
+Train Epoch: 41 [221/250 28288/32000 (88%)] Loss: 2.06075 (QuantReg: 17.21564) QuantErr: 17.21564 batch_time=0.67172 
+Train Epoch: 41 [232/250 29696/32000 (93%)] Loss: 1.90427 (QuantReg: 17.17088) QuantErr: 17.17088 batch_time=0.62302 
+Train Epoch: 41 [243/250 31104/32000 (97%)] Loss: 1.82845 (QuantReg: 17.13818) QuantErr: 17.13818 batch_time=0.64593 
+Train Epoch: 41 codebook_update_time=3.65807
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch41.pth ...
+Done in 4.314s
+removing stale ckpt [epoch 40] [took 0.00s]
+ epoch          : 41
+ loss           : 1.74514098072052
+ quant_reg      : 17.17877042388916
+ quant_err      : 17.17877042388916
+ learning_rate  : 6.425607828255156e-06
+ n_samples      : 1312000
+ n_steps        : 10250
+ LSMDC_full_test/t2v_metrics/R1: 14.4
+ LSMDC_full_test/t2v_metrics/R5: 32.3
+ LSMDC_full_test/t2v_metrics/R10: 43.5
+ LSMDC_full_test/t2v_metrics/R50: 69.3
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 72.859
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.249053638261866
+ LSMDC_full_test/v2t_metrics/R1: 13.9
+ LSMDC_full_test/v2t_metrics/R5: 32.1
+ LSMDC_full_test/v2t_metrics/R10: 42.2
+ LSMDC_full_test/v2t_metrics/R50: 67.1
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 71.367
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.60382574479686
+ mnt_best       : 27.56158802727068
+ not_improved_count: 6
+Train Epoch: 42 [1/250 128/32000 (0%)] Loss: 1.67102 (QuantReg: 17.20539) QuantErr: 17.20539 batch_time=21.43064 
+Train Epoch: 42 [12/250 1536/32000 (5%)] Loss: 1.56825 (QuantReg: 17.18388) QuantErr: 17.18388 batch_time=0.59108 
+Train Epoch: 42 [23/250 2944/32000 (9%)] Loss: 1.91593 (QuantReg: 17.12255) QuantErr: 17.12255 batch_time=0.59364 
+Train Epoch: 42 [34/250 4352/32000 (14%)] Loss: 1.34411 (QuantReg: 17.21997) QuantErr: 17.21997 batch_time=0.58344 
+Train Epoch: 42 [45/250 5760/32000 (18%)] Loss: 1.59877 (QuantReg: 17.10630) QuantErr: 17.10630 batch_time=0.58605 
+Train Epoch: 42 [56/250 7168/32000 (22%)] Loss: 1.33814 (QuantReg: 17.23635) QuantErr: 17.23635 batch_time=0.59807 
+Train Epoch: 42 [67/250 8576/32000 (27%)] Loss: 1.92569 (QuantReg: 17.17776) QuantErr: 17.17776 batch_time=1.10897 
+Train Epoch: 42 [78/250 9984/32000 (31%)] Loss: 1.57243 (QuantReg: 17.28651) QuantErr: 17.28651 batch_time=0.59189 
+Train Epoch: 42 [89/250 11392/32000 (36%)] Loss: 1.58129 (QuantReg: 17.32713) QuantErr: 17.32713 batch_time=0.64726 
+Train Epoch: 42 [100/250 12800/32000 (40%)] Loss: 1.46781 (QuantReg: 17.24201) QuantErr: 17.24201 batch_time=0.61573 
+Train Epoch: 42 [111/250 14208/32000 (44%)] Loss: 1.72453 (QuantReg: 17.27484) QuantErr: 17.27484 batch_time=0.61677 
+Train Epoch: 42 [122/250 15616/32000 (49%)] Loss: 1.79702 (QuantReg: 17.26212) QuantErr: 17.26212 batch_time=0.59730 
+Train Epoch: 42 [133/250 17024/32000 (53%)] Loss: 1.47811 (QuantReg: 17.15174) QuantErr: 17.15174 batch_time=0.58885 
+Train Epoch: 42 [144/250 18432/32000 (58%)] Loss: 1.83479 (QuantReg: 17.04522) QuantErr: 17.04522 batch_time=0.61864 
+Train Epoch: 42 [155/250 19840/32000 (62%)] Loss: 1.50292 (QuantReg: 17.25754) QuantErr: 17.25754 batch_time=0.60356 
+Train Epoch: 42 [166/250 21248/32000 (66%)] Loss: 1.85767 (QuantReg: 17.20641) QuantErr: 17.20641 batch_time=0.60742 
+Train Epoch: 42 [177/250 22656/32000 (71%)] Loss: 1.63183 (QuantReg: 16.99934) QuantErr: 16.99934 batch_time=0.59968 
+Train Epoch: 42 [188/250 24064/32000 (75%)] Loss: 1.88814 (QuantReg: 17.00648) QuantErr: 17.00648 batch_time=0.59845 
+Train Epoch: 42 [199/250 25472/32000 (80%)] Loss: 1.62497 (QuantReg: 17.27543) QuantErr: 17.27543 batch_time=0.58740 
+Train Epoch: 42 [210/250 26880/32000 (84%)] Loss: 1.61047 (QuantReg: 17.21111) QuantErr: 17.21111 batch_time=0.61524 
+Train Epoch: 42 [221/250 28288/32000 (88%)] Loss: 1.58243 (QuantReg: 17.18062) QuantErr: 17.18062 batch_time=0.63836 
+Train Epoch: 42 [232/250 29696/32000 (93%)] Loss: 1.55797 (QuantReg: 17.37284) QuantErr: 17.37284 batch_time=0.62939 
+Train Epoch: 42 [243/250 31104/32000 (97%)] Loss: 1.78462 (QuantReg: 17.26995) QuantErr: 17.26995 batch_time=0.60174 
+Train Epoch: 42 codebook_update_time=3.44718
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch42.pth ...
+Done in 5.013s
+removing stale ckpt [epoch 41] [took 0.01s]
+ epoch          : 42
+ loss           : 1.6933953132629394
+ quant_reg      : 17.198153480529786
+ quant_err      : 17.198153480529786
+ learning_rate  : 6.104327436842398e-06
+ n_samples      : 1344000
+ n_steps        : 10500
+ LSMDC_full_test/t2v_metrics/R1: 14.1
+ LSMDC_full_test/t2v_metrics/R5: 32.5
+ LSMDC_full_test/t2v_metrics/R10: 42.3
+ LSMDC_full_test/t2v_metrics/R50: 68.7
+ LSMDC_full_test/t2v_metrics/MedR: 18.0
+ LSMDC_full_test/t2v_metrics/MeanR: 73.298
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.862573306664103
+ LSMDC_full_test/v2t_metrics/R1: 13.9
+ LSMDC_full_test/v2t_metrics/R5: 31.9
+ LSMDC_full_test/v2t_metrics/R10: 40.4
+ LSMDC_full_test/v2t_metrics/R50: 67.4
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 70.487
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.16549465768163
+ mnt_best       : 27.56158802727068
+ not_improved_count: 7
+Train Epoch: 43 [1/250 128/32000 (0%)] Loss: 1.80303 (QuantReg: 17.16540) QuantErr: 17.16540 batch_time=19.35340 
+Train Epoch: 43 [12/250 1536/32000 (5%)] Loss: 1.63189 (QuantReg: 17.20421) QuantErr: 17.20421 batch_time=0.61518 
+Train Epoch: 43 [23/250 2944/32000 (9%)] Loss: 1.59411 (QuantReg: 17.04346) QuantErr: 17.04346 batch_time=2.17148 
+Train Epoch: 43 [34/250 4352/32000 (14%)] Loss: 1.66161 (QuantReg: 17.30234) QuantErr: 17.30234 batch_time=0.63406 
+Train Epoch: 43 [45/250 5760/32000 (18%)] Loss: 1.57180 (QuantReg: 17.21912) QuantErr: 17.21912 batch_time=0.72323 
+Train Epoch: 43 [56/250 7168/32000 (22%)] Loss: 1.82395 (QuantReg: 17.35124) QuantErr: 17.35124 batch_time=0.70423 
+Train Epoch: 43 [67/250 8576/32000 (27%)] Loss: 1.46630 (QuantReg: 17.18984) QuantErr: 17.18984 batch_time=0.60317 
+Train Epoch: 43 [78/250 9984/32000 (31%)] Loss: 1.77982 (QuantReg: 17.17310) QuantErr: 17.17310 batch_time=0.61216 
+Train Epoch: 43 [89/250 11392/32000 (36%)] Loss: 1.88681 (QuantReg: 17.14259) QuantErr: 17.14259 batch_time=0.62192 
+Train Epoch: 43 [100/250 12800/32000 (40%)] Loss: 1.63658 (QuantReg: 17.32530) QuantErr: 17.32530 batch_time=0.59006 
+Train Epoch: 43 [111/250 14208/32000 (44%)] Loss: 1.90902 (QuantReg: 17.17871) QuantErr: 17.17871 batch_time=0.58429 
+Train Epoch: 43 [122/250 15616/32000 (49%)] Loss: 1.65017 (QuantReg: 17.17535) QuantErr: 17.17535 batch_time=0.59415 
+Train Epoch: 43 [133/250 17024/32000 (53%)] Loss: 1.53485 (QuantReg: 17.15804) QuantErr: 17.15804 batch_time=2.29986 
+Train Epoch: 43 [144/250 18432/32000 (58%)] Loss: 1.71337 (QuantReg: 17.07141) QuantErr: 17.07141 batch_time=0.67494 
+Train Epoch: 43 [155/250 19840/32000 (62%)] Loss: 1.57965 (QuantReg: 17.25586) QuantErr: 17.25586 batch_time=0.60596 
+Train Epoch: 43 [166/250 21248/32000 (66%)] Loss: 1.80731 (QuantReg: 17.23149) QuantErr: 17.23149 batch_time=0.63666 
+Train Epoch: 43 [177/250 22656/32000 (71%)] Loss: 1.55684 (QuantReg: 17.16274) QuantErr: 17.16274 batch_time=0.64144 
+Train Epoch: 43 [188/250 24064/32000 (75%)] Loss: 1.66877 (QuantReg: 17.26395) QuantErr: 17.26395 batch_time=0.62902 
+Train Epoch: 43 [199/250 25472/32000 (80%)] Loss: 1.99330 (QuantReg: 17.20654) QuantErr: 17.20654 batch_time=0.60772 
+Train Epoch: 43 [210/250 26880/32000 (84%)] Loss: 1.85824 (QuantReg: 17.15463) QuantErr: 17.15463 batch_time=0.59498 
+Train Epoch: 43 [221/250 28288/32000 (88%)] Loss: 1.34293 (QuantReg: 17.28485) QuantErr: 17.28485 batch_time=0.67846 
+Train Epoch: 43 [232/250 29696/32000 (93%)] Loss: 1.78857 (QuantReg: 17.26716) QuantErr: 17.26716 batch_time=0.63671 
+Train Epoch: 43 [243/250 31104/32000 (97%)] Loss: 1.33069 (QuantReg: 17.15313) QuantErr: 17.15313 batch_time=0.64088 
+Train Epoch: 43 codebook_update_time=3.48691
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch43.pth ...
+Done in 5.555s
+removing stale ckpt [epoch 42] [took 0.00s]
+ epoch          : 43
+ loss           : 1.7207705163955689
+ quant_reg      : 17.195434791564942
+ quant_err      : 17.195434791564942
+ learning_rate  : 5.799111065000278e-06
+ n_samples      : 1376000
+ n_steps        : 10750
+ LSMDC_full_test/t2v_metrics/R1: 14.3
+ LSMDC_full_test/t2v_metrics/R5: 33.7
+ LSMDC_full_test/t2v_metrics/R10: 42.7
+ LSMDC_full_test/t2v_metrics/R50: 69.1
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 72.719
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.402989089076314
+ LSMDC_full_test/v2t_metrics/R1: 14.1
+ LSMDC_full_test/v2t_metrics/R5: 32.7
+ LSMDC_full_test/v2t_metrics/R10: 42.1
+ LSMDC_full_test/v2t_metrics/R50: 67.7
+ LSMDC_full_test/v2t_metrics/MedR: 17.5
+ LSMDC_full_test/v2t_metrics/MeanR: 70.954
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.87507306992934
+ mnt_best       : 27.56158802727068
+ not_improved_count: 8
+Train Epoch: 44 [1/250 128/32000 (0%)] Loss: 1.79249 (QuantReg: 17.18035) QuantErr: 17.18035 batch_time=20.51175 
+Train Epoch: 44 [12/250 1536/32000 (5%)] Loss: 1.67309 (QuantReg: 17.17200) QuantErr: 17.17200 batch_time=0.60191 
+Train Epoch: 44 [23/250 2944/32000 (9%)] Loss: 1.62466 (QuantReg: 17.22353) QuantErr: 17.22353 batch_time=0.60420 
+Train Epoch: 44 [34/250 4352/32000 (14%)] Loss: 1.72258 (QuantReg: 17.14071) QuantErr: 17.14071 batch_time=0.59504 
+Train Epoch: 44 [45/250 5760/32000 (18%)] Loss: 1.62290 (QuantReg: 17.18974) QuantErr: 17.18974 batch_time=0.61434 
+Train Epoch: 44 [56/250 7168/32000 (22%)] Loss: 1.78060 (QuantReg: 17.18406) QuantErr: 17.18406 batch_time=0.59692 
+Train Epoch: 44 [67/250 8576/32000 (27%)] Loss: 1.70170 (QuantReg: 17.08916) QuantErr: 17.08916 batch_time=0.60100 
+Train Epoch: 44 [78/250 9984/32000 (31%)] Loss: 1.64449 (QuantReg: 17.13188) QuantErr: 17.13188 batch_time=2.28368 
+Train Epoch: 44 [89/250 11392/32000 (36%)] Loss: 1.44577 (QuantReg: 17.10308) QuantErr: 17.10308 batch_time=0.61426 
+Train Epoch: 44 [100/250 12800/32000 (40%)] Loss: 1.76649 (QuantReg: 17.21478) QuantErr: 17.21478 batch_time=0.60511 
+Train Epoch: 44 [111/250 14208/32000 (44%)] Loss: 1.65065 (QuantReg: 17.32657) QuantErr: 17.32657 batch_time=0.62892 
+Train Epoch: 44 [122/250 15616/32000 (49%)] Loss: 1.58040 (QuantReg: 17.24170) QuantErr: 17.24170 batch_time=0.62998 
+Train Epoch: 44 [133/250 17024/32000 (53%)] Loss: 1.51857 (QuantReg: 17.27596) QuantErr: 17.27596 batch_time=1.43011 
+Train Epoch: 44 [144/250 18432/32000 (58%)] Loss: 1.59687 (QuantReg: 17.27184) QuantErr: 17.27184 batch_time=0.58809 
+Train Epoch: 44 [155/250 19840/32000 (62%)] Loss: 1.93681 (QuantReg: 17.16894) QuantErr: 17.16894 batch_time=0.63189 
+Train Epoch: 44 [166/250 21248/32000 (66%)] Loss: 1.53859 (QuantReg: 17.24741) QuantErr: 17.24741 batch_time=0.59670 
+Train Epoch: 44 [177/250 22656/32000 (71%)] Loss: 1.49381 (QuantReg: 17.28760) QuantErr: 17.28760 batch_time=0.60088 
+Train Epoch: 44 [188/250 24064/32000 (75%)] Loss: 1.74159 (QuantReg: 17.12230) QuantErr: 17.12230 batch_time=0.63650 
+Train Epoch: 44 [199/250 25472/32000 (80%)] Loss: 1.55047 (QuantReg: 17.26625) QuantErr: 17.26625 batch_time=0.60717 
+Train Epoch: 44 [210/250 26880/32000 (84%)] Loss: 1.78791 (QuantReg: 17.15497) QuantErr: 17.15497 batch_time=0.60341 
+Train Epoch: 44 [221/250 28288/32000 (88%)] Loss: 1.69775 (QuantReg: 17.12162) QuantErr: 17.12162 batch_time=0.60357 
+Train Epoch: 44 [232/250 29696/32000 (93%)] Loss: 1.52768 (QuantReg: 17.11573) QuantErr: 17.11573 batch_time=0.60554 
+Train Epoch: 44 [243/250 31104/32000 (97%)] Loss: 1.47882 (QuantReg: 17.24505) QuantErr: 17.24505 batch_time=0.60252 
+Train Epoch: 44 codebook_update_time=3.32010
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch44.pth ...
+Done in 4.880s
+removing stale ckpt [epoch 43] [took 0.00s]
+ epoch          : 44
+ loss           : 1.6952335114479065
+ quant_reg      : 17.201292068481447
+ quant_err      : 17.201292068481447
+ learning_rate  : 5.5091555117502635e-06
+ n_samples      : 1408000
+ n_steps        : 11000
+ LSMDC_full_test/t2v_metrics/R1: 14.7
+ LSMDC_full_test/t2v_metrics/R5: 32.5
+ LSMDC_full_test/t2v_metrics/R10: 42.9
+ LSMDC_full_test/t2v_metrics/R50: 68.9
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 72.98
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.366504525882345
+ LSMDC_full_test/v2t_metrics/R1: 13.7
+ LSMDC_full_test/v2t_metrics/R5: 31.1
+ LSMDC_full_test/v2t_metrics/R10: 40.8
+ LSMDC_full_test/v2t_metrics/R50: 67.6
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 72.424
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 25.904807721966105
+ mnt_best       : 27.56158802727068
+ not_improved_count: 9
+Train Epoch: 45 [1/250 128/32000 (0%)] Loss: 1.61996 (QuantReg: 17.11142) QuantErr: 17.11142 batch_time=22.24813 
+Train Epoch: 45 [12/250 1536/32000 (5%)] Loss: 1.59959 (QuantReg: 17.19079) QuantErr: 17.19079 batch_time=0.63536 
+Train Epoch: 45 [23/250 2944/32000 (9%)] Loss: 1.74083 (QuantReg: 17.19304) QuantErr: 17.19304 batch_time=5.18831 
+Train Epoch: 45 [34/250 4352/32000 (14%)] Loss: 1.78428 (QuantReg: 17.14982) QuantErr: 17.14982 batch_time=0.64382 
+Train Epoch: 45 [45/250 5760/32000 (18%)] Loss: 1.51607 (QuantReg: 17.17125) QuantErr: 17.17125 batch_time=0.62355 
+Train Epoch: 45 [56/250 7168/32000 (22%)] Loss: 1.59348 (QuantReg: 17.13810) QuantErr: 17.13810 batch_time=0.61174 
+Train Epoch: 45 [67/250 8576/32000 (27%)] Loss: 1.82096 (QuantReg: 17.19299) QuantErr: 17.19299 batch_time=0.60036 
+Train Epoch: 45 [78/250 9984/32000 (31%)] Loss: 1.70010 (QuantReg: 17.20321) QuantErr: 17.20321 batch_time=0.61102 
+Train Epoch: 45 [89/250 11392/32000 (36%)] Loss: 1.55886 (QuantReg: 17.24349) QuantErr: 17.24349 batch_time=0.61073 
+Train Epoch: 45 [100/250 12800/32000 (40%)] Loss: 1.72401 (QuantReg: 17.17519) QuantErr: 17.17519 batch_time=0.61725 
+Train Epoch: 45 [111/250 14208/32000 (44%)] Loss: 1.60026 (QuantReg: 17.29677) QuantErr: 17.29677 batch_time=0.59798 
+Train Epoch: 45 [122/250 15616/32000 (49%)] Loss: 2.18645 (QuantReg: 17.22683) QuantErr: 17.22683 batch_time=0.60696 
+Train Epoch: 45 [133/250 17024/32000 (53%)] Loss: 1.69567 (QuantReg: 17.11662) QuantErr: 17.11662 batch_time=0.63476 
+Train Epoch: 45 [144/250 18432/32000 (58%)] Loss: 1.48264 (QuantReg: 17.23300) QuantErr: 17.23300 batch_time=0.82547 
+Train Epoch: 45 [155/250 19840/32000 (62%)] Loss: 1.66555 (QuantReg: 17.15435) QuantErr: 17.15435 batch_time=0.60152 
+Train Epoch: 45 [166/250 21248/32000 (66%)] Loss: 1.63525 (QuantReg: 17.27416) QuantErr: 17.27416 batch_time=0.63199 
+Train Epoch: 45 [177/250 22656/32000 (71%)] Loss: 1.80303 (QuantReg: 17.28016) QuantErr: 17.28016 batch_time=0.59934 
+Train Epoch: 45 [188/250 24064/32000 (75%)] Loss: 1.56804 (QuantReg: 17.20679) QuantErr: 17.20679 batch_time=0.65688 
+Train Epoch: 45 [199/250 25472/32000 (80%)] Loss: 1.83130 (QuantReg: 17.31550) QuantErr: 17.31550 batch_time=0.67004 
+Train Epoch: 45 [210/250 26880/32000 (84%)] Loss: 1.92903 (QuantReg: 17.19282) QuantErr: 17.19282 batch_time=1.88552 
+Train Epoch: 45 [221/250 28288/32000 (88%)] Loss: 1.44305 (QuantReg: 17.32058) QuantErr: 17.32058 batch_time=0.60466 
+Train Epoch: 45 [232/250 29696/32000 (93%)] Loss: 1.76398 (QuantReg: 17.28306) QuantErr: 17.28306 batch_time=0.62640 
+Train Epoch: 45 [243/250 31104/32000 (97%)] Loss: 1.61558 (QuantReg: 17.32613) QuantErr: 17.32613 batch_time=0.64584 
+Train Epoch: 45 codebook_update_time=3.37993
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch45.pth ...
+Done in 19.631s
+Updating 'best' checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch45.pth ...
+Done in 23.670s
+removing stale ckpt [epoch 44] [took 0.72s]
+ epoch          : 45
+ loss           : 1.6893991584777832
+ quant_reg      : 17.209230751037598
+ quant_err      : 17.209230751037598
+ learning_rate  : 5.23369773616275e-06
+ n_samples      : 1440000
+ n_steps        : 11250
+ LSMDC_full_test/t2v_metrics/R1: 14.8
+ LSMDC_full_test/t2v_metrics/R5: 33.0
+ LSMDC_full_test/t2v_metrics/R10: 43.6
+ LSMDC_full_test/t2v_metrics/R50: 69.1
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 72.8
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.71749948813566
+ LSMDC_full_test/v2t_metrics/R1: 14.1
+ LSMDC_full_test/v2t_metrics/R5: 32.3
+ LSMDC_full_test/v2t_metrics/R10: 40.8
+ LSMDC_full_test/v2t_metrics/R50: 67.4
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 72.64
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.486664228726447
+ mnt_best       : 27.71749948813566
+ not_improved_count: 0
+Train Epoch: 46 [1/250 128/32000 (0%)] Loss: 1.58906 (QuantReg: 17.17730) QuantErr: 17.17730 batch_time=21.76910 
+Train Epoch: 46 [12/250 1536/32000 (5%)] Loss: 1.64782 (QuantReg: 17.20858) QuantErr: 17.20858 batch_time=0.65070 
+Train Epoch: 46 [23/250 2944/32000 (9%)] Loss: 1.82793 (QuantReg: 17.15045) QuantErr: 17.15045 batch_time=0.61090 
+Train Epoch: 46 [34/250 4352/32000 (14%)] Loss: 1.52617 (QuantReg: 17.24052) QuantErr: 17.24052 batch_time=0.60737 
+Train Epoch: 46 [45/250 5760/32000 (18%)] Loss: 1.71257 (QuantReg: 17.28620) QuantErr: 17.28620 batch_time=0.61333 
+Train Epoch: 46 [56/250 7168/32000 (22%)] Loss: 1.41127 (QuantReg: 17.14530) QuantErr: 17.14530 batch_time=0.62323 
+Train Epoch: 46 [67/250 8576/32000 (27%)] Loss: 1.66086 (QuantReg: 17.13832) QuantErr: 17.13832 batch_time=0.61886 
+Train Epoch: 46 [78/250 9984/32000 (31%)] Loss: 1.89666 (QuantReg: 17.24245) QuantErr: 17.24245 batch_time=0.63109 
+Train Epoch: 46 [89/250 11392/32000 (36%)] Loss: 2.08070 (QuantReg: 17.15730) QuantErr: 17.15730 batch_time=0.61436 
+Train Epoch: 46 [100/250 12800/32000 (40%)] Loss: 1.63256 (QuantReg: 17.27511) QuantErr: 17.27511 batch_time=0.62331 
+Train Epoch: 46 [111/250 14208/32000 (44%)] Loss: 1.65634 (QuantReg: 17.23977) QuantErr: 17.23977 batch_time=0.62400 
+Train Epoch: 46 [122/250 15616/32000 (49%)] Loss: 1.46592 (QuantReg: 17.31828) QuantErr: 17.31828 batch_time=0.65347 
+Train Epoch: 46 [133/250 17024/32000 (53%)] Loss: 1.81790 (QuantReg: 17.33516) QuantErr: 17.33516 batch_time=0.62772 
+Train Epoch: 46 [144/250 18432/32000 (58%)] Loss: 1.54016 (QuantReg: 17.41709) QuantErr: 17.41709 batch_time=0.62935 
+Train Epoch: 46 [155/250 19840/32000 (62%)] Loss: 1.84294 (QuantReg: 17.16919) QuantErr: 17.16919 batch_time=0.61742 
+Train Epoch: 46 [166/250 21248/32000 (66%)] Loss: 2.10861 (QuantReg: 17.24285) QuantErr: 17.24285 batch_time=0.60968 
+Train Epoch: 46 [177/250 22656/32000 (71%)] Loss: 1.52944 (QuantReg: 17.27506) QuantErr: 17.27506 batch_time=0.62591 
+Train Epoch: 46 [188/250 24064/32000 (75%)] Loss: 1.62822 (QuantReg: 17.19942) QuantErr: 17.19942 batch_time=0.62682 
+Train Epoch: 46 [199/250 25472/32000 (80%)] Loss: 1.84548 (QuantReg: 17.22171) QuantErr: 17.22171 batch_time=0.67388 
+Train Epoch: 46 [210/250 26880/32000 (84%)] Loss: 1.77378 (QuantReg: 17.22876) QuantErr: 17.22876 batch_time=0.61814 
+Train Epoch: 46 [221/250 28288/32000 (88%)] Loss: 1.89186 (QuantReg: 17.08936) QuantErr: 17.08936 batch_time=0.60164 
+Train Epoch: 46 [232/250 29696/32000 (93%)] Loss: 1.47739 (QuantReg: 17.25668) QuantErr: 17.25668 batch_time=0.62172 
+Train Epoch: 46 [243/250 31104/32000 (97%)] Loss: 1.54594 (QuantReg: 17.19766) QuantErr: 17.19766 batch_time=0.61154 
+Train Epoch: 46 codebook_update_time=3.38140
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch46.pth ...
+Done in 4.548s
+removing stale ckpt [epoch 45] [took 0.01s]
+ epoch          : 46
+ loss           : 1.6770643916130066
+ quant_reg      : 17.208051094055175
+ quant_err      : 17.208051094055175
+ learning_rate  : 4.972012849354612e-06
+ n_samples      : 1472000
+ n_steps        : 11500
+ LSMDC_full_test/t2v_metrics/R1: 14.0
+ LSMDC_full_test/t2v_metrics/R5: 33.0
+ LSMDC_full_test/t2v_metrics/R10: 42.6
+ LSMDC_full_test/t2v_metrics/R50: 68.9
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 72.675
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.999176929642225
+ LSMDC_full_test/v2t_metrics/R1: 14.3
+ LSMDC_full_test/v2t_metrics/R5: 32.1
+ LSMDC_full_test/v2t_metrics/R10: 41.7
+ LSMDC_full_test/v2t_metrics/R50: 67.9
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 71.137
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.75011837953843
+ mnt_best       : 27.71749948813566
+ not_improved_count: 1
+Train Epoch: 47 [1/250 128/32000 (0%)] Loss: 1.75817 (QuantReg: 17.33293) QuantErr: 17.33293 batch_time=20.40686 
+Train Epoch: 47 [12/250 1536/32000 (5%)] Loss: 2.09214 (QuantReg: 17.13319) QuantErr: 17.13319 batch_time=0.58587 
+Train Epoch: 47 [23/250 2944/32000 (9%)] Loss: 1.52239 (QuantReg: 17.21839) QuantErr: 17.21839 batch_time=0.60231 
+Train Epoch: 47 [34/250 4352/32000 (14%)] Loss: 1.54997 (QuantReg: 17.38790) QuantErr: 17.38790 batch_time=0.58038 
+Train Epoch: 47 [45/250 5760/32000 (18%)] Loss: 1.75379 (QuantReg: 17.17045) QuantErr: 17.17045 batch_time=0.60749 
+Train Epoch: 47 [56/250 7168/32000 (22%)] Loss: 1.57181 (QuantReg: 17.20994) QuantErr: 17.20994 batch_time=0.59074 
+Train Epoch: 47 [67/250 8576/32000 (27%)] Loss: 1.59485 (QuantReg: 17.18463) QuantErr: 17.18463 batch_time=2.15475 
+Train Epoch: 47 [78/250 9984/32000 (31%)] Loss: 1.53705 (QuantReg: 17.03295) QuantErr: 17.03295 batch_time=0.61705 
+Train Epoch: 47 [89/250 11392/32000 (36%)] Loss: 1.50276 (QuantReg: 17.19657) QuantErr: 17.19657 batch_time=0.59902 
+Train Epoch: 47 [100/250 12800/32000 (40%)] Loss: 1.57826 (QuantReg: 17.19526) QuantErr: 17.19526 batch_time=0.59726 
+Train Epoch: 47 [111/250 14208/32000 (44%)] Loss: 1.65368 (QuantReg: 17.22966) QuantErr: 17.22966 batch_time=0.60201 
+Train Epoch: 47 [122/250 15616/32000 (49%)] Loss: 1.55106 (QuantReg: 17.17752) QuantErr: 17.17752 batch_time=0.58170 
+Train Epoch: 47 [133/250 17024/32000 (53%)] Loss: 1.43353 (QuantReg: 17.24197) QuantErr: 17.24197 batch_time=0.58679 
+Train Epoch: 47 [144/250 18432/32000 (58%)] Loss: 1.57103 (QuantReg: 17.20274) QuantErr: 17.20274 batch_time=0.59781 
+Train Epoch: 47 [155/250 19840/32000 (62%)] Loss: 1.72240 (QuantReg: 17.25009) QuantErr: 17.25009 batch_time=0.59086 
+Train Epoch: 47 [166/250 21248/32000 (66%)] Loss: 1.41686 (QuantReg: 17.22246) QuantErr: 17.22246 batch_time=0.59366 
+Train Epoch: 47 [177/250 22656/32000 (71%)] Loss: 1.57728 (QuantReg: 17.21980) QuantErr: 17.21980 batch_time=0.58877 
+Train Epoch: 47 [188/250 24064/32000 (75%)] Loss: 1.66264 (QuantReg: 17.36055) QuantErr: 17.36055 batch_time=0.59427 
+Train Epoch: 47 [199/250 25472/32000 (80%)] Loss: 1.93232 (QuantReg: 17.19782) QuantErr: 17.19782 batch_time=0.58362 
+Train Epoch: 47 [210/250 26880/32000 (84%)] Loss: 1.67108 (QuantReg: 17.23041) QuantErr: 17.23041 batch_time=0.59910 
+Train Epoch: 47 [221/250 28288/32000 (88%)] Loss: 1.37714 (QuantReg: 17.35763) QuantErr: 17.35763 batch_time=0.59759 
+Train Epoch: 47 [232/250 29696/32000 (93%)] Loss: 1.36656 (QuantReg: 17.25384) QuantErr: 17.25384 batch_time=0.62403 
+Train Epoch: 47 [243/250 31104/32000 (97%)] Loss: 1.87783 (QuantReg: 17.21579) QuantErr: 17.21579 batch_time=0.62332 
+Train Epoch: 47 codebook_update_time=3.32788
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch47.pth ...
+Done in 4.505s
+removing stale ckpt [epoch 46] [took 0.00s]
+ epoch          : 47
+ loss           : 1.6688244891166688
+ quant_reg      : 17.215293479919435
+ quant_err      : 17.215293479919435
+ learning_rate  : 4.723412206886882e-06
+ n_samples      : 1504000
+ n_steps        : 11750
+ LSMDC_full_test/t2v_metrics/R1: 14.0
+ LSMDC_full_test/t2v_metrics/R5: 34.3
+ LSMDC_full_test/t2v_metrics/R10: 43.2
+ LSMDC_full_test/t2v_metrics/R50: 68.6
+ LSMDC_full_test/t2v_metrics/MedR: 17.0
+ LSMDC_full_test/t2v_metrics/MeanR: 73.512
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.47695700558416
+ LSMDC_full_test/v2t_metrics/R1: 14.6
+ LSMDC_full_test/v2t_metrics/R5: 32.7
+ LSMDC_full_test/v2t_metrics/R10: 41.9
+ LSMDC_full_test/v2t_metrics/R50: 67.4
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 71.708
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 27.145939518039828
+ mnt_best       : 27.71749948813566
+ not_improved_count: 2
+Train Epoch: 48 [1/250 128/32000 (0%)] Loss: 1.45693 (QuantReg: 17.24274) QuantErr: 17.24274 batch_time=19.84156 
+Train Epoch: 48 [12/250 1536/32000 (5%)] Loss: 1.91829 (QuantReg: 17.20114) QuantErr: 17.20114 batch_time=0.60530 
+Train Epoch: 48 [23/250 2944/32000 (9%)] Loss: 2.08110 (QuantReg: 17.22605) QuantErr: 17.22605 batch_time=0.63455 
+Train Epoch: 48 [34/250 4352/32000 (14%)] Loss: 1.77717 (QuantReg: 17.19534) QuantErr: 17.19534 batch_time=0.81119 
+Train Epoch: 48 [45/250 5760/32000 (18%)] Loss: 1.80361 (QuantReg: 17.14411) QuantErr: 17.14411 batch_time=0.58824 
+Train Epoch: 48 [56/250 7168/32000 (22%)] Loss: 1.52301 (QuantReg: 17.38352) QuantErr: 17.38352 batch_time=0.61284 
+Train Epoch: 48 [67/250 8576/32000 (27%)] Loss: 1.26645 (QuantReg: 17.29742) QuantErr: 17.29742 batch_time=0.60315 
+Train Epoch: 48 [78/250 9984/32000 (31%)] Loss: 1.49082 (QuantReg: 17.32915) QuantErr: 17.32915 batch_time=0.60394 
+Train Epoch: 48 [89/250 11392/32000 (36%)] Loss: 1.55505 (QuantReg: 17.18195) QuantErr: 17.18195 batch_time=0.61616 
+Train Epoch: 48 [100/250 12800/32000 (40%)] Loss: 1.52468 (QuantReg: 17.34832) QuantErr: 17.34832 batch_time=0.66962 
+Train Epoch: 48 [111/250 14208/32000 (44%)] Loss: 1.54855 (QuantReg: 17.19339) QuantErr: 17.19339 batch_time=0.66048 
+Train Epoch: 48 [122/250 15616/32000 (49%)] Loss: 1.62815 (QuantReg: 17.16280) QuantErr: 17.16280 batch_time=0.62247 
+Train Epoch: 48 [133/250 17024/32000 (53%)] Loss: 1.78310 (QuantReg: 17.23746) QuantErr: 17.23746 batch_time=0.59247 
+Train Epoch: 48 [144/250 18432/32000 (58%)] Loss: 1.73009 (QuantReg: 17.19821) QuantErr: 17.19821 batch_time=0.70431 
+Train Epoch: 48 [155/250 19840/32000 (62%)] Loss: 1.63143 (QuantReg: 17.24350) QuantErr: 17.24350 batch_time=0.61370 
+Train Epoch: 48 [166/250 21248/32000 (66%)] Loss: 1.52304 (QuantReg: 17.22495) QuantErr: 17.22495 batch_time=0.63929 
+Train Epoch: 48 [177/250 22656/32000 (71%)] Loss: 1.70562 (QuantReg: 17.22972) QuantErr: 17.22972 batch_time=0.60003 
+Train Epoch: 48 [188/250 24064/32000 (75%)] Loss: 1.78322 (QuantReg: 17.11308) QuantErr: 17.11308 batch_time=0.60100 
+Train Epoch: 48 [199/250 25472/32000 (80%)] Loss: 1.56046 (QuantReg: 17.22215) QuantErr: 17.22215 batch_time=0.86796 
+Train Epoch: 48 [210/250 26880/32000 (84%)] Loss: 1.66233 (QuantReg: 17.21067) QuantErr: 17.21067 batch_time=4.04412 
+Train Epoch: 48 [221/250 28288/32000 (88%)] Loss: 1.87204 (QuantReg: 17.28040) QuantErr: 17.28040 batch_time=0.61524 
+Train Epoch: 48 [232/250 29696/32000 (93%)] Loss: 1.77132 (QuantReg: 17.16128) QuantErr: 17.16128 batch_time=0.63972 
+Train Epoch: 48 [243/250 31104/32000 (97%)] Loss: 1.75604 (QuantReg: 17.29676) QuantErr: 17.29676 batch_time=0.62693 
+Train Epoch: 48 codebook_update_time=3.36276
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch48.pth ...
+Done in 11.232s
+removing stale ckpt [epoch 47] [took 0.02s]
+ epoch          : 48
+ loss           : 1.6329788556098939
+ quant_reg      : 17.230973693847655
+ quant_err      : 17.230973693847655
+ learning_rate  : 4.487241596542537e-06
+ n_samples      : 1536000
+ n_steps        : 12000
+ LSMDC_full_test/t2v_metrics/R1: 14.4
+ LSMDC_full_test/t2v_metrics/R5: 33.4
+ LSMDC_full_test/t2v_metrics/R10: 43.0
+ LSMDC_full_test/t2v_metrics/R50: 68.3
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 73.323
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.44895434319939
+ LSMDC_full_test/v2t_metrics/R1: 14.1
+ LSMDC_full_test/v2t_metrics/R5: 32.1
+ LSMDC_full_test/v2t_metrics/R10: 41.4
+ LSMDC_full_test/v2t_metrics/R50: 67.0
+ LSMDC_full_test/v2t_metrics/MedR: 18.0
+ LSMDC_full_test/v2t_metrics/MeanR: 73.755
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.5608210223655
+ mnt_best       : 27.71749948813566
+ not_improved_count: 3
+Train Epoch: 49 [1/250 128/32000 (0%)] Loss: 1.44007 (QuantReg: 17.19745) QuantErr: 17.19745 batch_time=25.70773 
+Train Epoch: 49 [12/250 1536/32000 (5%)] Loss: 1.49372 (QuantReg: 17.16671) QuantErr: 17.16671 batch_time=0.58940 
+Train Epoch: 49 [23/250 2944/32000 (9%)] Loss: 1.71962 (QuantReg: 17.18483) QuantErr: 17.18483 batch_time=0.63902 
+Train Epoch: 49 [34/250 4352/32000 (14%)] Loss: 1.33071 (QuantReg: 17.26095) QuantErr: 17.26095 batch_time=0.71136 
+Train Epoch: 49 [45/250 5760/32000 (18%)] Loss: 1.58201 (QuantReg: 17.22449) QuantErr: 17.22449 batch_time=0.62867 
+Train Epoch: 49 [56/250 7168/32000 (22%)] Loss: 1.29613 (QuantReg: 17.28287) QuantErr: 17.28287 batch_time=0.60001 
+Train Epoch: 49 [67/250 8576/32000 (27%)] Loss: 1.62248 (QuantReg: 17.35666) QuantErr: 17.35666 batch_time=0.64847 
+Train Epoch: 49 [78/250 9984/32000 (31%)] Loss: 1.53253 (QuantReg: 17.24370) QuantErr: 17.24370 batch_time=0.60567 
+Train Epoch: 49 [89/250 11392/32000 (36%)] Loss: 1.52602 (QuantReg: 17.25215) QuantErr: 17.25215 batch_time=0.62100 
+Train Epoch: 49 [100/250 12800/32000 (40%)] Loss: 1.64683 (QuantReg: 17.21642) QuantErr: 17.21642 batch_time=0.61845 
+Train Epoch: 49 [111/250 14208/32000 (44%)] Loss: 1.39636 (QuantReg: 17.32361) QuantErr: 17.32361 batch_time=0.60367 
+Train Epoch: 49 [122/250 15616/32000 (49%)] Loss: 1.66068 (QuantReg: 17.24166) QuantErr: 17.24166 batch_time=0.98224 
+Train Epoch: 49 [133/250 17024/32000 (53%)] Loss: 1.72476 (QuantReg: 17.23654) QuantErr: 17.23654 batch_time=0.65283 
+Train Epoch: 49 [144/250 18432/32000 (58%)] Loss: 1.60149 (QuantReg: 17.29787) QuantErr: 17.29787 batch_time=0.60337 
+Train Epoch: 49 [155/250 19840/32000 (62%)] Loss: 1.59485 (QuantReg: 17.26548) QuantErr: 17.26548 batch_time=0.65398 
+Train Epoch: 49 [166/250 21248/32000 (66%)] Loss: 1.62039 (QuantReg: 17.33288) QuantErr: 17.33288 batch_time=0.59519 
+Train Epoch: 49 [177/250 22656/32000 (71%)] Loss: 1.86496 (QuantReg: 17.20493) QuantErr: 17.20493 batch_time=0.68906 
+Train Epoch: 49 [188/250 24064/32000 (75%)] Loss: 1.90210 (QuantReg: 17.13033) QuantErr: 17.13033 batch_time=0.60257 
+Train Epoch: 49 [199/250 25472/32000 (80%)] Loss: 1.50820 (QuantReg: 17.26408) QuantErr: 17.26408 batch_time=0.60977 
+Train Epoch: 49 [210/250 26880/32000 (84%)] Loss: 1.86255 (QuantReg: 17.21505) QuantErr: 17.21505 batch_time=0.62743 
+Train Epoch: 49 [221/250 28288/32000 (88%)] Loss: 1.86474 (QuantReg: 17.10134) QuantErr: 17.10134 batch_time=0.66327 
+Train Epoch: 49 [232/250 29696/32000 (93%)] Loss: 1.65185 (QuantReg: 17.23842) QuantErr: 17.23842 batch_time=0.60204 
+Train Epoch: 49 [243/250 31104/32000 (97%)] Loss: 1.44819 (QuantReg: 17.21491) QuantErr: 17.21491 batch_time=0.61609 
+Train Epoch: 49 codebook_update_time=3.32165
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch49.pth ...
+Done in 4.165s
+removing stale ckpt [epoch 48] [took 0.00s]
+ epoch          : 49
+ loss           : 1.6340214347839355
+ quant_reg      : 17.225827964782717
+ quant_err      : 17.225827964782717
+ learning_rate  : 4.26287951671541e-06
+ n_samples      : 1568000
+ n_steps        : 12250
+ LSMDC_full_test/t2v_metrics/R1: 14.5
+ LSMDC_full_test/t2v_metrics/R5: 33.3
+ LSMDC_full_test/t2v_metrics/R10: 43.6
+ LSMDC_full_test/t2v_metrics/R50: 68.3
+ LSMDC_full_test/t2v_metrics/MedR: 16.5
+ LSMDC_full_test/t2v_metrics/MeanR: 72.623
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 27.612108738517986
+ LSMDC_full_test/v2t_metrics/R1: 14.3
+ LSMDC_full_test/v2t_metrics/R5: 33.0
+ LSMDC_full_test/v2t_metrics/R10: 41.8
+ LSMDC_full_test/v2t_metrics/R50: 67.5
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 72.103
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 27.01938251599557
+ mnt_best       : 27.71749948813566
+ not_improved_count: 4
+Train Epoch: 50 [1/250 128/32000 (0%)] Loss: 1.89611 (QuantReg: 17.19393) QuantErr: 17.19393 batch_time=25.43737 
+Train Epoch: 50 [12/250 1536/32000 (5%)] Loss: 1.55743 (QuantReg: 17.29714) QuantErr: 17.29714 batch_time=0.61703 
+Train Epoch: 50 [23/250 2944/32000 (9%)] Loss: 1.34930 (QuantReg: 17.24358) QuantErr: 17.24358 batch_time=0.61416 
+Train Epoch: 50 [34/250 4352/32000 (14%)] Loss: 1.77381 (QuantReg: 17.23539) QuantErr: 17.23539 batch_time=0.61477 
+Train Epoch: 50 [45/250 5760/32000 (18%)] Loss: 1.41970 (QuantReg: 17.25224) QuantErr: 17.25224 batch_time=0.63094 
+Train Epoch: 50 [56/250 7168/32000 (22%)] Loss: 1.83675 (QuantReg: 17.15863) QuantErr: 17.15863 batch_time=0.59000 
+Train Epoch: 50 [67/250 8576/32000 (27%)] Loss: 1.83722 (QuantReg: 17.12746) QuantErr: 17.12746 batch_time=0.65526 
+Train Epoch: 50 [78/250 9984/32000 (31%)] Loss: 1.68695 (QuantReg: 17.10263) QuantErr: 17.10263 batch_time=0.62495 
+Train Epoch: 50 [89/250 11392/32000 (36%)] Loss: 1.47547 (QuantReg: 17.20562) QuantErr: 17.20562 batch_time=0.59816 
+Train Epoch: 50 [100/250 12800/32000 (40%)] Loss: 1.55907 (QuantReg: 17.25239) QuantErr: 17.25239 batch_time=0.61353 
+Train Epoch: 50 [111/250 14208/32000 (44%)] Loss: 1.74715 (QuantReg: 17.19418) QuantErr: 17.19418 batch_time=0.62312 
+Train Epoch: 50 [122/250 15616/32000 (49%)] Loss: 1.50249 (QuantReg: 17.15100) QuantErr: 17.15100 batch_time=0.60550 
+Train Epoch: 50 [133/250 17024/32000 (53%)] Loss: 1.58695 (QuantReg: 17.16731) QuantErr: 17.16731 batch_time=0.68409 
+Train Epoch: 50 [144/250 18432/32000 (58%)] Loss: 1.52750 (QuantReg: 17.13664) QuantErr: 17.13664 batch_time=0.67129 
+Train Epoch: 50 [155/250 19840/32000 (62%)] Loss: 1.60551 (QuantReg: 17.14953) QuantErr: 17.14953 batch_time=0.62531 
+Train Epoch: 50 [166/250 21248/32000 (66%)] Loss: 1.69247 (QuantReg: 17.33567) QuantErr: 17.33567 batch_time=0.63880 
+Train Epoch: 50 [177/250 22656/32000 (71%)] Loss: 1.46494 (QuantReg: 17.42665) QuantErr: 17.42665 batch_time=0.81077 
+Train Epoch: 50 [188/250 24064/32000 (75%)] Loss: 1.59238 (QuantReg: 17.24326) QuantErr: 17.24326 batch_time=0.64094 
+Train Epoch: 50 [199/250 25472/32000 (80%)] Loss: 1.84296 (QuantReg: 17.22792) QuantErr: 17.22792 batch_time=0.60861 
+Train Epoch: 50 [210/250 26880/32000 (84%)] Loss: 1.76744 (QuantReg: 17.14137) QuantErr: 17.14137 batch_time=0.62712 
+Train Epoch: 50 [221/250 28288/32000 (88%)] Loss: 1.52319 (QuantReg: 17.17887) QuantErr: 17.17887 batch_time=0.59561 
+Train Epoch: 50 [232/250 29696/32000 (93%)] Loss: 1.44084 (QuantReg: 17.22746) QuantErr: 17.22746 batch_time=0.60824 
+Train Epoch: 50 [243/250 31104/32000 (97%)] Loss: 1.78890 (QuantReg: 17.11889) QuantErr: 17.11889 batch_time=0.60786 
+Train Epoch: 50 codebook_update_time=3.42362
+Saving checkpoint: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/checkpoint-epoch50.pth ...
+Done in 4.246s
+removing stale ckpt [epoch 49] [took 0.01s]
+ epoch          : 50
+ loss           : 1.6390858087539673
+ quant_reg      : 17.20664545440674
+ quant_err      : 17.20664545440674
+ learning_rate  : 4.04973554087964e-06
+ n_samples      : 1600000
+ n_steps        : 12500
+ LSMDC_full_test/t2v_metrics/R1: 13.5
+ LSMDC_full_test/t2v_metrics/R5: 32.7
+ LSMDC_full_test/t2v_metrics/R10: 42.6
+ LSMDC_full_test/t2v_metrics/R50: 68.3
+ LSMDC_full_test/t2v_metrics/MedR: 16.0
+ LSMDC_full_test/t2v_metrics/MeanR: 73.543
+ LSMDC_full_test/t2v_metrics/geometric_mean_R1-R5-R10: 26.592777921370544
+ LSMDC_full_test/v2t_metrics/R1: 13.9
+ LSMDC_full_test/v2t_metrics/R5: 32.4
+ LSMDC_full_test/v2t_metrics/R10: 42.9
+ LSMDC_full_test/v2t_metrics/R50: 66.5
+ LSMDC_full_test/v2t_metrics/MedR: 19.0
+ LSMDC_full_test/v2t_metrics/MeanR: 72.692
+ LSMDC_full_test/v2t_metrics/geometric_mean_R1-R5-R10: 26.833193814670924
+ mnt_best       : 27.71749948813566
+ not_improved_count: 5
+Final evaluation ...
+Loading checkpoint from: /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/trained_model.pth ...
+Ckpt loaded at epoch 45.
+Saved similarity matrix (quantize videos) to /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/LSMDC-test-qv-sims.npy
+Saved v2t similarity matrix (quantize texts) to /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/LSMDC-test-qt-sims.npy
+LSMDC_full_test:
+ t2v_metrics/R1/final_eval: 14.8
+ t2v_metrics/R5/final_eval: 33.0
+ t2v_metrics/R10/final_eval: 43.6
+ t2v_metrics/R50/final_eval: 69.1
+ t2v_metrics/MedR/final_eval: 16.0
+ t2v_metrics/MeanR/final_eval: 72.8
+ t2v_metrics/geometric_mean_R1-R5-R10/final_eval: 27.71749948813566
+ v2t_metrics/R1/final_eval: 14.1
+ v2t_metrics/R5/final_eval: 32.3
+ v2t_metrics/R10/final_eval: 40.8
+ v2t_metrics/R50/final_eval: 67.4
+ v2t_metrics/MedR/final_eval: 19.0
+ v2t_metrics/MeanR/final_eval: 72.64
+ v2t_metrics/geometric_mean_R1-R5-R10/final_eval: 26.486664228726447
+Best epoch for the monitored metric: 45
+Script took 04h48m15s
+The best performing ckpt can be found at /apdcephfs/share_47076/gimwang/HCQ/exps/HCQ_LSMDC_M64/trained_model.pth
