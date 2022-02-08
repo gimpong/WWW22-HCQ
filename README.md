@@ -4,7 +4,7 @@
 
 ## 1. Introduction
 
-![](figs/arc.pdf)
+![](figs/arc.png)
 
 This repository provides the code for our paper at **TheWebConf 2022**:
 
