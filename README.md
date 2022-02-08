@@ -39,7 +39,7 @@ cd WWW22-HCQ
 pip install -r requirements.txt
 ```
 
-We conduct each training experiments on a single NVIDIA® Tesla® V100 GPU (32 GB).
+We conduct each training experiment on a single NVIDIA® Tesla® V100 GPU (32 GB).
 
 ### 2.2 Download the features
 
