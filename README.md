@@ -2691,7 +2691,7 @@ python -m compress_embed --path ./exps/HCT_MSRVTT_1kA/embeddings.h5 --type PQ
 python -m compress_embed --path ./exps/HCT_MSRVTT_1kA/embeddings.h5 --type OPQ
 ```
 
-## 3. References
+## 4. References
 
 If you find this code useful or use the toolkit in your work, please consider citing:
 ```
@@ -2703,10 +2703,10 @@ If you find this code useful or use the toolkit in your work, please consider ci
 }
 ```
 
-## 4. Acknowledgements
+## 5. Acknowledgements
 
 Our code is based on the implementation of [nanopq](https://github.com/matsui528/nanopq), [Multi-Modal Transformer](https://github.com/gabeur/mmt), [Collaborative Experts](https://github.com/albanie/collaborative-experts), [Transformers](https://github.com/huggingface/transformers) and [Mixture of Embedding Experts](https://github.com/antoine77340/Mixture-of-Embedding-Experts).
 
-## 5. Contact
+## 6. Contact
 
 If you have any question, you can raise an issue or email Jinpeng Wang (wjp20@mails.tsinghua.edu.cn). We will reply you soon.
